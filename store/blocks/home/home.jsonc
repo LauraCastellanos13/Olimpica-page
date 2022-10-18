@@ -1,0 +1,46 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#home__section--one",
+      "slider-layout#home__slider--children"
+    ]
+  },
+  
+  "slider-layout#home__slider--children": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/img-olimpica.png"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/i-olimpica.png"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/im-olimpica.png"
+    }
+  }
+}
