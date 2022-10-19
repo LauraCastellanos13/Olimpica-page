@@ -1,46 +1,41 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#home__section--one",
-      "slider-layout#home__slider--children"
+      /*"flex-layout.row#home__section--one",*/
+      "slider-layout#home__slider--children",
+      "list-context.image-list#home__slider--list",
+      "flex-layout#home__section--one"
     ]
   },
-  
-  "slider-layout#home__slider--children": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
-      },
-      "infinite": true,
-      "blockClass": "home__slider",
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": true
-      }
-    },
-    
+  "flex-layout#home__section--one": {
+    "title": "Sección uno",
     "children": [
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
+      "flex-layout.col#section__one--image",
+      "flex-layout.col#section__one--text"
+    ],
+    "props": {
+      "blockClass": "home__section--one"
+    }
+  },
+  "flex-layout.col#section__one--image": {
+    "children": [
+      "image#home__image"
     ]
   },
-
-  "image#home__slider--one": {
+  "flex-layout.col#section__one--text": {
+    "children": [
+      "rich-text#section__one--title",
+      "rich-text#section__one--paragraph"
+    ]
+  },
+  "rich-text#section__one--title": {
     "props": {
-      "src": "assets/img/img-olimpica.png"
+      "text": "Bienvdenidos a Vtex"
     }
   },
-  "image#home__slider--two": {
+  "rich-text#section__one--paragraph": {
     "props": {
-      "src": "assets/img/i-olimpica.png"
-    }
-  },
-  "image#home__slider--three": {
-    "props": {
-      "src": "assets/img/im-olimpica.png"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper erat ac eleifend cursus. Integer tempus convallis varius. Mauris eu suscipit risus. Cras non dolor sit amet massa laoreet blandit. Suspendisse vel nibh ac justo vulputate hendrerit vel eu diam."
     }
   }
 }

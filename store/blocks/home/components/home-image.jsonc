@@ -1,0 +1,16 @@
+{
+    "image#home__--image":{
+        "title": "Imagen de home",
+        "props": {
+            "src": "assets/img/img-slide1.png",
+            "maxWidth": 600,
+            "title": "B2B Commerce",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

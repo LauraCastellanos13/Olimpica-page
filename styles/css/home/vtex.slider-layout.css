@@ -1,0 +1,7 @@
+.sliderLayoutContainer--home__slider{
+    max-width: 1200px;
+    margin:0 auto 50px;
+}
+.paginationDotsContainer--home__slider {
+    transform: translateY(30px);
+}
