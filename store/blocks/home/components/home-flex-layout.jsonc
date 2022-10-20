@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#home__section--one": {
+        "title": "Sección uno",
+        "children": [
+          "flex-layout.col#section__one--image",
+          "flex-layout.col#section__one--image2",
+          "flex-layout.col#section__one--image3",
+          "flex-layout.col#section__one--image4"
+        ],
+        "props": {
+          "blockClass": "home__section--one",
+          "colSizing": "equal",
+          "verticalAlign": "center",
+          "rowGap": "5"
+        }
+      },
+      "flex-layout.col#section__one--image": {
+        "title": "Imagen 1 de seccion uno",
+        "children": [
+          "image#home__image"
+        ],
+        "props": {
+          "blockClass": "section__one--image"
+        }
+      },
+      "flex-layout.col#section__one--image2": {
+        "title": "Imagen 2 de seccion uno",
+        "children": [
+          "image#home__image1"
+        ],
+        "props": {
+          "blockClass": "section__one--image2"
+        }
+      },
+      "flex-layout.col#section__one--image3": {
+        "title": "Imagen 3 de seccion uno",
+        "children": [
+          "image#home__image3"
+        ],
+        "props": {
+          "blockClass": "section__one--image3"
+        }
+      },
+      "flex-layout.col#section__one--image4": {
+        "title": "Imagen 4 de seccion uno",
+        "children": [
+          "image#home__image4"
+        ],
+        "props": {
+          "blockClass": "section__one--image4"
+        }
+      }
+}

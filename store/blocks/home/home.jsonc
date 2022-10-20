@@ -1,41 +1,60 @@
 {
   "store.home": {
     "blocks": [
-      /*"flex-layout.row#home__section--one",*/
-      "slider-layout#home__slider--children",
+      /*"slider-layout#home__slider--children",
       "list-context.image-list#home__slider--list",
-      "flex-layout#home__section--one"
+      "flex-layout.row#home__section--one",
+      "flex-layout#home__section--two",
+      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.mobile#home__info--mobile",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--desktop"*/
+      "modal-trigger#home__modal--children"
     ]
   },
-  "flex-layout#home__section--one": {
-    "title": "Sección uno",
+  "modal-trigger#home__modal--children": {
     "children": [
-      "flex-layout.col#section__one--image",
-      "flex-layout.col#section__one--text"
+      "rich-text#home__modal--trigger",
+      "modal-layout#home__modal--layout"
+    ]
+  },
+  "rich-text#home__modal--trigger": {
+    "props": {
+      "text": " # Términos y condiciones"
+    }
+  },
+  "modal-layout#home__modal--layout": {
+    "children": [
+      "rich-text#home__modal--content"
+    ]
+  },
+  "rich-text#home__modal--content": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere mi sit amet est maximus aliquet. Proin ut tempor lectus. Nunc ut leo magna. Aenean ante ante, maximus laoreet vestibulum id, pulvinar eu nisi. Suspendisse sit amet faucibus mi. Mauris justo metus, dictum sed mi ac, gravida egestas ante. Vestibulum."
+    }
+  },
+  "modal-trigger#home__modal--event":{
+    "children":[
+      "modal-layout#home__modal--event"
     ],
     "props": {
-      "blockClass": "home__section--one"
+      "trigger": "event",
+      "customPixelEventName": "pageView"
     }
   },
-  "flex-layout.col#section__one--image": {
-    "children": [
-      "image#home__image"
+  "modal-layout#home__modal--event": {
+    "children":[
+      "rich-text#home__modal--event-content"
     ]
   },
-  "flex-layout.col#section__one--text": {
-    "children": [
-      "rich-text#section__one--title",
-      "rich-text#section__one--paragraph"
-    ]
-  },
-  "rich-text#section__one--title": {
+  "rich-text#home__modal--event-content": {
     "props": {
-      "text": "Bienvdenidos a Vtex"
+      "text": "Evento de DOM Loaded"
     }
   },
-  "rich-text#section__one--paragraph": {
+  "modal-header#home__modal--event": {
     "props": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper erat ac eleifend cursus. Integer tempus convallis varius. Mauris eu suscipit risus. Cras non dolor sit amet massa laoreet blandit. Suspendisse vel nibh ac justo vulputate hendrerit vel eu diam."
+      "showCLoseBUtton": true
     }
   }
 }

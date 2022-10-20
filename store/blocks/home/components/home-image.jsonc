@@ -1,10 +1,52 @@
 {
-    "image#home__--image":{
-        "title": "Imagen de home",
+    "image#home__image":{
+        "title": "Image home one",
         "props": {
-            "src": "assets/img/img-slide1.png",
-            "maxWidth": 600,
-            "title": "B2B Commerce",
+            "src": "assets/img/img-desc1.png",
+            "maxWidth": 400,
+            "title": "Descuento uno",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image1":{
+        "title": "Image home two",
+        "props": {
+            "src": "assets/img/img-desc2.png",
+            "maxWidth": 400,
+            "title": "Descuento dos",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image3":{
+        "title": "Image home three",
+        "props": {
+            "src": "assets/img/img-desc3.png",
+            "maxWidth": 400,
+            "title": "Descuento tres",
+            "blockClass": "home__image",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image4":{
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-desc4.png",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
             "blockClass": "home__image",
             "link": {
                 "url": "https://www.google.com",
