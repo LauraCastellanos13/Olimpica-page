@@ -7,7 +7,6 @@
             "blockClass": "home__banner-one"
         }
     },
-
     "image#home__banner--two": {
         "title": "Imagen beca",
         "props": {
@@ -16,5 +15,4 @@
             "blockClass": "home__banner-two"
         }
     }
-
 }
