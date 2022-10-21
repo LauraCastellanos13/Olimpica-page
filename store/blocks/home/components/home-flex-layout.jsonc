@@ -49,5 +49,58 @@
         "props": {
           "blockClass": "section__one--image4"
         }
-      }
+      },
+
+        "flex-layout.row#home__section--two": {
+            "title": "Sección dos",
+            "children": [
+              "flex-layout.col#section__two--image",
+              "flex-layout.col#section__two--image2",
+              "flex-layout.col#section__two--image3",
+              "flex-layout.col#section__two--image4"
+            ],
+            "props": {
+              "blockClass": "home__section--two",
+              "colSizing": "equal",
+              "verticalAlign": "center"
+            }
+          },
+          "flex-layout.col#section__two--image": {
+            "title": "Imagen 1 de seccion dos",
+            "children": [
+              "image#home__image1-two"
+            ],
+            "props": {
+              "blockClass": "section__two--image"
+            }
+          },
+          "flex-layout.col#section__two--image2": {
+            "title": "Imagen 2 de seccion dos",
+            "children": [
+              "image#home__image2-two"
+            ],
+            "props": {
+              "blockClass": "section__two--image2"
+            }
+          },
+          "flex-layout.col#section__two--image3": {
+            "title": "Imagen 3 de seccion dos",
+            "children": [
+              "image#home__image3-two"
+            ],
+            "props": {
+              "blockClass": "section__two--image3"
+            }
+          },
+          "flex-layout.col#section__two--image4": {
+            "title": "Imagen 4 de seccion dos",
+            "children": [
+              "image#home__image4-two"
+            ],
+            "props": {
+              "blockClass": "section__two--image4"
+            }
+          }
+
+      
 }

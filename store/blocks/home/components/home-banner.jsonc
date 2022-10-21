@@ -1,0 +1,20 @@
+{
+    "image#home__banner--one": {
+        "title": "Imagen promociones",
+        "props": {
+            "title": "Promociones",
+            "src": "assets/img/img-banner1.jpg",
+            "blockClass": "home__banner-one"
+        }
+    },
+
+    "image#home__banner--two": {
+        "title": "Imagen beca",
+        "props": {
+            "title": "Beca",
+            "src": "assets/img/img-banner2.jpg",
+            "blockClass": "home__banner-two"
+        }
+    }
+
+}

@@ -1,15 +1,33 @@
 {
   "store.home": {
     "blocks": [
-      /*"slider-layout#home__slider--children",
-      "list-context.image-list#home__slider--list",
+      "slider-layout#home__slider--children",
       "flex-layout.row#home__section--one",
-      "flex-layout#home__section--two",
-      "responsive-layout.phone#home__info--phone",
+      "flex-layout.row#section__banner--beca",
+      /*"flex-layout#home__section--two",
+      /*"responsive-layout.phone#home__info--phone",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet",
-      "responsive-layout.desktop#home__info--desktop"*/
-      "modal-trigger#home__modal--children"
+      "responsive-layout.desktop#home__info--desktop",
+      "modal-trigger#home__modal--children",*/
+      "rich-text#home__offers-tech",
+      "flex-layout.row#home__section--two",
+      "rich-text#home__bestoffers",
+      "list-context.image-list#home__slider--list",
+      "rich-text#home__homeoffers",
+      "flex-layout.row#section__banner--promotions",
+      "rich-text#home__preciosbajos",
+      "rich-text#home__lanzamientos"
+    ]
+  },
+  "flex-layout.row#section__banner--promotions":{
+    "children":[
+      "image#home__banner--one"
+    ]
+  },
+  "flex-layout.row#section__banner--beca":{
+    "children":[
+      "image#home__banner--two"
     ]
   },
   "modal-trigger#home__modal--children": {

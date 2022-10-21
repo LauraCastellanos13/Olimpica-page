@@ -54,5 +54,42 @@
                 "attributeNoFollow": true
             }
         }
+    },
+
+    "image#home__image1-two":{
+        "title": "Image home one",
+        "props": {
+            "src": "assets/img/img-cel3.jpg",
+            "maxWidth": 400,
+            "title": "Descuento uno",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home__image2-two":{
+        "title": "Image home two",
+        "props": {
+            "src": "assets/img/img-cel1.jpg",
+            "maxWidth": 400,
+            "title": "Descuento dos",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home__image3-two":{
+        "title": "Image home three",
+        "props": {
+            "src": "assets/img/img-cel3.jpg",
+            "maxWidth": 400,
+            "title": "Descuento tres",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home__image4-two":{
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-cel4.jpg",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
+            "blockClass": "home__image"
+        }
     }
 }
