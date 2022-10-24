@@ -5,12 +5,7 @@
             "src": "assets/img/img-desc1.png",
             "maxWidth": 400,
             "title": "Descuento uno",
-            "blockClass": "home__image",
-            "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
-            }
+            "blockClass": "home__image"
         }
     },
     "image#home__image1": {
