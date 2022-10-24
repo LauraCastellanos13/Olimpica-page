@@ -55,7 +55,10 @@
     "children":[
       "flex-layout.row#home__section--two2",
       "flex-layout.row#home__section--two1"
-    ]
+    ],
+    "props": {
+      "blockClass": "slidertwolayout"
+    }
   },
   "flex-layout.row#home__section--two2": {
     "children": [

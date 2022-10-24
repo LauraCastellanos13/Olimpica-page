@@ -5,9 +5,12 @@
 .flexRowContent--container-fourelements{
     justify-content: space-between;
     gap: 20px;
+
 }
 
 .flexRowContent--homesliderdouble,
-.flexRowContent--homesliderdoubledouble{
-    gap: 3rem
+.flexRowContent--homesliderdoubledouble,
+.flexRow--slidertwolayout{
+    gap: 3rem;
+    padding-top: 1.5rem
 }

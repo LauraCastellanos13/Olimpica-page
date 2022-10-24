@@ -67,7 +67,7 @@
     "image#home__image2-two": {
         "title": "Image home two",
         "props": {
-            "src": "assets/img/img-cel2.jpg",
+            "src": "assets/img/img-cel4.jpg",
             "maxWidth": 400,
             "title": "Descuento dos",
             "blockClass": "home__images"
