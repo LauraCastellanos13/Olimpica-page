@@ -1,0 +1,15 @@
+.flexRow--home__section--one{
+    column-gap: 2rem;
+}
+.imageElement--home__banner-three{
+    width: 80%;
+    justify-content: center;
+}
+
+.flexColChild--section__two--image3{
+    gap: 10px;
+}
+
+.flexRowContent--container-fourone{
+    gap: 1rem
+}

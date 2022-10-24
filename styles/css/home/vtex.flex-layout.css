@@ -2,6 +2,12 @@
     width: 600px;
 }
 
-.home__section--one {
-    margin-left: 1rem;
+.flexRowContent--container-fourelements{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flexRowContent--homesliderdouble,
+.flexRowContent--homesliderdoubledouble{
+    gap: 3rem
 }
