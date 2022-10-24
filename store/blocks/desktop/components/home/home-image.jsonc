@@ -5,12 +5,7 @@
             "src": "assets/img/img-desc1.png",
             "maxWidth": 400,
             "title": "Descuento uno",
-            "blockClass": "home__image",
-            "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
-            }
+            "blockClass": "home__image"
         }
     },
     "image#home__image1": {
@@ -58,19 +53,19 @@
     "image#home__image1-two": {
         "title": "Image home one",
         "props": {
-            "src": "assets/img/img-cel3.jpg",
+            "src": "assets/img/img-cel1.jpg",
             "maxWidth": 400,
             "title": "Descuento uno",
-            "blockClass": "home__image"
+            "blockClass": "home__images"
         }
     },
     "image#home__image2-two": {
         "title": "Image home two",
         "props": {
-            "src": "assets/img/img-cel1.jpg",
+            "src": "assets/img/img-cel4.jpg",
             "maxWidth": 400,
             "title": "Descuento dos",
-            "blockClass": "home__image"
+            "blockClass": "home__images"
         }
     },
     "image#home__image3-two": {
@@ -79,7 +74,7 @@
             "src": "assets/img/img-cel3.jpg",
             "maxWidth": 400,
             "title": "Descuento tres",
-            "blockClass": "home__image"
+            "blockClass": "home__imagess"
         }
     },
     "image#home__image4-two": {
@@ -88,7 +83,7 @@
             "src": "assets/img/img-cel4.jpg",
             "maxWidth": 400,
             "title": "Descuento cuatro",
-            "blockClass": "home__image"
+            "blockClass": "home__imagess"
         }
     },
     "image#home_image-slidertwo": {
@@ -115,6 +110,58 @@
             "src": "assets/img/img-cdc2.jpg",
             "title": "Imagen",
             "blockClass": "home__image"
+        }
+    },
+    "image#home_image--layout-double3": {
+        "title": "Imagen dos double two",
+        "props": {
+            "src": "assets/img/img-cdc3.jpg",
+            "title": "Imagen",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home_image--layout-double4": {
+        "title": "Imagen dos double two",
+        "props": {
+            "src": "assets/img/img-cdc4.jpg",
+            "title": "Imagen",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home__image1-three": {
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-si1.jpg",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
+            "blockClass": "home__image6"
+        }
+    },
+    "image#home__image2-three": {
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-si2.jpg",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
+            "blockClass": "home__image6"
+        }
+    },
+    "image#home__image3-three1": {
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-desc3.png",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
+            "blockClass": "home__image5"
+        }
+    },
+    "image#home__image4-three1": {
+        "title": "Image home four",
+        "props": {
+            "src": "assets/img/img-desc4.png",
+            "maxWidth": 400,
+            "title": "Descuento cuatro",
+            "blockClass": "home__image5"
         }
     }
 }

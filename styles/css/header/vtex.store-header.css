@@ -1,4 +1,5 @@
-.headerRowContainer--header__top {
+.headerRowContainer--header__top,
+.headerRowContainer--header__middle {
     background-color: #E2001A;
     width: 100%;
 }
