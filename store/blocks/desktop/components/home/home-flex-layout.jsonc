@@ -50,6 +50,7 @@
       "blockClass": "section__one--image4"
     }
   },
+  /*Second flex-layout four images*/
   "flex-layout.row#home__section--two": {
     "title": "Sección dos",
     "children": [
@@ -99,5 +100,15 @@
     "props": {
       "blockClass": "section__two--image4"
     }
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "Texto de prueba"
+        }
+  },
+  "rich-text#test2": {
+    "props": {
+      "text": "Texto de prueba dos"
+        }
   }
 }

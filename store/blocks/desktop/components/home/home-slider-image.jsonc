@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#home__section--four": {
+        "title": "Slider con imagen",
+        "children": [
+            "flex-layout.col#section__one--slider",
+            "flex-layout.col#section__one--image-two"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#section__one--slider": {
+        "title": "Imagenes slider",
+        "children": [
+            "slider-layout#home__slider--children-two"
+        ],
+        "props": {
+            "width":"70%"
+        }
+    },
+    "flex-layout.col#section__one--image-two": {
+        "title": "Imagen flex-layout con imagen",
+        "children": [
+            "image#home_image-slidertwo"
+        ],
+        "props": {
+            "width":"30%"
+        }
+    }
+}

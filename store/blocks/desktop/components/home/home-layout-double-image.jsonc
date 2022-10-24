@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#home__slider--double": {
+        "title": "Flex with two images",
+        "children": [
+            "flex-layout.col#section__double--image",
+            "flex-layout.col#section__double--image-two"
+        ],
+        "props": {
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#section__double--image": {
+        "title": "Imagen uno flex  double",
+        "children": [
+            "image#home_image--layout-double"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#section__double--image-two": {
+        "title": "Imagen dos flex double",
+        "children": [
+            "image#home_image--layout-double2"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    }
+}

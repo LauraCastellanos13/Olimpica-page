@@ -2,10 +2,12 @@
     "responsive-layout.desktop": {
         "children": [
             "slider-layout#home__slider--children",
+            "flex-layout.row#home__section--four",
             "flex-layout.row#home__section--one",
             "flex-layout.row#section__banner--beca",
             "modal-trigger#home__modal--children",
             "rich-text#home__offers-tech",
+            "flex-layout.row#home__slider--double",
             "flex-layout.row#home__section--two",
             "rich-text#home__bestoffers",
             "list-context.image-list#home__slider--list",

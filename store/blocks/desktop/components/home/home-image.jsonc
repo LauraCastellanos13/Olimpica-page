@@ -90,5 +90,31 @@
             "title": "Descuento cuatro",
             "blockClass": "home__image"
         }
+    },
+    "image#home_image-slidertwo": {
+        "title": "Imagen de sección slider con imagen",
+        "props": {
+            "src": "assets/img/img-pro3.jpg",
+            "maxWidth": 400,
+            "height": 400,
+            "title": "Imagen",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home_image--layout-double": {
+        "title": "Imagen uno double",
+        "props": {
+            "src": "assets/img/img-cdc1.jpg",
+            "title": "Imagen",
+            "blockClass": "home__image"
+        }
+    },
+    "image#home_image--layout-double2": {
+        "title": "Imagen dos double",
+        "props": {
+            "src": "assets/img/img-cdc2.jpg",
+            "title": "Imagen",
+            "blockClass": "home__image"
+        }
     }
 }
