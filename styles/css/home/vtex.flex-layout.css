@@ -2,6 +2,15 @@
     width: 600px;
 }
 
-.home__section--one {
-    margin-left: 1rem;
+.flexRowContent--container-fourelements{
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.flexRowContent--homesliderdouble,
+.flexRowContent--homesliderdoubledouble,
+.flexRow--slidertwolayout{
+    gap: 3rem;
+    padding-top: 1.5rem
 }

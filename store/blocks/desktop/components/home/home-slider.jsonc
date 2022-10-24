@@ -62,7 +62,49 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider-two"
+    }
+  },
+  /*Second slider with image*/
+  "slider-layout#home__slider--children-two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-two",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one-img",
+      "image#home__slider--two-img",
+      "image#home__slider--three-img",
+      "image#home__slider--four-img"
+    ]
+  },
+  "image#home__slider--one-img": {
+    "props": {
+      "src": "assets/img/im-prom1.jpg"
+    }
+  },
+  "image#home__slider--two-img": {
+    "props": {
+      "src": "assets/img/img-pro2.jpg"
+    }
+  },
+  "image#home__slider--three-img": {
+    "props": {
+      "src": "assets/img/img-pro4.jpg"
+    }
+  },
+  "image#home__slider--four-img": {
+    "props": {
+      "src": "assets/img/img-pro5.jpg"
     }
   }
 }

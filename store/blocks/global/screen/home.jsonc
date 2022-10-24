@@ -20,7 +20,7 @@
       "rich-text#home__preciosbajos",
       "rich-text#home__lanzamientos"*/
     ]
-  },
+  }/*,
   "flex-layout.row#section__banner--promotions":{
     "children":[
       "image#home__banner--one"
@@ -75,5 +75,5 @@
     "props": {
       "showCLoseBUtton": true
     }
-  }
+  }*/
 }

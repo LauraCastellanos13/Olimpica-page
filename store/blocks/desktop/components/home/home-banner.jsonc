@@ -14,5 +14,13 @@
             "src": "assets/img/img-banner2.jpg",
             "blockClass": "home__banner-two"
         }
+    },
+    "image#home__banner--three": {
+        "title": "Imagen promociones dos",
+        "props": {
+            "title": "Beca",
+            "src": "assets/img/linea-blanca.jpg",
+            "blockClass": "home__banner-three"
+        }
     }
 }
