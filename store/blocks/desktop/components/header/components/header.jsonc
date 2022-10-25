@@ -27,8 +27,8 @@
     },
     "header-row#header__top": {
         "children": [
-            "logo#header__top--logo",
-            "rich-text#test"
+            "logo#header__top--logo"
+            /*"rich-text#test"*/
         ],
         "props": {
             "blockClass": "header__top",
