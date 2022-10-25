@@ -3,5 +3,22 @@
     margin:0 auto 40px;
 }
 .paginationDotsContainer--home__slider {
+    display: none;
     transform: translateY(30px);
+}
+.slideChildrenContainer--home__sliderone{
+    margin:2rem auto 40px;
+    max-width: 1500px;
+}
+
+.sliderTrackContainer--home__slider-two{
+    
+    margin-bottom: 2rem
+}
+.sliderLayoutContainer--home__slider{
+    margin-top: 2rem;
+}
+
+.paginationDotsContainer--home__slider-two{
+    display: none;
 }

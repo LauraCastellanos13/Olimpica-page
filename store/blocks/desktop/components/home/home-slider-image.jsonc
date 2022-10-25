@@ -6,7 +6,8 @@
             "flex-layout.col#section__one--image-two"
         ],
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "blockClass": "slider-imagen"
         }
     },
     "flex-layout.col#section__one--slider": {

@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#section__precios-bajos-one":{
+        "children":[
+            "flex-layout.col#section__preciosbajos",
+            "flex-layout.col#section__preciosbajos-2"
+        ],
+        "props": {
+            "blockClass": "homeslider-preciosbajos"
+        }
+    },
+    "flex-layout.col#section__preciosbajos":{
+        "children":[
+        "image#home_image-precios-bajos"
+        ]
+    },
+    "flex-layout.col#section__preciosbajos-2":{
+        "children":[
+        "image#home_image-precios-bajos-2"
+        ]
+    },
+    "image#home_image-precios-bajos": {
+        "props": {
+          "src": "assets/img/img-pb2.jpg"
+        }
+    },
+    "image#home_image-precios-bajos-2": {
+        "props": {
+          "src": "assets/img/img-pb1.jpg"
+        }
+    },
+     /*Second "precios bajos"*/
+    "flex-layout.row#section__precios-bajos":{
+        "children":[
+            "flex-layout.col#section__preciosbajos-5",
+            "flex-layout.col#section__preciosbajos-6"
+        ],
+        "props": {
+            "blockClass": "homeslider-preciosbajos-2"
+        }
+    },
+    "flex-layout.col#section__preciosbajos-5":{
+        "children":[
+        "image#home_image-precios-bajos5"
+        ]
+    },
+    "flex-layout.col#section__preciosbajos-6":{
+        "children":[
+        "image#home_image-precios-bajos5"
+        ]
+    },
+    "image#home_image-precios-bajos5": {
+        "props": {
+          "src": "assets/img/img-pb3.jpg"
+        }
+    },
+    "image#home_image-precios-bajos6": {
+        "props": {
+          "src": "assets/img/img-pb4.jpg"
+        }
+    }
+}

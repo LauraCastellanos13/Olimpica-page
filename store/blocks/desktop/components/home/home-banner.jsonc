@@ -1,4 +1,12 @@
 {
+    "image#home__banner--principal": {
+        "title": "Banner principal",
+        "props": {
+            "title": "Promociones",
+            "src": "assets/img/img-banner-pr.jpg",
+            "blockClass": "home__banner-principal"
+        }
+    },
     "image#home__banner--one": {
         "title": "Imagen promociones",
         "props": {

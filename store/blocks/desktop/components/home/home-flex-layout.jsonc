@@ -52,7 +52,7 @@
   },
   /*Second flex-layout four images*/
   "flex-layout.row#home__section--two": {
-    "children":[
+    "children": [
       "flex-layout.row#home__section--two2",
       "flex-layout.row#home__section--two1"
     ],
@@ -181,6 +181,50 @@
     ],
     "props": {
       "blockClass": "section__two--image3"
+    }
+  },
+  /*Flex-layout "más servicios"*/
+  "flex-layout.row#section___servicios": {
+    "children": [
+      "flex-layout.col#section__servicios--image1",
+      "flex-layout.col#section__servicios--image2",
+      "flex-layout.col#section__servicios--image3"
+    ],
+    "props": {
+      "blockClass": "section__servicios"
+    }
+  },
+  "flex-layout.col#section__servicios--image1": {
+    "children": [
+      "image#home__image-servicios-1"
+    ]
+  },
+  "flex-layout.col#section__servicios--image2": {
+    "children": [
+      "image#home__image-servicios-2"
+    ]
+  },
+  "flex-layout.col#section__servicios--image3": {
+    "children": [
+      "image#home__image-servicios-3"
+    ]
+  },
+  "image#home__image-servicios-1": {
+    "props": {
+      "src": "assets/img/img-ult1.jpg",
+      "blockClass": "image-mas-servicios"
+    }
+  },
+  "image#home__image-servicios-2": {
+    "props": {
+      "src": "assets/img/img-ult2.jpg",
+      "blockClass": "image-mas-servicios"
+    }
+  },
+  "image#home__image-servicios-3": {
+    "props": {
+      "src": "assets/img/img-ult3.jpg",
+      "blockClass": "image-mas-servicios"
     }
   }
 }
