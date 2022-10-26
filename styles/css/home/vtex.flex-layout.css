@@ -2,7 +2,7 @@
     width: 600px;
 }
 
-.flexRowContent--container-fourelements{
+.flexRowContent--container-fourelements {
     justify-content: space-between;
     gap: 20px;
 
@@ -10,7 +10,33 @@
 
 .flexRowContent--homesliderdouble,
 .flexRowContent--homesliderdoubledouble,
-.flexRow--slidertwolayout{
+.flexRow--slidertwolayout {
     gap: 3rem;
     padding-top: 1.5rem
+}
+
+.imageElement--home__image32 {
+    margin-left: 2rem;
+}
+
+.flexRowContent--slider-imagen {
+    gap: 2rem
+}
+
+.flexRowContent--slidertwolayout {
+    gap: 3rem
+}
+
+.flexRowContent--homeslider-preciosbajos,
+.flexRowContent--homeslider-preciosbajos-2 {
+    gap: 3rem;
+    padding-bottom: 0.6rem;
+}
+
+.flexRowContent--section__servicios {
+    margin-bottom: 5rem;
+}
+
+.flexRow--home__section--one {
+    gap: 3rem
 }

@@ -1,79 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      /*"slider-layout#home__slider--children",
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#section__banner--beca",
-      "flex-layout#home__section--two",*/
       "responsive-layout.phone#home__info--phone",
       "responsive-layout.mobile",
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop"
-      /*
-      "modal-trigger#home__modal--children",
-      "rich-text#home__offers-tech",
-      "flex-layout.row#home__section--two",
-      "rich-text#home__bestoffers",
-      "list-context.image-list#home__slider--list",
-      "rich-text#home__homeoffers",
-      "flex-layout.row#section__banner--promotions",
-      "rich-text#home__preciosbajos",
-      "rich-text#home__lanzamientos"*/
     ]
-  }/*,
-  "flex-layout.row#section__banner--promotions":{
-    "children":[
-      "image#home__banner--one"
-    ]
-  },
-  "flex-layout.row#section__banner--beca":{
-    "children":[
-      "image#home__banner--two"
-    ]
-  },
-  "modal-trigger#home__modal--children": {
-    "children": [
-      "rich-text#home__modal--trigger",
-      "modal-layout#home__modal--layout"
-    ]
-  },
-  "rich-text#home__modal--trigger": {
-    "props": {
-      "text": " # Términos y condiciones"
-    }
-  },
-  "modal-layout#home__modal--layout": {
-    "children": [
-      "rich-text#home__modal--content"
-    ]
-  },
-  "rich-text#home__modal--content": {
-    "props": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere mi sit amet est maximus aliquet. Proin ut tempor lectus. Nunc ut leo magna. Aenean ante ante, maximus laoreet vestibulum id, pulvinar eu nisi. Suspendisse sit amet faucibus mi. Mauris justo metus, dictum sed mi ac, gravida egestas ante. Vestibulum."
-    }
-  },
-  "modal-trigger#home__modal--event":{
-    "children":[
-      "modal-layout#home__modal--event"
-    ],
-    "props": {
-      "trigger": "event",
-      "customPixelEventName": "pageView"
-    }
-  },
-  "modal-layout#home__modal--event": {
-    "children":[
-      "rich-text#home__modal--event-content"
-    ]
-  },
-  "rich-text#home__modal--event-content": {
-    "props": {
-      "text": "Evento de DOM Loaded"
-    }
-  },
-  "modal-header#home__modal--event": {
-    "props": {
-      "showCLoseBUtton": true
-    }
-  }*/
+  }
 }

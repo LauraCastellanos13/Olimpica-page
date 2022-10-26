@@ -28,5 +28,12 @@
           "title": "Título lanzamientos de la semana",
           "text": " ### Lanzamientos de la semana"
         }
+      },
+      "rich-text#home__mas-servicios":{
+        "props":{
+          "title": "Título más servicios",
+          "text": "Más servicios para ti",
+          "blockClass": "mas-servicios"
+        }
       }
 }
