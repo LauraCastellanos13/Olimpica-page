@@ -50,12 +50,12 @@
     },
     "image#home_image-precios-bajos5": {
         "props": {
-          "src": "assets/img/img-pb3.jpg"
+          "src": "assets/img/img-pb4.jpg"
         }
     },
     "image#home_image-precios-bajos6": {
         "props": {
-          "src": "assets/img/img-pb4.jpg"
+          "src": "assets/img/img-pb3.jpg"
         }
     }
 }
