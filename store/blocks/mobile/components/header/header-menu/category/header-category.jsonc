@@ -1,0 +1,28 @@
+{
+    "menu-item#category__one": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Desayuno",
+                "text": "Desayuno"
+            }
+        }
+    },
+    "menu-item#category__two": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Despensa",
+                "text": "Despensa"
+            }
+        }
+    }
+}

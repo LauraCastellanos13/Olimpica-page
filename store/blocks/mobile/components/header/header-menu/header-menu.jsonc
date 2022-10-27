@@ -1,0 +1,30 @@
+{
+    "drawer#header__mobile--menu": {
+        "children": [
+            "vtex.menu@2.x:menu#header__menu"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#categorias"
+        ]
+    },
+    "rich-text#categorias": {
+        "props": {
+            "text": "Categorías",
+            "blockClass": "catergorias__header"
+        }
+    },
+    "vtex.menu@2.x:menu#header__menu": {
+        "children": [
+            "menu-item#department__one",
+            "menu-item#department__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

@@ -1,3 +1,10 @@
 .headerRowContainer--header__top{
     width: 100%;
 }
+
+/*.sendButton{
+    background-color: #d5001a;
+}*/
+.headerRowBackground--header__top_contact{
+    background-color: black;
+}

@@ -1,22 +1,16 @@
 {
     "header": {
-        "title": "Header",
+        "title": "header",
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile"
         ]
     },
     "header.full": {
-        "title": "Header",
+        "title": "header",
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile"
-        ]
-    },
-    "header-layout.desktop": {
-        "title": "Header Desktop",
-        "children": [
-            "header-row#header__top"
         ]
     }
 }

@@ -168,7 +168,7 @@
       "text": "Texto de prueba"
     }
   },
-  "rich-text#test2": {
+  "vtex.rich-text@0.x:rich-text#test2": {
     "props": {
       "text": "Texto de prueba dos"
     }
@@ -240,31 +240,31 @@
   "image#home__image1-three": {
     "title": "Image home four",
     "props": {
-        "src": "assets/img/img-si1.jpg",
-        "blockClass": "home__image6"
+      "src": "assets/img/img-si1.jpg",
+      "blockClass": "home__image6"
     }
-},
-"image#home__image2-three": {
+  },
+  "image#home__image2-three": {
     "title": "Image home four",
     "props": {
-        "src": "assets/img/img-si2.jpg",
-        "blockClass": "home__image6"
+      "src": "assets/img/img-si2.jpg",
+      "blockClass": "home__image6"
     }
-},
-"image#home__image3-three1": {
+  },
+  "image#home__image3-three1": {
     "title": "Image home four",
     "props": {
-        "src": "assets/img/img-desc3.png",
-        "blockClass": "home__image5"
+      "src": "assets/img/img-desc3.png",
+      "blockClass": "home__image5"
     }
-},
-"image#home__image4-three1": {
+  },
+  "image#home__image4-three1": {
     "title": "Image home four",
     "props": {
-        "src": "assets/img/img-desc4.png",
-        "blockClass": "home__image5"
+      "src": "assets/img/img-desc4.png",
+      "blockClass": "home__image5"
     }
-},
+  },
   /*Flex-layout "más servicios"*/
   "flex-layout.row#section___servicios": {
     "children": [
