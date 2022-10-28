@@ -14,7 +14,7 @@
             "rich-text#header__section--contact-two-mobile"
         ],
         "props":{
-            "orientation":"horizontalAlign"
+            "blockClass": "header_mobile_top"
         }
     },
     "rich-text#container__section--contact-one-mobile": {
