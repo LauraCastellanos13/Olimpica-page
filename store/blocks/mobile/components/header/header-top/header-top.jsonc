@@ -1,0 +1,32 @@
+{
+    "header-row#header__top-mobile": {
+        "children": [
+            "flex-layout.row#header__top--mobile"
+        ],
+        "props": {
+            "blockClass": "header__superior-mobile",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#header__top--mobile": {
+        "children": [
+            "rich-text#container__section--contact-one-mobile",
+            "rich-text#header__section--contact-two-mobile"
+        ],
+        "props":{
+            "orientation":"horizontalAlign"
+        }
+    },
+    "rich-text#container__section--contact-one-mobile": {
+        "props": {
+            "text": "Venta telefónica",
+            "blockClass": "header__section--top"
+        }
+    },
+    "rich-text#header__section--contact-two-mobile": {
+        "props": {
+            "text": "Atención al cliente",
+            "blockClass": "header__section--top"
+        }
+    }
+}

@@ -35,25 +35,26 @@
             "rich-text#header__section--contact-three"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": "77%"
           }
     },
     "rich-text#container__section--contact-one": {
         "props": {
             "text": "Venta telefónica",
-            "blockClass": "text__section--contact-1"
+            "blockClass": "header__section--top"
         }
     },
     "rich-text#header__section--contact-two": {
         "props": {
             "text": "Atención al cliente",
-            "blockClass": "header__section--contact"
+            "blockClass": "header__section--top"
         }
     },
     "rich-text#header__section--contact-three": {
         "props": {
             "text": "WhatsApp 3213581717",
-            "blockClass": "header__section--contact-three"
+            "blockClass": "header__section--top"
         }
     },
     "flex-layout.row#top__header--desktop-two": {
@@ -63,19 +64,19 @@
         ],
         "props": {
             "blockClass": "header__container--others",
-            "width": "100%"
+            "width": "33%"
         }
     },
     "rich-text#header__section--viajar": {
         "props": {
             "text": "Viajar Olímpica",
-            "blockClass": "header__section--viajar"
+            "blockClass": "header__section--top"
         }
     },
     "rich-text#header__section--tarjeta": {
         "props": {
             "text": "Tarjeta Olímpica",
-            "blockClass": "header__section--tarjeta"
+            "blockClass": "header__section--top"
         }
     }
 }

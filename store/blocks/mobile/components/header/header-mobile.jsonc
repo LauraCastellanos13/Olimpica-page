@@ -3,10 +3,11 @@
         "title": "Header Mobile",
         "children": [
             "header-row#header__top-mobile",
-            "header-row#header__middle-mobile"
+            "header-row#header__middle-mobile",
+            "header-row#header__down-mobile"
         ]
     },
-    "header-row#header__top-mobile": {
+    "header-row#header__middle-mobile": {
         "title": "Header superior",
         "children": [
             "drawer#header__mobile--menu",
@@ -29,7 +30,7 @@
             "login-content"
         ]
     },
-    "header-row#header__middle-mobile": {
+    "header-row#header__down-mobile": {
         "title": "Header medio",
         "children": [
             "search-bar"
