@@ -1,5 +1,11 @@
 /*@font-face {
     font-family: 'Montserrat';
-    src: url(assets/fonts/Montserrat-Italic-VariableFont-wght.ttf), url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(assets/fonts/Montserrat-Italic-VariableFont-wght.ttf) format("ttf");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-VariableFont-wght.ttf) format("ttf");
     font-weight: bold;
   }*/

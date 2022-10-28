@@ -1,0 +1,88 @@
+{
+  "drawer#header_desktop--menu": {
+    "children": [
+      "menu#header-desktop_menu"
+    ],
+    "props": {
+      "orientation": "horizontalAlign"
+    }
+  },
+  "menu#header-desktop_menu": {
+    "children": [
+      "menu-item#department-desktop_one",
+      "menu-item#department-desktop_two"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department-desktop_one": {
+    "props": {
+      "id": "department_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Supermercado",
+        "text": "Supermercado"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#department_one"
+    ]
+  },
+  "submenu.accordion#department_one": {
+    "children": [
+      "menu#department-desktop_one"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#department-desktop_one": {
+    "children": [
+      "menu-item#category-desktop_one",
+      "menu-item#category-desktop_two"
+    ]
+  },
+  "menu-item#category-desktop_one": {
+    "props": {
+      "id": "category-desktop_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Desayuno",
+        "text": "Desayuno"
+      }
+    }
+  },
+  "menu-item#category-desktop_two": {
+    "props": {
+      "id": "category-desktop_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Despensa",
+        "text": "Despensa"
+      }
+    }
+  },
+  "menu-item#department-desktop_two": {
+    "props": {
+      "id": "department-desktop_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Drogueria",
+        "text": "Droguería"
+      }
+    }
+  }
+}

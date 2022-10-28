@@ -1,0 +1,45 @@
+{
+    "menu-item#department__one": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external1",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Supermercado",
+                "text": "Supermercado"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#department__one"
+        ]
+    },
+    "submenu.accordion#department__one": {
+        "children": [
+            "menu#department__one"
+        ]
+    },
+    "menu-item#department__two": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external1",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Drogueria",
+                "text": "Droguería"
+            }
+        }
+    },
+    "menu#department__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

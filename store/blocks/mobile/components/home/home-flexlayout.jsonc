@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#section__one--mobile":{
+        "children":[
+            "flex-layout.col#section__one--image-mobile"
+        ]
+    },
+    "flex-layout.col#section__one--image-mobile":{
+        "children":[
+            "image#image__section--one-mobile"
+        ],
+        "props":{
+            "fullWidth": true
+        }
+    },
+    "image#image__section--one-mobile":{
+        "title": "Segunda imagen mobile",
+        "props":{
+            "src":"assets/img/img-mob1.jpg",
+            "fullWidth": true,
+            "blockClass": "image__section--two-mobile"
+        }  
+    },
+    "flex-layout.row#section__two--mobile":{
+        "children":[
+            "flex-layout.col#section__two--image-mobile"
+        ]
+    },
+    "flex-layout.col#section__two--image-mobile":{
+        "children":[
+            "image#image__section--one-mobile"
+        ],
+        "props":{
+            "fullWidth": true
+        }
+    },
+    "image#image__section--two-mobile":{
+        "title": "Primera imagen mobile",
+        "props":{
+            "src":"assets/img/precios-rojos-m.jpg",
+            "fullWidth": true,
+            "blockClass": "image__section--one-mobile"
+        }  
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/header_logo_olimpica.png",
+            "width": 200,
+            "href": "/"
+        }
+    }
+}
