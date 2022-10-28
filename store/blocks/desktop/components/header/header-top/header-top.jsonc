@@ -1,0 +1,81 @@
+{
+    "header-row#header__top": {
+        "children": [
+            "flex-layout.row#header__top--desktop"
+        ],
+        "props": {
+            "blockClass": "header__superior",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#header__top--desktop": {
+        "children": [
+            "flex-layout.col#top__header--desktop",
+            "flex-layout.row#top__header--desktop-two"
+        ],
+        "props": {
+            "blockClass": "container__header--top-desktop"
+        }
+    },
+    "flex-layout.col#top__header--desktop": {
+        "title": "Header top desktop",
+        "children": [
+            "flex-layout.row#header__section--contact"
+        ],
+        "props": {
+            "blockClass": "container__sticky--header",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#header__section--contact": {
+        "title": "Header top sección uno",
+        "children": [
+            "rich-text#container__section--contact-one",
+            "rich-text#header__section--contact-two",
+            "rich-text#header__section--contact-three"
+        ],
+        "props": {
+            "orientation": "vertical"
+          }
+    },
+    "rich-text#container__section--contact-one": {
+        "props": {
+            "text": "Venta telefónica",
+            "blockClass": "text__section--contact-1"
+        }
+    },
+    "rich-text#header__section--contact-two": {
+        "props": {
+            "text": "Atención al cliente",
+            "blockClass": "header__section--contact"
+        }
+    },
+    "rich-text#header__section--contact-three": {
+        "props": {
+            "text": "WhatsApp 3213581717",
+            "blockClass": "header__section--contact-three"
+        }
+    },
+    "flex-layout.row#top__header--desktop-two": {
+        "children": [
+            "rich-text#header__section--viajar",
+            "rich-text#header__section--tarjeta"
+        ],
+        "props": {
+            "blockClass": "header__container--others",
+            "width": "100%"
+        }
+    },
+    "rich-text#header__section--viajar": {
+        "props": {
+            "text": "Viajar Olímpica",
+            "blockClass": "header__section--viajar"
+        }
+    },
+    "rich-text#header__section--tarjeta": {
+        "props": {
+            "text": "Tarjeta Olímpica",
+            "blockClass": "header__section--tarjeta"
+        }
+    }
+}

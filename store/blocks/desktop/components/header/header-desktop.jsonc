@@ -1,0 +1,59 @@
+{
+    "header-layout.desktop": {
+        "title": "Header Desktop",
+        "children": [
+            "header-row#header__top",
+            "header-row#header__middle"
+        ]
+    },
+    "header-row#header__top--frist": {
+        "title": "Header black",
+        "children": [
+            "rich-text#ventas"
+        ],
+        "props": {
+            "blockClass": "header__top--first"
+        }
+    },
+    "header-row#header__middle":{
+        "title": "Header superior",
+        "children": [
+            "logo#header__top--logo",
+            "drawer#header_desktop--menu",
+            "search-bar",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header_top--desktop"
+        }
+    },
+    "rich-text#ventas": {
+        "props": {
+            "text": "Venta telefónica"
+        }
+    },
+    "search-bar": {
+        "props": {
+            "blockClass": "searchbar__desktop",
+            "maxWidth": 650
+        }
+    },
+    "modal-trigger#header__top-desktop--login": {
+        "children": [
+            "rich-text#header_top-d--login",
+            "modal-layout#header_top-d--login"
+        ]
+    },
+    "rich-text#header_top-d--login": {
+        "props": {
+            "text": "login"
+        }
+    },
+    "modal-layout#header_top-d--login": {
+        "children": [
+            "login-content"
+        ]
+    }
+}

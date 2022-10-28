@@ -1,18 +1,4 @@
 {
-    "submenu.accordion#category__one": {
-        "children": [
-            "menu#department__one"
-        ]
-    },
-    "menu#department__one": {
-        "children": [
-            "menu-item#department__one",
-            "menu-item#department__two"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
     "menu-item#department__one": {
         "props": {
             "id": "category-one",
@@ -26,7 +12,12 @@
             }
         },
         "blocks": [
-            "submenu.accordion#category__one"
+            "submenu.accordion#department__one"
+        ]
+    },
+    "submenu.accordion#department__one": {
+        "children": [
+            "menu#department__one"
         ]
     },
     "menu-item#department__two": {
@@ -40,6 +31,15 @@
                 "tagTitle": "Drogueria",
                 "text": "Droguería"
             }
+        }
+    },
+    "menu#department__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
         }
     }
 }

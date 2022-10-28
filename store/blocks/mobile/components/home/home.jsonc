@@ -1,5 +1,8 @@
 {
     "responsive-layout.mobile": {
-        "children": []
+        "children": [
+            "flex-layout.row#section__one--mobile",
+            "flex-layout.row#section__two--mobile"
+        ]
     }
 }

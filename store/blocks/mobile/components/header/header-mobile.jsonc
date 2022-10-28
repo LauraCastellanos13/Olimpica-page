@@ -2,17 +2,16 @@
     "header-layout.mobile": {
         "title": "Header Mobile",
         "children": [
-            "header-row#header__top",
-            "header-row#header__middle"
+            "header-row#header__top-mobile",
+            "header-row#header__middle-mobile"
         ]
     },
-    "header-row#header__top": {
+    "header-row#header__top-mobile": {
         "title": "Header superior",
         "children": [
+            "drawer#header__mobile--menu",
             "logo#header__top--logo",
-            "header-spacer",
             "login",
-            /*"modal-trigger#header__top--login",*/
             "minicart.v2"
         ],
         "props": {
@@ -22,7 +21,6 @@
     },
     "modal-trigger#header__top--login": {
         "children": [
-            /*"rich-text#header__top--login",*/
             "modal-layout#header__top--login"
         ]
     },
@@ -31,10 +29,10 @@
             "login-content"
         ]
     },
-    "header-row#header__middle": {
+    "header-row#header__middle-mobile": {
         "title": "Header medio",
         "children": [
-            "drawer#header__mobile--menu"
+            "search-bar"
         ],
         "props": {
             "blockClass": "header__middle",

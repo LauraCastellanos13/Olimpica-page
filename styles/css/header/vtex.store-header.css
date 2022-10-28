@@ -1,5 +1,13 @@
-.headerRowContainer--header__top,
-.headerRowContainer--header__middle {
-    background-color: #E2001A;
-    width: 100%;
+
+.headerRowContainer--header__middle,
+.headerRowContainer--header__top-mobile{
+    background-color: #E2001A
+}
+.headerRowBackground--header_top--desktop,
+.headerRowContainer--header__top{
+    background-color: #E2001A
+}
+
+.autoCompleteOuterContainer--searchbar__desktop{
+    border: 25px;
 }
