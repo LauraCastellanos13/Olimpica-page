@@ -394,21 +394,21 @@
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Montserrat,Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Consolas, monaco, monospace",
+        "fontFamily": "Montserrat,Consolas, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
