@@ -22,3 +22,16 @@
 .paginationDotsContainer--home__slider-two{
     display: none;
 }
+
+.caretIcon--home__slider-one--mobile,
+.caretIcon--home__slider-one--mobile-servicios{
+    display: none;
+}
+
+.paginationDotsContainer--home__slider-one--mobile{
+    bottom: -28px;
+}
+
+.paginationDotsContainer--home__slider-one--mobile-servicios{
+    bottom: -20px;
+}

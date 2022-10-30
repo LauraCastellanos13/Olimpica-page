@@ -1,8 +1,0 @@
-{
-    "responsive-layout.mobile": {
-        "children": [
-            "flex-layout.row#section__one--mobile",
-            "flex-layout.row#section__two--mobile"
-        ]
-    }
-}

@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "responsive-layout.mobile",
-      "responsive-layout.desktop"
+      "responsive-layout.desktop",
+      "responsive-layout.phone"
     ]
   }
 }
