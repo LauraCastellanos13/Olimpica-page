@@ -4,3 +4,7 @@
 .flexRowContent--slider-imagen {
     gap: 2rem
 }
+
+.flexCol--images__phone--big {
+    margin-top: 3rem;
+}

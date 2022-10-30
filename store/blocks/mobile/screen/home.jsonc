@@ -3,9 +3,17 @@
         "children": [
             "flex-layout.row#section__one--phone",
             "slider-layout#home__slider--children-mobile",
-            "flex-layout.row#section__two--mobile",
+            "rich-text#home__mas-servicios-phone-2",
+            "slider-layout#home__slider--children-phone-2",
+            "slider-layout#home__slider--children-phone-3",
+            "slider-layout#home__slider--children-phone-4",
+            "rich-text#home__mejores-ofertas-phone",
+            "flex-layout.row#section__two--images-phone",
+            "flex-layout.row#section__promotion-phone",
             "slider-layout#home__slider--children-mobile-two",
-            "rich-text#home__mas-servicios-mobile",
+            "rich-text#home__precios-bajos-phone",
+            "flex-layout.row#section__four--images",
+            "rich-text#home__mas-servicios-phone",
             "slider-layout#home__slider--children-mobile-servicios"
         ]
     }

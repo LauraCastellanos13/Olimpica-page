@@ -24,7 +24,9 @@
 }
 
 .caretIcon--home__slider-one--mobile,
-.caretIcon--home__slider-one--mobile-servicios{
+.caretIcon--home__slider-one--mobile-servicios,
+.caretIcon--home__slider-one--phone-2,
+.caretIcon--home__slider-one--phone-4{
     display: none;
 }
 
@@ -32,6 +34,13 @@
     bottom: -28px;
 }
 
-.paginationDotsContainer--home__slider-one--mobile-servicios{
+.paginationDotsContainer--home__slider-one--mobile-servicios,
+.paginationDotsContainer--home__slider-one--phone-2,
+.paginationDotsContainer--home__slider-one--phone-4  {
     bottom: -20px;
+}
+
+.sliderTrack--home__slider-one--phone-2,
+.sliderTrack--home__slider-one--phone-4 {
+    margin-top: 2rem;
 }

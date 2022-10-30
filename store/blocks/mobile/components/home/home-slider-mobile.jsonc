@@ -1,51 +1,50 @@
 {
-    "slider-layout#home__slider--children-mobile": {
-        "props": {
-          "itemsPerPage": {
-            "tablet": 2,
-            "mobile": 2
-          },
-          "infinite": true,
-          "blockClass": "home__slider-one--mobile",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHover": true
-          }
-        },
-        "children": [
-          "image#home__slider--one-mobile",
-          "image#home__slider--two-mobile",
-          "image#home__slider--three-mobile",
-          "image#home__slider--four-mobile"
-        ]
+  "slider-layout#home__slider--children-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "tablet": 2,
+        "mobile": 2
       },
-      "image#home__slider--one-mobile": {
-        "props": {
-          "src": "assets/img/sli-mob1.jpg",
-          "blockClass": "img-slider-one-m"
-        }
-      },
-      "image#home__slider--two-mobile": {
-        "props": {
-          "src": "assets/img/sli-mob2.jpg",
-          "blockClass": "img-slider-one-m"
-        }
-      },
-      "image#home__slider--three-mobile": {
-        "props": {
-          "src": "assets/img/sli-mob3.jpg",
-          "blockClass": "img-slider-one-m"
-        }
-      },
-      "image#home__slider--four-mobile": {
-        "props": {
-          "src": "assets/img/sli-mob4.jpg",
-          "blockClass": "img-slider-one-m"
-        }
-      },
-/*Second slider mobile*/
-
-"slider-layout#home__slider--children-mobile-two": {
+      "infinite": true,
+      "blockClass": "home__slider-one--mobile",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one-mobile",
+      "image#home__slider--two-mobile",
+      "image#home__slider--three-mobile",
+      "image#home__slider--four-mobile"
+    ]
+  },
+  "image#home__slider--one-mobile": {
+    "props": {
+      "src": "assets/img/sli-mob1.jpg",
+      "blockClass": "img-slider-one-m"
+    }
+  },
+  "image#home__slider--two-mobile": {
+    "props": {
+      "src": "assets/img/sli-mob2.jpg",
+      "blockClass": "img-slider-one-m"
+    }
+  },
+  "image#home__slider--three-mobile": {
+    "props": {
+      "src": "assets/img/sli-mob3.jpg",
+      "blockClass": "img-slider-one-m"
+    }
+  },
+  "image#home__slider--four-mobile": {
+    "props": {
+      "src": "assets/img/sli-mob4.jpg",
+      "blockClass": "img-slider-one-m"
+    }
+  },
+  /*Second slider phone*/
+  "slider-layout#home__slider--children-mobile-two": {
     "props": {
       "itemsPerPage": {
         "mobile": 1
@@ -137,8 +136,112 @@
       "blockClass": "img-slider-two-m"
     }
   },
- /*Last slider "más servicios"*/ 
- "slider-layout#home__slider--children-mobile-servicios": {
+  /*Slider phone two images*/
+  "slider-layout#home__slider--children-phone-2": {
+    "props": {
+      "itemsPerPage": {
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-one--phone-2",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one-phone-2",
+      "image#home__slider--two-phone-2"
+    ]
+  },
+  "image#home__slider--one-phone-2": {
+    "props": {
+      "src": "assets/img/im-ph2.jpg",
+      "blockClass": "img-slider-one-p"
+    }
+  },
+  "image#home__slider--two-phone-2": {
+    "props": {
+      "src": "assets/img/im-ph1.jpg",
+      "blockClass": "img-slider-one-p"
+    }
+  },
+  /*Slider two images per slider*/
+  "slider-layout#home__slider--children-phone-3": {
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home__slider-one--phone-2",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one-phone-3",
+      "image#home__slider--two-phone-3",
+      "image#home__slider--three-phone-3",
+      "image#home__slider--four-phone-3"
+    ]
+  },
+  "image#home__slider--one-phone-3": {
+    "props": {
+      "src": "assets/img/img-cel1.jpg",
+      "blockClass": "img-slider-one-p-3"
+    }
+  },
+  "image#home__slider--two-phone-3": {
+    "props": {
+      "src": "assets/img/img-cel2.jpg",
+      "blockClass": "img-slider-one-p-3"
+    }
+  },
+  "image#home__slider--three-phone-3": {
+    "props": {
+      "src": "assets/img/img-cel3.jpg",
+      "blockClass": "img-slider-one-p-3"
+    }
+  },
+  "image#home__slider--four-phone-3": {
+    "props": {
+      "src": "assets/img/img-cel4.jpg",
+      "blockClass": "img-slider-one-p-3"
+    }
+  },
+  /*Second slider with two images */
+  "slider-layout#home__slider--children-phone-4": {
+    "props": {
+      "itemsPerPage": {
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-one--phone-4",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one-phone-4",
+      "image#home__slider--two-phone-4"
+    ]
+  },
+  "image#home__slider--one-phone-4": {
+    "props": {
+      "src": "assets/img/img-cdc2.jpg",
+      "blockClass": "img-slider-one-p"
+    }
+  },
+  "image#home__slider--two-phone-4": {
+    "props": {
+      "src": "assets/img/im-ph2.jpg",
+      "blockClass": "img-slider-one-p"
+    }
+  },
+  /*Last slider "más servicios" phone*/
+  "slider-layout#home__slider--children-mobile-servicios": {
     "props": {
       "itemsPerPage": {
         "mobile": 1

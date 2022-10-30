@@ -13,8 +13,26 @@
 }
 
 .wrapper--mas-servicios-mobile{
-    margin-top: 3rem;
-    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-left: 25%;
     font-weight: bold;
-    color: #36474f
+    color: #36474f;
+    font-size: 16px
+}
+
+.paragraph--ofertas-imperdibles-2{
+    margin-top: 3rem;
+    padding-left: 1rem;
+    font-size: 18px;
+    color: #38464f;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.paragraph--precios-bajos {
+    font-size: 18px;
+    color: #38464f;
+    padding-left: 5rem;
+    margin-top: 3rem;
+    font-weight: bold
 }

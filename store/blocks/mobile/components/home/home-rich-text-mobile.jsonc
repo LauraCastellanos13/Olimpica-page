@@ -1,9 +1,31 @@
 {
-    "rich-text#home__mas-servicios-mobile": {
+    "rich-text#home__mas-servicios-phone": {
         "props": {
             "title": "Título más servicios",
             "text": "Más servicios para ti",
             "blockClass": "mas-servicios-mobile"
         }
+    },
+    "rich-text#home__mas-servicios-phone-2": {
+        "props": {
+            "title": "Título ofertas imperdibles",
+            "text": "¡Ofertas imperdibles en tecnología!",
+            "blockClass": "ofertas-imperdibles-2"
+        }
+    },
+    "rich-text#home__mejores-ofertas-phone": {
+        "props": {
+            "title": "Título mejores ofertas",
+            "text": "Conoce las mejores ofertas",
+            "blockClass": "ofertas-imperdibles-2"
+        }
+    },
+    "rich-text#home__precios-bajos-phone": {
+        "props": {
+            "title": "Título precios bajos",
+            "text": "Siempre precios Bajos para ti",
+            "blockClass": "precios-bajos"
+        }
     }
+
 }
