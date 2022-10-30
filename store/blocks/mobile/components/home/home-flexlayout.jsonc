@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#section__one--mobile":{
+    "flex-layout.row#section__one--phone":{
         "children":[
             "flex-layout.col#section__one--image-mobile"
         ]
@@ -15,7 +15,7 @@
     "image#image__section--one-mobile":{
         "title": "Segunda imagen mobile",
         "props":{
-            "src":"assets/img/img-mob1.jpg",
+            "src":"assets/img/gif-1.gif",
             "fullWidth": true,
             "blockClass": "image__section--two-mobile"
         }  
@@ -36,7 +36,7 @@
     "image#image__section--two-mobile":{
         "title": "Primera imagen mobile",
         "props":{
-            "src":"assets/img/precios-rojos-m.jpg",
+            "src":"assets/img/img-mob1.jpg",
             "fullWidth": true,
             "blockClass": "image__section--one-mobile"
         }  

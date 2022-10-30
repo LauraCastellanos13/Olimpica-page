@@ -10,12 +10,22 @@
     },
     "flex-layout.row#header__top--mobile": {
         "children": [
-            "rich-text#container__section--contact-one-mobile",
-            "rich-text#header__section--contact-two-mobile"
+            "flex-layout.col#header__top--mobile-one",
+            "flex-layout.col#header__top--mobile-two"
         ],
-        "props":{
+        "props": {
             "blockClass": "header_mobile_top"
         }
+    },
+    "flex-layout.col#header__top--mobile-one": {
+        "children": [
+            "rich-text#container__section--contact-one-mobile"
+        ]
+    },
+    "flex-layout.col#header__top--mobile-two": {
+        "children": [
+            "rich-text#container__section--contact-two-mobile"
+        ]
     },
     "rich-text#container__section--contact-one-mobile": {
         "props": {
@@ -23,7 +33,7 @@
             "blockClass": "header__section--top"
         }
     },
-    "rich-text#header__section--contact-two-mobile": {
+    "rich-text#container__section--contact-two-mobile": {
         "props": {
             "text": "Atención al cliente",
             "blockClass": "header__section--top"
