@@ -1,9 +1,0 @@
-{
-    "rich-text#home__mas-servicios-mobile": {
-        "props": {
-            "title": "Título más servicios",
-            "text": "Más servicios para ti",
-            "blockClass": "mas-servicios-mobile"
-        }
-    }
-}

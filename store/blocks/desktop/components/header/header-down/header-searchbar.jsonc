@@ -2,7 +2,8 @@
         "search-bar#header__desktop--searchbar": {
           "props": {
             "openAutoCompleteOnFocus": true,
-            "blockClass": "searchbar__desktop"
+            "blockClass": "searchbar__desktop",
+            "placeholder": "¿Qué estás buscando hoy?"
           }
         }
 }

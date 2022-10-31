@@ -1,25 +1,34 @@
-.imageElement--image__section--one-mobile{
+.imageElement--image__section--one-mobile {
     width: 100%;
     margin-top: 1rem
 }
 
-.imageElement--img-slider-one-m{
+.imageElement--img-slider-one-m {
     max-width: 185px;
-    padding-top:1rem;
+    padding-top: 1rem;
     width: 100%;
 }
 
-.imageElement--img-slider-two-m{
+.imageElement--img-slider-two-m {
     margin: 5px;
     max-width: 360px;
 }
 
-.imageElement--image__section--two-mobile{
+.imageElement--image__section--two-mobile {
     margin-top: 2rem;
 }
 
-.imageElement--img-slider-one-m-s{
+.imageElement--img-slider-one-m-s {
     margin-top: 2rem;
     border-radius: 15px;
     max-width: 360px;
+}
+
+.imageElement--section__four--images {
+    margin-top: 0.5rem
+}
+
+.imageElement--img__promotion {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }

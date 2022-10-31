@@ -1,4 +1,5 @@
-.paragraph--header__section--top{
+.paragraph--header__section--top {
     color: #fff;
-    justify-content: center
+    justify-content: center;
+    font-size: 14px;
 }

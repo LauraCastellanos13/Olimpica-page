@@ -12,7 +12,6 @@
             "rich-text#home__bestoffers",
             "flex-layout.row#home__section-dosuno",
             "image#home__banner--three",
-            /*"list-context.image-list#home__slider--list",*/
             "rich-text#home__homeoffers",
             "flex-layout.row#section__banner--promotions",
             "rich-text#home__preciosbajos",
@@ -22,16 +21,6 @@
             "slider-layout#home__slider--children",
             "rich-text#home__mas-servicios",
             "flex-layout.row#section___servicios"
-        ]
-    },
-    "flex-layout.row#section__banner--promotions": {
-        "children": [
-            "image#home__banner--one"
-        ]
-    },
-    "flex-layout.row#section__banner--beca": {
-        "children": [
-            "image#home__banner--two"
         ]
     }
 }
