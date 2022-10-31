@@ -67,7 +67,8 @@
             "image#image__images--phone-two"
         ],
         "props": {
-            "blockClass": "phone__image--one"
+            "blockClass": "phone__image--one",
+            "preserveLayoutOnMobile": true
         }
     },
     "image#image__images--phone": {
@@ -84,7 +85,31 @@
             "blockClass": "section__two--phone-images"
         }
     },
-/*Flex-layout four images*/
+    "flex-layout.row#phone__image--two": {
+        "children": [
+            "image#image__images--phone-2",
+            "image#image__images--phone-two-2"
+        ],
+        "props": {
+            "blockClass": "phone__image--two",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#image__images--phone-2": {
+        "title": "Imagen uno flex-layout",
+        "props": {
+            "src": "assets/img/img-fl1.jpg",
+            "blockClass": "section__two--phone-images"
+        }
+    },
+    "image#image__images--phone-two-2": {
+        "title": "Imagen uno flex-layout",
+        "props": {
+            "src": "assets/img/img-fl2.jpg",
+            "blockClass": "section__two--phone-images"
+        }
+    },
+    /*Flex-layout four images*/
     "flex-layout.row#section__four--images": {
         "children": [
             "flex-layout.col#phone__image--two"

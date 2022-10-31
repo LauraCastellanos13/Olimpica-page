@@ -1,18 +1,19 @@
-
 .headerRowContainer--header__middle,
-.headerRowContainer--header__top-mobile{
-    background-color: #E2001A
-}
-.headerRowBackground--header_top--desktop,
-.headerRowContainer--header__top{
+.headerRowContainer--header__top-mobile {
     background-color: #E2001A
 }
 
-.headerRowContainer--header__superior-mobile{
+.headerRowBackground--header_top--desktop,
+.headerRowContainer--header__top {
+    background-color: #E2001A
+}
+
+.headerRowContainer--header__superior-mobile {
     background-color: #192e36;
     justify-content: center;
     text-align: center;
 }
-.headerRowContainer--header__superior-mobile .container{
-    outline: 2px solid red; 
+
+.headerRowContainer--header__superior-mobile .container {
+    outline: 2px solid red;
 }

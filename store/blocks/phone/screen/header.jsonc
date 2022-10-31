@@ -1,6 +1,6 @@
 {
     "header-layout.mobile": {
-        "title": "Header Mobile",
+        "title": "Header Phone",
         "children": [
             "header-row#header__top-mobile",
             "header-row#header__middle-mobile",

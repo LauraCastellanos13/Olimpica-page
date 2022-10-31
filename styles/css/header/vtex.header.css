@@ -1,14 +1,11 @@
-.headerRowContainer--header__top{
+.headerRowContainer--header__top {
     width: 100%;
 }
 
-/*.sendButton{
-    background-color: #d5001a;
-}*/
-.headerRowBackground--header__top_contact{
+.headerRowBackground--header__top_contact {
     background-color: black;
 }
 
-.flexRow--container__header--top-desktop{
+.flexRow--container__header--top-desktop {
     width: 100%
 }
