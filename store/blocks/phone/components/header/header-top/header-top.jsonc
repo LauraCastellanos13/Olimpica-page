@@ -5,7 +5,8 @@
         ],
         "props": {
             "blockClass": "header__superior-mobile",
-            "fullWidth": true
+            "fullWidth": true,
+            "sticky": true
         }
     },
     "flex-layout.row#header__top--mobile": {
@@ -25,11 +26,11 @@
     },
     "flex-layout.row#header__top--mobile-one": {
         "children": [
-            "image#image__header--one",
+            //"image#image__header--one",
             "rich-text#container__section--contact-one-mobile"
         ]
     },
-    "image#image__header--one": {},
+    // "image#image__header--one": {},
     "rich-text#container__section--contact-one-mobile": {
         "props": {
             "text": "Venta telefónica",
@@ -43,7 +44,7 @@
     },
     "flex-layout.row#header__top--mobile-two": {
         "children": [
-            "icon#icon__header--one",
+            //"icon#icon__header--one",
             "rich-text#container__section--contact-two-mobile"
         ]
     },

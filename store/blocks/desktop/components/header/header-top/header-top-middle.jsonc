@@ -4,7 +4,7 @@
         "children": [
             "logo#header__top--logo",
             "drawer#header_desktop--menu",
-            "search-bar",
+            "search-bar#desktop__searchbar",
             "header-spacer",
             "login",
             "minicart.v2"
@@ -16,12 +16,6 @@
     "rich-text#ventas": {
         "props": {
             "text": "Venta telefónica"
-        }
-    },
-    "search-bar": {
-        "props": {
-            "blockClass": "searchbar__desktop",
-            "maxWidth": 650
         }
     },
     "modal-trigger#header__top-desktop--login": {

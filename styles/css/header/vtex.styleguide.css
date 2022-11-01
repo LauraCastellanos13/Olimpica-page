@@ -1,0 +1,5 @@
+.input::placeholder{
+    color: #e2001a;
+    font-weight: bold;
+    padding-left: 3rem;
+}

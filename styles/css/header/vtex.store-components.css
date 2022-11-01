@@ -1,3 +1,21 @@
 .imageElement--image__section--two-mobile {
     margin-top: 1.5rem;
 }
+
+.searchIcon--searchbar__desktop{
+    margin-left: -90rem;
+    color: #005aa8;
+}
+
+.searchBarIcon{
+    justify-content: center;
+    margin-right: -25px;
+}
+
+.searchIcon--searchbar__mobile{
+    display: none;
+}
+
+.searchBarContainer{
+    border-radius: 20px!important;
+}

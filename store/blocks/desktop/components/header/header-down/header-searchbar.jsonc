@@ -1,5 +1,5 @@
 {
-        "search-bar#header__desktop--searchbar": {
+        "search-bar#desktop__searchbar": {
           "props": {
             "openAutoCompleteOnFocus": true,
             "blockClass": "searchbar__desktop",

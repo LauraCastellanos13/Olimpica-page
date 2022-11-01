@@ -5,22 +5,23 @@
             "flex-layout.row#home__section--four",
             "flex-layout.row#home__section--one",
             "flex-layout.row#section__banner--beca",
-            "rich-text#home__offers-tech",
+            "rich-text#global__home--offers--tech",
             "flex-layout.row#home__slider--double",
             "flex-layout.row#home__section--two",
             "flex-layout.row#home__slider--double-double",
-            "rich-text#home__bestoffers",
+            "rich-text#global__home--bestoffers",
             "flex-layout.row#home__section-dosuno",
             "image#home__banner--three",
-            "rich-text#home__homeoffers",
+            "rich-text#global__home--homeoffers",
             "flex-layout.row#section__banner--promotions",
-            "rich-text#home__preciosbajos",
+            "rich-text#global__home--preciosbajos",
             "flex-layout.row#section__precios-bajos-one",
             "flex-layout.row#section__precios-bajos",
-            "rich-text#home__lanzamientos",
+            "rich-text#global__home--lanzamientos",
             "slider-layout#home__slider--children",
-            "rich-text#home__mas-servicios",
-            "flex-layout.row#section___servicios"
+            "rich-text#global__home--mas--servicios",
+            "flex-layout.row#section___servicios",
+            "search-result-layout.customQuery#home__search"
         ]
     }
 }
