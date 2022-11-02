@@ -1,0 +1,17 @@
+.menuContainerNav{
+    z-index:2; 
+    padding-left:20px; 
+    top:10px;
+    height: 100%;
+}
+.triggerContainer{
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+}
+
+.menuContainer, .submenuContainer{
+    max-height: 100%;
+}
+.styledLinkContent:hover{
+    color: grey;
+}
