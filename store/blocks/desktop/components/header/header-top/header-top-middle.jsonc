@@ -5,6 +5,7 @@
             "logo#header__top--logo",
             "flex-layout.row#mega__menu--desktop",
             "flex-layout.row#mega-menu",
+            "rich-text#categorias",
             "search-bar#desktop__searchbar",
             "header-spacer",
             "login",
@@ -34,5 +35,11 @@
         "children": [
             "login-content"
         ]
+    },
+    "rich-text#categorias":{
+        "props": {
+            "text": "Categorías",
+            "blockClass": "categorias__text"
+        }
     }
 }
