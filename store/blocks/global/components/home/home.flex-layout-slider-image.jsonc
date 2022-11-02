@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#global__slider--image": {
+        "children": [
+            "flex-layout.col#global__slider--image-one",
+            "flex-layout.col#global__slider--image--two"
+        ],
+        "props": {
+            "blockClass": "slider__image--block"
+        }
+    },
+    "flex-layout.col#global__slider--image-one": {
+        "children": [
+            "image#image__slider--image"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "image#image__slider--image": {
+        "props": {
+            "src": "assets/img/img12.jpg"
+        }
+    },
+    "flex-layout.col#global__slider--image--two": {
+        "children": [
+            "slider-layout#desktop__homeslider--children"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "slider-layout#desktop__homeslider--children": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2
+            },
+            "infinite": true,
+            "blockClass": "home__slider-one--mobile",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "image#home__slider--one-desktop",
+            "image#home__slider--two-desktop",
+            "image#home__slider--three-desktop",
+            "image#home__slider--four-desktop"
+        ]
+    },
+    "image#home__slider--one-desktop": {
+        "props": {
+            "src": "assets/img/sli-mob1.jpg",
+            "blockClass": "img-slider-one-desktop"
+        }
+    },
+    "image#home__slider--two-desktop": {
+        "props": {
+            "src": "assets/img/sli-mob2.jpg",
+            "blockClass": "img-slider-one-desktop"
+        }
+    },
+    "image#home__slider--three-desktop": {
+        "props": {
+            "src": "assets/img/sli-mob3.jpg",
+            "blockClass": "img-slider-one-desktop"
+        }
+    },
+    "image#home__slider--four-desktop": {
+        "props": {
+            "src": "assets/img/sli-mob4.jpg",
+            "blockClass": "img-slider-one-desktop"
+        }
+    }
+}

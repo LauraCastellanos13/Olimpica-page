@@ -38,3 +38,11 @@
 .flexRowContent--phone__image--two{
     margin-top: 2rem;
 }
+
+.imageElement--img-slider-one-desktop{
+    border-radius: 10px;
+}
+
+.imageElement--img-slider-one-desktop{
+    gap:3rem
+}
