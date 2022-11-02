@@ -12,3 +12,6 @@
 .menuContainer, .submenuContainer{
     max-height: 100%;
 }
+.styledLinkContent:hover{
+    color: grey;
+}
