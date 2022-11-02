@@ -9,7 +9,8 @@
         ],
         "props": {
             "blockClass": "header__top",
-            "fullWidth": true
+            "fullWidth": true,
+            "sticky": true
         }
     },
     "modal-trigger#header__top--login": {
@@ -25,10 +26,10 @@
     "header-row#header__down-mobile": {
         "title": "Header medio",
         "children": [
-            "search-bar"
+            "search-bar#mobile__searchbar"
         ],
         "props": {
-            "blockClass": "header__middle",
+            "blockClass": "header__middle--mobile",
             "fullWidth": true
         }
     }
