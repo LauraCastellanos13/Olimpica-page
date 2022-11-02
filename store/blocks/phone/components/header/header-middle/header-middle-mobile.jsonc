@@ -2,7 +2,7 @@
     "header-row#header__middle-mobile": {
         "title": "Header superior",
         "children": [
-            "drawer#header__mobile--menu",
+            "flex-layout.row#mobile__mega--menu",
             "logo#header__top--logo",
             "login",
             "minicart.v2"

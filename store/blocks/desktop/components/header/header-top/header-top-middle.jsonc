@@ -3,7 +3,8 @@
         "title": "Header superior",
         "children": [
             "logo#header__top--logo",
-            "drawer#header_desktop--menu",
+            "flex-layout.row#mega__menu--desktop",
+            "flex-layout.row#mega-menu",
             "search-bar#desktop__searchbar",
             "header-spacer",
             "login",
