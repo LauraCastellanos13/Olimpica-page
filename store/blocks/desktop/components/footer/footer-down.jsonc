@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#desktop__footer--section-three": {
+        "children": [
+            "flex-layout.col#desktop__footer--section-three"
+        ],
+        "props": {
+            "blockClass": "bloque__down"
+        }
+    },
+    "flex-layout.col#desktop__footer--section-three": {
+        "children": [
+            "rich-text#compra__segura__footer",
+            "rich-text#copyright__footer",
+            "rich-text#direccion__footer",
+            "rich-text#telefono__footer",
+            "flex-layout.row#powered__tech--footer"
+        ]
+    },
+    "rich-text#compra__segura__footer": {
+        "props": {
+            "text": "COMPRA SEGURA",
+            "blockClass": "compra__segura-footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "rich-text#copyright__footer": {
+        "props": {
+            "text": "Copyright o Actualización 2021 OLÍMPICA S.A.. Derechos reservados.",
+            "blockClass": "copyright__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "rich-text#direccion__footer": {
+        "props": {
+            "text": "Supertiendas y Drogería Olímpica S.A. - Nit 890.107.487 - Dirección de notificación: Calle 53 No. 46-192 local 3-01",
+            "blockClass": "direccion__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "rich-text#telefono__footer": {
+        "props": {
+            "text": "Supertiendas y Drogería Olímpica S.A. - Nit 890.107.487 - Dirección de notificación: Calle 53 No. 46-192 local 3-01",
+            "blockClass": "telefono__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "flex-layout.row#powered__tech--footer": {
+        "children": [
+            "flex-layout.col#powered-tech--footer",
+            "flex-layout.col#powered-tech--footer-two"
+        ]
+    },
+    "flex-layout.col#powered-tech--footer": {
+        "children": [
+            "rich-text#powered__footer"
+            //"image#image__powered--footer"
+        ]
+    },
+    "flex-layout.col#powered-tech--footer-two": {
+        "children": [
+            "rich-text#tech__footer"
+           // "image#image__tech--footer"
+        ]
+    },
+    "rich-text#powered__footer":{
+        "props":{
+            "text": "Powered by:",
+            "blockClass": "text__p--t",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "image#image__powered--footer":{
+        "props": {
+           // "src": "assets/img/"
+        }
+    },
+    "rich-text#tech__footer":{
+        "props":{
+            "text": "Technology",
+            "blockClass": "text__p--t",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER" 
+        }
+    },
+    "image#image__tech--footer":{
+        "props": {
+            //"src": "assets/img/"
+        }
+    }
+}

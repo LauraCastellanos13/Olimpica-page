@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#desktop__footer--section-two": {
+        "children": [
+            "flex-layout.col#footer__first--column",
+            "flex-layout.col#footer__second--column"
+        ],
+        "props": {
+            "blockClass": "container__second--footer-desktop"
+        }
+    },
+    "flex-layout.col#footer__first--column": {
+        "children": [
+            "image#image__olimpica--footer",
+            "rich-text#necesitas__ayuda",
+            "rich-text#barranquilla__phone",
+            "rich-text#pais__phone",
+            "rich-text#siguenos__footer",
+            "social-networks",
+            "rich-text#descarga__app--footer",
+            "flex-layout.row#descargas__img"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    },
+    "image#image__olimpica--footer": {
+        "props": {
+            "src": "assets/img/logo-footer.png",
+            "blockClass": "logo__footer--olimpica"
+        }
+    },
+    "rich-text#necesitas__ayuda": {
+        "props": {
+            "text": "¿NECESITAS AYUDA?",
+            "blockClass": "text__footer"
+        }
+    },
+    "rich-text#barranquilla__phone": {
+        "props": {
+            "text": "Barranquilla: 371 01 23",
+            "blockClass": "text__footer"
+        }
+    },
+    "rich-text#pais__phone": {
+        "props": {
+            "text": "Resto del país: 01 8000 510 510",
+            "blockClass": "text__footer"
+        }
+    },
+    "rich-text#siguenos__footer": {
+        "props": {
+            "texto": "SÍGUENOS",
+            "blockClass": "text__footer"
+        }
+    },
+    "social-networks": {
+        "title": "Redes sociales",
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://www.facebook.com/SupertiendaOlimpica",
+                    "name": "facebook"
+                },
+                {
+                    "url": "https://www.instagram.com/supertiendasolimpica/",
+                    "name": "instagram"
+                },
+                {
+                    "url": "https://twitter.com/olimpicaSA",
+                    "name": "twitter"
+                },
+                {
+                    "url": "https://www.youtube.com/channel/UCkD9Zd_ih6oH-j9nz3_oDmw",
+                    "name": "youtube"
+                }
+            ]
+        }
+    },
+    "rich-text#descarga__app--footer": {
+        "props": {
+            "text": "DESCARGA LA APP",
+            "blockClass": "text__footer"
+        }
+    },
+    "flex-layout.row#descargas__img": {
+        "children": [
+            "image#app__store",
+            "image#play__store"
+        ],
+        "props": {
+            "blockClass": "img__descargas-one"
+        }
+    },
+    "image#app__store": {
+        "props": {
+            "src": "assets/img/btn_apple.png",
+            "blockClass": "img__descargas"
+        }
+    },
+    "image#play__store": {
+        "props": {
+            "src": "assets/img/btn_playstpre.png",
+            "blockClass": "img__descargas"
+        }
+    },
+    "flex-layout.col#footer__second--column": {
+        "children": [
+            
+        ],
+        "props": {
+            "width": "80%"
+        }
+    }
+}

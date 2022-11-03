@@ -1,0 +1,33 @@
+.paragraph--text__newsletter{
+    color: #fff;
+    font-weight: 700;
+}
+
+.paragraph--text__footer{
+    color: #d9d9d9;
+    font-size: 12px;
+}
+
+.paragrapg--compra__segura-footer{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    color: #607d8b;
+    font-size: .9rem;
+}
+.paragraph--copyright__footer{
+    color: #607d8b!important;
+    font-size: 10px;
+    text-align: center
+}
+.paragraph--direccion__footer,
+.paragraph--telefono__footer{
+    color: #607d8b;
+    font-size: 10px;
+    text-align: center;
+}
+
+.paragraph--text__p--t{
+    color: #fff;
+    font-size: 11px;
+}

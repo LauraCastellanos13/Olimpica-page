@@ -2,16 +2,16 @@
     margin-top: 1.5rem;
 }
 
-.searchIcon--searchbar__desktop{
+.searchIcon--searchbar__desktop {
     margin-left: -90rem;
     color: #005aa8;
 }
 
-.searchBarIcon{
+.searchBarIcon {
     justify-content: center;
     margin-right: -25px;
 }
 
-.searchIcon--searchbar__mobile{
+.searchIcon--searchbar__mobile {
     display: none;
 }
