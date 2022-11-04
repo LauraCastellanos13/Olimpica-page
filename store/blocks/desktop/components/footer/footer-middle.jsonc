@@ -2,7 +2,11 @@
     "flex-layout.row#desktop__footer--section-two": {
         "children": [
             "flex-layout.col#footer__first--column",
-            "flex-layout.col#footer__second--column"
+            "flex-layout.col#footer__second--column",
+            "flex-layout.col#footer__third--column",
+            "flex-layout.col#footer__fourth--column",
+            "flex-layout.col#footer__fifth--column",
+            "flex-layout.col#footer__sixty--column"
         ],
         "props": {
             "blockClass": "container__second--footer-desktop"
@@ -19,8 +23,9 @@
             "rich-text#descarga__app--footer",
             "flex-layout.row#descargas__img"
         ],
-        "props": {
-            "width": "20%"
+        "props":{
+            "width": "30%",
+            "blockClass": "footer_column--one"
         }
     },
     "image#image__olimpica--footer": {
@@ -88,7 +93,12 @@
             "image#play__store"
         ],
         "props": {
-            "blockClass": "img__descargas-one"
+            "blockClass": "img__descargas-one",
+            "colSizing":"auto",
+            "colJustify": "around",
+           "horizontalAlign":"center",
+            "colGap":1,
+            "preventVerticalStretch":true
         }
     },
     "image#app__store": {
@@ -105,10 +115,570 @@
     },
     "flex-layout.col#footer__second--column": {
         "children": [
-            
+            "rich-text#footer__container-col-one-categorias",
+            "menu#categories"
+        ],
+        "props":{
+            "blockClass": "footer_column--two"
+        }
+    },
+    "rich-text#footer__container-col-one-categorias": {
+        "title": "Titulo menú uno desktop footer ",
+        "props": {
+            "text": "CATEGORÍAS",
+            "blockClass": "footer__container-col-categorias"
+        }
+    },
+    "menu#categories": {
+        "title": "Menú uno footer: contenedor",
+        "children": [
+            "menu-item#electro-hogar",
+            "menu-item#tv-audio-video",
+            "menu-item#tecnologia-celulares",
+            "menu-item#hogar",
+            "menu-item#jugueteria"
         ],
         "props": {
-            "width": "80%"
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#electro-hogar": {
+        "title": "Menú uno categorías: link uno",
+        "props": {
+            "id": "footer__menu-electro--hogar",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "electro hogar",
+                "text": "Electro hogar"
+            }
+        }
+    },
+    "menu-item#tv-audio-video": {
+        "title": "Menú uno categorías: link dos",
+        "props": {
+            "id": "footer__menu-tv-audio-video",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "TV, audio y video",
+                "text": "TV, audio y video"
+            }
+        }
+    },
+    "menu-item#tecnologia-celulares": {
+        "title": "Menú uno categorías: link tres",
+        "props": {
+            "id": "footer__menu-tech-celulares",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Tecnología y Celulares",
+                "text": "Tecnología y Celulares"
+            }
+        }
+    },
+    "menu-item#hogar": {
+        "title": "Menú uno categorías: link cuatro",
+        "props": {
+            "id": "footer__menu--hogar",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Hogar",
+                "text": "Hogar"
+            }
+        }
+    },
+    "menu-item#jugueteria": {
+        "title": "Menú uno categorías: link cinco",
+        "props": {
+            "id": "footer__menu--jugueteria",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Juguetería",
+                "text": "Juguetería"
+            }
+        }
+    },
+    "flex-layout.col#footer__third--column": {
+        "children": [
+            "rich-text#footer__container-col-one-contenido",
+            "menu#contenido"
+        ],
+        "props":{
+            "blockClass": "footer_column--three"
+        }
+    },
+    "rich-text#footer__container-col-one-contenido": {
+        "title": "Titulo menú uno desktop footer ",
+        "props": {
+            "text": "CONTENIDO",
+            "blockClass": "footer__container-col-categorias"
+        }
+    },
+    "menu#contenido": {
+        "title": "Menú uno footer: contenedor",
+        "children": [
+            "menu-item#sabores__olimpica",
+            "menu-item#catalogos",
+            "menu-item#tarjeta__olimpica",
+            "menu-item#tarjeta__plata",
+            "menu-item#app-olimpica",
+            "menu-item#garantia-extendida"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#sabores__olimpica": {
+        "title": "Menú dos categorías: link uno",
+        "props": {
+            "id": "footer__menu-sabores--olimpica",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Sabores Olímpica",
+                "text": "Sabores Olímpica"
+            }
+        }
+    },
+    "menu-item#catalogos": {
+        "title": "Menú dos categorías: link dos",
+        "props": {
+            "id": "footer__menu-catalogos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Catálogos",
+                "text": "Catálogos"
+            }
+        }
+    },
+    "menu-item#tarjeta__olimpica": {
+        "title": "Menú dos categorías: link tres",
+        "props": {
+            "id": "footer__menu-tarjeta--olimpica",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Tarjeta Olímpica",
+                "text": "Tarjeta Olímpica"
+            }
+        }
+    },
+    "menu-item#tarjeta__plata": {
+        "title": "Menú dos categorías: link cuatro",
+        "props": {
+            "id": "footer__menu--tarjeta--plata",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Tarjeta Plata",
+                "text": "Tarjeta Plata"
+            }
+        }
+    },
+    "menu-item#app-olimpica": {
+        "title": "Menú doscategorías: link cinco",
+        "props": {
+            "id": "footer__menu--app-olimpica",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "App Olímpica",
+                "text": "App Olímpica"
+            }
+        }
+    },
+    "menu-item#garantia-extendida": {
+        "title": "Menú dos categorías: link seis",
+        "props": {
+            "id": "footer__menu--garantia--extendida",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Garantía Extendida",
+                "text": "Garantía Extendida"
+            }
+        }
+    },
+    "flex-layout.col#footer__fourth--column": {
+        "children": [
+            "rich-text#footer__container-col-one-nuestra--empresa",
+            "menu#nuestra__empresa"
+        ],
+        "props":{
+            "blockClass": "footer_column--four"
+        }
+    },
+    "rich-text#footer__container-col-one-nuestra--empresa": {
+        "title": "Titulo menú tres desktop footer ",
+        "props": {
+            "text": "NUESTRA EMPRESA",
+            "blockClass": "footer__container-col-nuestra--empresa"
+        }
+    },
+    "menu#nuestra__empresa": {
+        "title": "Menú tres footer: contenedor",
+        "children": [
+            "menu-item#nuestras__tiendas",
+            "menu-item#domicilios",
+            "menu-item#quienes__somos",
+            "menu-item#trabaja__con--nosotros",
+            "menu-item#noticias"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#nuestras__tiendas": {
+        "title": "Menú tres nuestra empresa: link uno",
+        "props": {
+            "id": "footer__menu--nuestras--tiendas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Nuestras tiendas",
+                "text": "Nuestras tiendas"
+            }
+        }
+    },
+    "menu-item#domicilios": {
+        "title": "Menú tres nuestra empresa: link dos",
+        "props": {
+            "id": "footer__menu--domicilios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Domicilios",
+                "text": "Domicilios"
+            }
+        }
+    },
+    "menu-item#quienes__somos": {
+        "title": "Menú tres nuestra empresa: link tres",
+        "props": {
+            "id": "footer__menu--qiuienes--somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Quiénes somos",
+                "text": "Quiénes somos"
+            }
+        }
+    },
+    "menu-item#trabaja__con--nosotros": {
+        "title": "Menú tres nuestra empresa: link cuatro",
+        "props": {
+            "id": "footer__menu--trabaja--con-nosotros",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Trabaja con nosotros",
+                "text": "Trabaja con nosotros"
+            }
+        }
+    },
+    "menu-item#noticias": {
+        "title": "Menú tres nuestra empresa: link cinco",
+        "props": {
+            "id": "footer__menu--noticias",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Noticias",
+                "text": "Noticias"
+            }
+        }
+    },
+    "flex-layout.col#footer__fifth--column": {
+        "children": [
+            "rich-text#footer__container-col-one--infromacion-legal",
+            "menu#informacion__legal"
+        ],
+        "props":{
+            "blockClass": "footer_column--fifth"
+        }
+    },
+    "rich-text#footer__container-col-one--infromacion-legal": {
+        "title": "Titulo menú tres desktop footer ",
+        "props": {
+            "text": "INFORMACIÓN LEGAL",
+            "blockClass": "footer__container-col--infromacion-legal"
+        }
+    },
+    "menu#informacion__legal": {
+        "title": "Menú tres footer: contenedor",
+        "children": [
+            "menu-item#informacion__legal",
+            "menu-item#term__y--cond",
+            "menu-item#terminos__marketplace",
+            "menu-item#politica__y--privacidad",
+            "menu-item#aviso__de--privacidad",
+            "menu-item#reglamento--de__tarjeta--plata",
+            "menu-item#politica__de--revision--pago",
+            "menu-item#tdt",
+            "menu-item#todo__sobre--tdt",
+            "menu-item#lineas__atencion--marcas",
+            "menu-item#sic",
+            "menu-item#comunicacion__clientes",
+            "menu-item#comunicacion__proveedores",
+            "menu-item#promociones__vigentes"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#informacion__legal": {
+        "title": "Menú cinco nuestra empresa: link uno",
+        "props": {
+            "id": "footer__menu--info--legal",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Información Legal",
+                "text": "Información Legal"
+            }
+        }
+    },
+    "menu-item#term__y--cond": {
+        "title": "Menú cinco informacion legal: link dos",
+        "props": {
+            "id": "footer__menu--term--cond",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Términos y condiciones",
+                "text": "Términos y condiciones"
+            }
+        }
+    },
+    "menu-item#terminos__marketplace": {
+        "title": "Menú cinco informacion legal: link tres",
+        "props": {
+            "id": "footer__menu--term--marketplace",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Términos de Martketplace",
+                "text": "Términos de Martketplace"
+            }
+        }
+    },
+    "menu-item#politica__y--privacidad": {
+        "title": "Menú cinco informacion legal: link cuatro",
+        "props": {
+            "id": "footer__menu--pol-priv",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Politica de Privacidad",
+                "text": "Politica de Privacidad"
+            }
+        }
+    },
+    "menu-item#aviso__de--privacidad": {
+        "title": "Menú cinco informacion legal: link cinco",
+        "props": {
+            "id": "footer__menu--aviso--priv",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Aviso de Privacidad",
+                "text": "Aviso de Privacidad"
+            }
+        }
+    },
+    "menu-item#reglamento--de__tarjeta--plata": {
+        "title": "Menú cinco informacion legal: link seis",
+        "props": {
+            "id": "footer__menu--noticias",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Noticias",
+                "text": "Noticias"
+            }
+        }
+    },
+    "menu-item#politica__de--revision--pago": {
+        "title": "Menú cinco nuestra empresa: link siete",
+        "props": {
+            "id": "footer__menu--reversion--pago",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Política de Reversión de pago",
+                "text": "Política de Reversión de pago"
+            }
+        }
+    },
+    "menu-item#tdt": {
+        "title": "Menú cinco informacion legal: link ocho",
+        "props": {
+            "id": "footer__menu--tdt",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "TDT",
+                "text": "TDT"
+            }
+        }
+    },
+    "menu-item#todo__sobre--tdt": {
+        "title": "Menú cinco informacion legal: link nueve",
+        "props": {
+            "id": "footer__menu--todo--tdt",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Todo sobre TDT",
+                "text": "Todo sobre TDT"
+            }
+        }
+    },
+    "menu-item#lineas__atencion--marcas": {
+        "title": "Menú cinco informacion legal: link diez",
+        "props": {
+            "id": "footer__menu--lineas--marcas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Líneas de atención a marcas",
+                "text": "Líneas de atención a marcas"
+            }
+        }
+    },
+    "menu-item#sic": {
+        "title": "Menú cinco informacion legal: link once",
+        "props": {
+            "id": "footer__menu--sic",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "sic",
+                "text": "Superintendencia de industria y comercio - SIC"
+            }
+        }
+    },
+    "menu-item#comunicacion__clientes": {
+        "title": "Menú cinco informacion legal: link doce",
+        "props": {
+            "id": "footer__menu--com--clientes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Comunicación Clientes",
+                "text": "Comunicación Clientes"
+            }
+        }
+    },
+    "menu-item#comunicacion__proveedores": {
+        "title": "Menú cinco informacion legal: link trece",
+        "props": {
+            "id": "footer__menu--com--provedores",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Comunicación proveedores",
+                "text": "Comunicación proveedores"
+            }
+        }
+    },
+    "menu-item#promociones__vigentes": {
+        "title": "Menú cinco informacion legal: link catorce",
+        "props": {
+            "id": "footer__menu--prom--vig",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Promociones Vigentes",
+                "text": "Promociones Vigentes"
+            }
+        }
+    },
+    "flex-layout.col#footer__sixty--column": {
+        "children": [
+            "rich-text#footer__container-col-one-servicio--cliente",
+            "menu#servicio__al--cliente"
+        ],
+    "props":{
+        "blockClass": "footer_column--six"
+    }
+    },
+    "rich-text#footer__container-col-one-servicio--cliente": {
+        "title": "Titulo menú tres desktop footer ",
+        "props": {
+            "text": "NUESTRA EMPRESA",
+            "blockClass": "footer__container-col-nuestra--empresa"
+        }
+    },
+    "menu#servicio__al--cliente": {
+        "title": "Menú cinco footer: contenedor",
+        "children": [
+            "menu-item#preguntas__frecuentes",
+            "menu-item#contactenos"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#preguntas__frecuentes": {
+        "title": "Menú cinco nuestra empresa: link uno",
+        "props": {
+            "id": "footer__menu--preguntas--frecuentes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Preguntas frecuentes",
+                "text": "Preguntas frecuentes"
+            }
+        }
+    },
+    "menu-item#contactenos": {
+        "title": "Menú cinco nuestra empresa: link dos",
+        "props": {
+            "id": "footer__menu--contactenos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Contáctenos",
+                "text": "Contáctenos"
+            }
         }
     }
 }

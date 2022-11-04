@@ -10,15 +10,18 @@
     },
     "flex-layout.col#desktop__footer--section--one": {
         "children": [
-            "rich-text#desktop__text-newsletter"
+            "rich-text#newsletter"
         ]
     },
     "flex-layout.col#desktop__footer--section--two": {
         "children": [
-           //"newsletter-form"
-        ]
+            "newsletter-form"
+        ],
+        "props":{
+            "blockClass": "newsletter__form"
+        }
     },
-    "rich-text#desktop__text-newsletter": {
+    "rich-text#newsletter":{
         "title": "Nuestro boletín de ofertas",
         "props": {
             "text": "Nuestro boletín de ofertas",
@@ -29,12 +32,16 @@
     },
     "newsletter-form": {
         "children": [
+         
             "newsletter-input-email",
             "newsletter-input-name",
             //"firstLabelLink",
             //"secondLabelLink",
             "newsletter-submit"
-        ]
+        ],
+        "props":{
+            "blockClass": "newsletter__container"
+        }
     },
     "newsletter-input-email": {
         "props": {
