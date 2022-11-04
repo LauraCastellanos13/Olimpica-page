@@ -51,7 +51,9 @@
     "vtex.store-link": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.search": "1.x",
-    "vtex.checkout": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.store-newsletter": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

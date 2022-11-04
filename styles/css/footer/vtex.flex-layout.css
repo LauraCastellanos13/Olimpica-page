@@ -1,0 +1,46 @@
+.flexRow--newsletter__desktop {
+    background-color: #30393e;
+}
+
+.flexRow--container__second--footer-desktop {
+    padding-top: 2rem;
+    background-color: #30393e;
+    padding-bottom: 2rem;
+}
+.flexRow--bloque__down{
+    background-color: #30393e;
+}
+
+.flexColChild--container__powered-footer{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+}
+
+.flexColChild--container__powered-footer{
+    display: grid;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.flexRowContent--powered__tech-footer {
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.flexRowContent--img__descargas-one{
+    padding-right: 16rem;
+}
+
+.flexRowContent--newsletter__desktop{
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 49rem) {
+    .flexRow--container__second--footer-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+    }
+}
