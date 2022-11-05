@@ -3,12 +3,13 @@
 }
 
 .flexRow--container__second--footer-desktop {
-    padding-top: 2rem;
+    padding-top: 5rem;
     background-color: #30393e;
     padding-bottom: 2rem;
 }
 .flexRow--bloque__down{
     background-color: #30393e;
+    padding-top: 4rem;
 }
 
 .flexColChild--container__powered-footer{
@@ -29,11 +30,18 @@
 }
 
 .flexRowContent--img__descargas-one{
-    padding-right: 16rem;
+    padding-right: 15rem;
 }
 
 .flexRowContent--newsletter__desktop{
     padding-top: 2rem;
+}
+.flexColChild--footer_column--six {
+    padding-right: 1.5rem;
+}
+
+.flexColChild--footer_column--one{
+    margin-right: 2rem;
 }
 
 @media only screen and (max-width: 49rem) {

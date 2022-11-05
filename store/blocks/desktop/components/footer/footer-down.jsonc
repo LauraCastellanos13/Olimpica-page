@@ -14,7 +14,10 @@
             "rich-text#direccion__footer",
             "rich-text#telefono__footer",
             "flex-layout.row#powered__tech--footer"
-        ]
+        ],
+        "props":{
+            "preventVerticalStretch": true
+        }
     },
     "rich-text#compra__segura__footer": {
         "props": {
