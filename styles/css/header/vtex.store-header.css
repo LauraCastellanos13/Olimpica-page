@@ -1,5 +1,19 @@
-.headerRowContainer--header__top,
-.headerRowContainer--header__middle {
-    background-color: #E2001A;
-    width: 100%;
+.headerRowContainer--header__middle,
+.headerRowContainer--header__top-mobile {
+    background-color: #E2001A
+}
+
+.headerRowBackground--header_top--desktop,
+.headerRowContainer--header__top {
+    background-color: #E2001A
+}
+
+.headerRowContainer--header__superior-mobile {
+    background-color: #192e36;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerRowContainer--header__middle--mobile{
+    background-color:#e2001a ;
 }

@@ -1,0 +1,102 @@
+{
+    "header-row#header__middle": {
+        "title": "Header superior",
+        "children": [
+            "logo#header__top--logo",
+            "flex-layout.row#mega__menu--desktop",
+            "flex-layout.row#mega-menu",
+            "rich-text#categorias",
+            "search-bar#desktop__searchbar",
+            "header-spacer",
+            "flex-layout.row#lista__pedido",
+            "flex-layout.row#mi__carrito",
+            "login"
+            
+        ],
+        "props": {
+            "blockClass": "header_top--desktop"
+        }
+    },
+    "rich-text#ventas": {
+        "props": {
+            "text": "Venta telefónica"
+        }
+    },
+    "modal-trigger#header__top-desktop--login": {
+        "children": [
+            "rich-text#header_top-d--login",
+            "modal-layout#header_top-d--login"
+        ]
+    },
+    "rich-text#header_top-d--login": {
+        "props": {
+            "text": "login"
+        }
+    },
+    "modal-layout#header_top-d--login": {
+        "children": [
+            "login-content"
+        ]
+    },
+    "rich-text#categorias": {
+        "props": {
+            "text": "Categorías",
+            "blockClass": "categorias__text"
+        }
+    },
+    "flex-layout.row#mi__carrito":{
+        "children":[
+            "flex-layout.col#mi__carrito"
+        ]
+    },
+    "flex-layout.col#mi__carrito": {
+        "children": [
+            "minicart.v2",
+            "rich-text#minicart-text"
+        ],
+        "props":{
+            "width": "25%",
+            "horizontalAlign": "center",
+           "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "colGap":1
+        }
+    },
+    "rich-text#minicart-text": {
+        "props": {
+            "text": "Carrito",
+            "blockClass": "mi__carrito--text"
+        }
+    },
+    "flex-layout.row#lista__pedido":{
+        "children":[
+            "flex-layout.col#lista__pedido"
+        ]
+    },
+    "flex-layout.col#lista__pedido": {
+        "children": [
+            "icon#lista__pedido",
+            "rich-text#lista__pedido"
+        ],
+        "props":{
+            //"width": "25%",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "colGap":1
+        }
+    },
+    "icon#lista__pedido": {
+        "props": {
+          "id": "sti-list-delivery",
+          "blockClass": "icon__lista--pedido",
+          "viewBox": "0 0 24 24",
+          "size": 20
+        }
+      },
+    "rich-text#lista__pedido": {
+        "props": {
+            "text": "Lista de pedido",
+            "blockClass": "lista__pedido"
+        }
+    }
+}

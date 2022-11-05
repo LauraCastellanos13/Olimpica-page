@@ -1,0 +1,25 @@
+.flexRowContent--section__servicios {
+    margin-bottom: 5rem;
+}
+
+.flexRow--home__section--one,
+.flexRowContent--best__offers {
+    gap: 3rem
+}
+
+.flexRowContent--best__offers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.flexRow--slider__image--block {
+    margin-top: 1rem;
+}
+
+.flexRowContent--slider__image--block {
+    gap: 3rem
+}
+
+.flexRowContent--seccion__botones{
+    padding-top: 0.4rem;
+}

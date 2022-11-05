@@ -1,0 +1,14 @@
+{
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "Ej.:ejemplo@mail.com",
+            "passwordPlaceholder": "Ingrese su contraseña",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "isInitialScreenOptionOnly": false,
+            "defaultOption": 1
+        }
+    }
+}

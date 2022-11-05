@@ -1,0 +1,39 @@
+{
+  "rich-text#global__home--offers--tech": {
+    "title": "Título promociones",
+    "props": {
+      "text": " ### ¡Ofertas imperdibles en tecnología!"
+    }
+  },
+  "rich-text#global__home--bestoffers": {
+    "title": "Título mejores ofertas",
+    "props": {
+      "text": " ### Conoce las mejores ofertas"
+    }
+  },
+  "rich-text#global__home--homeoffers": {
+    "title": "Título ofertas hogar",
+    "props": {
+      "text": " ### Renueva tu Hogar con Las mejores Ofertas"
+    }
+  },
+  "rich-text#global__home--preciosbajos": {
+    "title": "Título precios bajos",
+    "props": {
+      "text": " ### Siempre precios Bajos para ti"
+    }
+  },
+  "rich-text#global__home--lanzamientos": {
+    "title": "Título lanzamientos de la semana",
+    "props": {
+      "text": " ### Lanzamientos de la semana"
+    }
+  },
+  "rich-text#global__home--mas--servicios": {
+    "title": "Título más servicios",
+    "props": {
+      "text": "Más servicios para ti",
+      "blockClass": "mas-servicios"
+    }
+  }
+}

@@ -1,3 +1,11 @@
-.headerRowContainer--header__top{
+.headerRowContainer--header__top {
     width: 100%;
+}
+
+.headerRowBackground--header__top_contact {
+    background-color: black;
+}
+
+.flexRow--container__header--top-desktop {
+    width: 100%
 }

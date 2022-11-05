@@ -28,6 +28,18 @@
             "width": "50%"
         }
     },
+    "image#home_image--layout-double":{
+        "title": "Imagen doble",
+        "props":{
+            "src": "assets/img/img-cdc1.jpg"
+        }
+    },
+    "image#home_image--layout-double2":{
+        "title": "Imagen doble",
+        "props": {
+            "src": "assets/img/img-cdc2.jpg"
+        }
+    },
     /*Flex-layout with two images*/
     "flex-layout.row#home__slider--double-double": {
         "title": "Flex two with two images",
@@ -57,5 +69,18 @@
         "props": {
             "width": "50%"
         }
+    },
+    "image#home_image--layout-double3": {
+        "title": "Imagen doble",
+        "props": {
+            "src": "assets/img/img-cdc3.jpg"
+          }
+    },
+    "image#home_image--layout-double4": {
+        "title": "Imagen doble",
+        "props": {
+            "src": "assets/img/img-cdc4.jpg"
+          }
     }
+
 }

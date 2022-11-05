@@ -1,4 +1,14 @@
 {
+    "flex-layout.row#section__banner--promotions": {
+        "children": [
+            "image#home__banner--one"
+        ]
+    },
+    "flex-layout.row#section__banner--beca": {
+        "children": [
+            "image#home__banner--two"
+        ]
+    },
     "image#home__banner--principal": {
         "title": "Banner principal",
         "props": {

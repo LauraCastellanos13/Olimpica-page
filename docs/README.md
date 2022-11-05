@@ -1,1 +1,1 @@
-# Replica página Olimpica
+# Store Theme Olimpica

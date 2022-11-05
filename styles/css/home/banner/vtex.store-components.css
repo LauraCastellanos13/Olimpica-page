@@ -1,0 +1,16 @@
+.imageElement--home__banner-two {
+    margin-top: 1rem;
+    border-radius: 15px
+}
+
+.imageElement--home__banner-principal {
+    margin-bottom: 1rem;
+    margin-left: 9%;
+    width: 82%
+}
+
+.imageElement--home__banner-three {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 10%
+}
