@@ -1,7 +1,9 @@
 .flexRow--newsletter__desktop {
     background-color: #30393e;
 }
-
+.flexCol--footer_column--one{
+    padding-left: 4rem;
+}
 .flexRow--container__second--footer-desktop {
     padding-top: 5rem;
     background-color: #30393e;
@@ -30,7 +32,7 @@
 }
 
 .flexRowContent--img__descargas-one{
-    padding-right: 15rem;
+    padding-right: 10rem;
 }
 
 .flexRowContent--newsletter__desktop{
@@ -41,14 +43,21 @@
 }
 
 .flexColChild--footer_column--one{
-    margin-right: 2rem;
+    margin-right: 2rem
 }
 
-@media only screen and (max-width: 49rem) {
+@media (max-width: 49rem) {
     .flexRow--container__second--footer-desktop {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center
+    };
+    .flexCol--footer_column--one{
+        display: flex !important;
+        align-items: center !important
+    };
+    .flexRowContent--img__descargas-one{
+        padding-left: 5rem
     }
 }

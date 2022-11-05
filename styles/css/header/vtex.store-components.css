@@ -3,7 +3,7 @@
 }
 
 .searchIcon--searchbar__desktop {
-    margin-left: -90rem;
+    margin-left: -66rem;
     color: #005aa8;
 }
 
@@ -18,4 +18,7 @@
 
 .searchBarContainer :global(.vtex-input-prefix__group){
     border-radius: 1.25rem;
+}
+.searchBarInnerContainer--searchbar__desktop{
+    width: 75%;
 }
