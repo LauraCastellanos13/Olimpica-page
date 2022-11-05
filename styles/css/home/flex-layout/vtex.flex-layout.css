@@ -19,3 +19,7 @@
 .flexRowContent--slider__image--block {
     gap: 3rem
 }
+
+.flexRowContent--seccion__botones{
+    padding-top: 0.4rem;
+}

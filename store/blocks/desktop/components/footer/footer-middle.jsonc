@@ -9,7 +9,8 @@
             "flex-layout.col#footer__sixty--column"
         ],
         "props": {
-            "blockClass": "container__second--footer-desktop"
+            "blockClass": "container__second--footer-desktop",
+            "colSizing": "auto"
         }
     },
     "flex-layout.col#footer__first--column": {
@@ -97,7 +98,7 @@
             "colSizing":"auto",
             "colJustify": "around",
            "horizontalAlign":"center",
-            "colGap":1,
+            "colGap":3,
             "preventVerticalStretch":true
         }
     },
@@ -119,7 +120,9 @@
             "menu#categories"
         ],
         "props":{
-            "blockClass": "footer_column--two"
+            "blockClass": "footer_column--two",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "right"
         }
     },
     "rich-text#footer__container-col-one-categorias": {
@@ -213,14 +216,16 @@
             "menu#contenido"
         ],
         "props":{
-            "blockClass": "footer_column--three"
+            "blockClass": "footer_column--three",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "right"
         }
     },
     "rich-text#footer__container-col-one-contenido": {
         "title": "Titulo menú uno desktop footer ",
         "props": {
             "text": "CONTENIDO",
-            "blockClass": "footer__container-col-categorias"
+            "blockClass": "footer__container-col-contenido"
         }
     },
     "menu#contenido": {
@@ -321,7 +326,9 @@
             "menu#nuestra__empresa"
         ],
         "props":{
-            "blockClass": "footer_column--four"
+            "blockClass": "footer_column--four",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "right"
         }
     },
     "rich-text#footer__container-col-one-nuestra--empresa": {
@@ -415,7 +422,9 @@
             "menu#informacion__legal"
         ],
         "props":{
-            "blockClass": "footer_column--fifth"
+            "blockClass": "footer_column--fifth",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "right"
         }
     },
     "rich-text#footer__container-col-one--infromacion-legal": {
@@ -438,7 +447,7 @@
             "menu-item#tdt",
             "menu-item#todo__sobre--tdt",
             "menu-item#lineas__atencion--marcas",
-            "menu-item#sic",
+           // "menu-item#sic",
             "menu-item#comunicacion__clientes",
             "menu-item#comunicacion__proveedores",
             "menu-item#promociones__vigentes"
@@ -635,14 +644,16 @@
             "menu#servicio__al--cliente"
         ],
     "props":{
-        "blockClass": "footer_column--six"
+        "blockClass": "footer_column--six",
+        "preventVerticalStretch": true,
+        "horizontalAlign": "right"
     }
     },
     "rich-text#footer__container-col-one-servicio--cliente": {
         "title": "Titulo menú tres desktop footer ",
         "props": {
-            "text": "NUESTRA EMPRESA",
-            "blockClass": "footer__container-col-nuestra--empresa"
+            "text": "SERVICIO AL CLIENTE",
+            "blockClass": "footer__container-col-servicio--cliente"
         }
     },
     "menu#servicio__al--cliente": {
@@ -652,7 +663,8 @@
             "menu-item#contactenos"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "col__servicio--cliente"
         }
     },
     "menu-item#preguntas__frecuentes": {

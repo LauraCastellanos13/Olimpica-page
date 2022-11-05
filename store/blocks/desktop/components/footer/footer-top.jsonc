@@ -29,46 +29,5 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER"    
         }
-    },
-    "newsletter-form": {
-        "children": [
-         
-            "newsletter-input-email",
-            "newsletter-input-name",
-            //"firstLabelLink",
-            //"secondLabelLink",
-            "newsletter-submit"
-        ],
-        "props":{
-            "blockClass": "newsletter__container"
-        }
-    },
-    "newsletter-input-email": {
-        "props": {
-            "placeholderText": "Ingrese su dirección de correo electrónico"
-        }
-    },
-    "newsletter-input-name": {
-        "props": {
-            "placeholderText": "Introduzca su nombre"
-        }
-    },
-    /*"firstLabelLink": {
-        "props": {
-            "text": "Acepto: Aviso de Privacidad y he sido informado de la Polí­tica de Privacidad de Olí­mpica."
-            //"blockClass": "chebox__suscribe"
-        }
-    },
-    "secondLabelLink": {
-        "props": {
-            "text": "Quiero recibir comunicación con ofertas, lanzamientos y promociones de Olímpica"
-            //"blockClass": "chebox__suscribe"
-        }
-    },*/
-    "newsletter-submit": {
-        "props": {
-            "submitButtonLabel": "SUSCRIBIR"
-            //"blockClass": "btn__suscribe"
-        }
     }
 }

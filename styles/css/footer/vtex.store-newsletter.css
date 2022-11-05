@@ -1,6 +1,7 @@
 .emailInputContainer,
 .nameInputContainer{
     padding-bottom: 1rem;
+    border-radius: 1.25rem;
 }
 
 .formSubmitContainer{

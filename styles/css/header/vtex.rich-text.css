@@ -1,11 +1,20 @@
 .paragraph--header__section--top {
     color: #fff;
     justify-content: center;
-    font-size: 14px;
+    font-size: 14px
 }
 .paragraph--categorias__text{
     color: #fff;
     font-weight: bold;
     padding-left: 0.5rem;
-    padding-right: 1rem;
+    padding-right: 1rem
+}
+
+.paragraph--mi__carrito--text{
+    color: #fff;
+    font-size: 10px
+}
+.paragraph--lista__pedido{
+    color: #fff;
+    font-size: 10px
 }
