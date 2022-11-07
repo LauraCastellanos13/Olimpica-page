@@ -12,3 +12,43 @@
     width: 100%;
     padding-left: 2rem;
 }
+
+.flexColChild--telefono__header :global(.vtex-menu){
+    font-size: 20px !important
+}
+
+@media screen and (max-width: 768px) {
+    .flexRow--header_mobile_top {
+        padding-left: 0;
+        padding-right: .8rem;
+    }
+    .flexColChild--telefono__header{
+        padding-left: 2rem;
+    }
+    .flexColChild--header__top--mobile--t{
+        padding-left: 3rem;
+        
+    }
+}
+@media screen and (max-width: 550px) {
+    .flexColChild--header__top--mobile--t,
+    .flexColChild--header__top--mobile--tt {
+        display: none;
+    }
+    .flexColChild--header__mobile--top--two{
+        padding-left: 6rem;
+    }
+    .flexRowContent--header_mobile_top{
+        padding-right: 2rem;
+    }
+}
+
+.flexColChild--mi__carrito--text{
+   
+}
+.flexColChild--carrito__container{
+    padding-left: 2rem
+}
+.flexColChild--carrito__container:last-child{
+    transform: translate(4px, -20px);
+}

@@ -17,7 +17,7 @@
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group){
-    border-radius: 1.25rem;
+    border-radius: 1.25rem
 }
 .searchBarInnerContainer--searchbar__desktop{
     width: 75%;
