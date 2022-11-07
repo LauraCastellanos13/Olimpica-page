@@ -17,8 +17,22 @@
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group){
-    border-radius: 1.25rem;
+    border-radius: 1.25rem
 }
 .searchBarInnerContainer--searchbar__desktop{
     width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .searchBarContainer :global(.vtex-input-prefix__group){
+        width: 85%;
+        margin-left: 1rem
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .searchBarContainer :global(.vtex-input-prefix__group){
+        width: 90%;
+        margin-left: 1rem
+    }
 }

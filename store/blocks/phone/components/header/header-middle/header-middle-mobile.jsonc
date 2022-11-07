@@ -3,6 +3,7 @@
         "title": "Header superior",
         "children": [
             "flex-layout.row#mobile__mega--menu",
+            "rich-text#categorias",
             "logo#header__top--logo",
             "login",
             "minicart.v2"

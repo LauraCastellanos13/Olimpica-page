@@ -11,54 +11,73 @@
     },
     "flex-layout.row#header__top--mobile": {
         "children": [
-            "flex-layout.col#header__top--mobile-one",
-            "flex-layout.col#header__top--mobile-two"
+            "flex-layout.col#header__top--one",
+            "flex-layout.col#header__top--three-mobile",
+            "flex-layout.col#header__top-four--mobile",
+            "flex-layout.col#header__top-five-mobile"
         ],
         "props": {
             "blockClass": "header_mobile_top",
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "colGap": 3
         }
     },
     "flex-layout.col#header__top--mobile-one": {
         "children": [
-            "flex-layout.row#header__top--mobile-one"
-        ]
-    },
-    "flex-layout.row#header__top--mobile-one": {
-        "children": [
-            //"image#image__header--one",
-            "rich-text#container__section--contact-one-mobile"
-        ]
-    },
-    // "image#image__header--one": {},
-    "rich-text#container__section--contact-one-mobile": {
+            "flex-layout.col#header__top--one"
+        ],
         "props": {
-            "text": "Venta telefónica",
-            "blockClass": "header__section--top"
+            "blockClass": "header__mobile--top"
         }
     },
-    "flex-layout.col#header__top--mobile-two": {
+    "flex-layout.col#header__top--three-mobile": {
         "children": [
-            "flex-layout.row#header__top--mobile-two"
-        ]
-    },
-    "flex-layout.row#header__top--mobile-two": {
-        "children": [
-            //"icon#icon__header--one",
-            "rich-text#container__section--contact-two-mobile"
-        ]
-    },
-    "icon#icon__header--one": {
+            "menu#whatsapp__header--mobile"
+        ],
         "props": {
-            "id": "sti-whatsapp",
-            "size": 40,
-            "viewBox": "0 0 64 64"
+            "blockClass": "header__mobile--top--two"
         }
     },
-    "rich-text#container__section--contact-two-mobile": {
+    "menu#whatsapp__header--mobile": {
+        "children": [
+            "menu-item#whatsapp__mobile"
+        ]
+    },
+    "menu-item#whatsapp__mobile": {
         "props": {
-            "text": "Atención al cliente",
-            "blockClass": "header__section--top"
+            "blockClass": "item-header-group",
+            "id": "whatsapp",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "iconProps": {
+                "id": "nav-minus",
+                "viewBox": "0 0 16 16",
+                "size": 20
+            },
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "aten__cliente",
+                "text": "WhatsApp",
+                "orientation": "horizontalAlign"
+            }
+        }
+    },
+    "flex-layout.col#header__top-four--mobile":{
+        "children":[
+            "flex-layout.col#header__top-four"
+        ],
+        "props":{
+            "blockClass": "header__top--mobile--t"
+        }
+    },
+    "flex-layout.col#header__top-five-mobile":{
+        "children":[
+            "flex-layout.col#header__top-five"
+        ],
+        "props":{
+            "blockClass": "header__top--mobile--tt"
         }
     }
 }

@@ -1,7 +1,27 @@
 {
     "responsive-layout.tablet":{
         "children":[
-            "flex-layout.row#parte__dos__seccion--botones"
+            "flex-layout.row#parte__dos__seccion--botones",
+            "flex-layout.row#section__banner--tablet",
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#home__section-dosuno",
+            "flex-layout.row#section__banner--beca",
+            "rich-text#global__home--offers--tech",
+            "flex-layout.row#home__slider--double",
+            "flex-layout.row#home__section--two",
+            "flex-layout.row#home__slider--double-double",
+            "rich-text#global__home--bestoffers",
+            "flex-layout.row#global__slider--best--offers",
+            "flex-layout.row#home__slider--children",
+            "rich-text#global__home--preciosbajos",
+            "flex-layout.row#section__precios-bajos-one",
+            "flex-layout.row#section__precios-bajos",
+            "rich-text#global__home--lanzamientos",
+            "flex-layout.row#section__two--images-phone",
+            "flex-layout.row#phone__image--two",
+            "flex-layout.row#section__promotion-phone",
+            "rich-text#global__home--mas--servicios",
+            "flex-layout.row#section___servicios"
         ]
     }
 }

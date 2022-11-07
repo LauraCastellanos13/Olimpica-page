@@ -3,7 +3,9 @@
         "props": {
             "querySchema": {
                 "skusFilter": "ALL",
-                "simulationBehavior": "skip"
+                "simulationBehavior": "skip",
+                // "maxItemsPerPage": 3,
+                "infinite": true
             }
         },
         "blocks": [
@@ -43,8 +45,8 @@
             "product-summary.shelf"
         ]
     },
-    "rich-text#test":{
-        "props":{
+    "rich-text#test": {
+        "props": {
             "text": "holaaa"
         }
     }

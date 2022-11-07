@@ -1,0 +1,20 @@
+.styledLinkContent--item-header-group,
+.styledLinkContent--item-header-group-2,
+.styledLinkContent--item-header-group-3{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 3px;
+}
+
+.styledLinkContainer--item-header-group-2{
+   padding-left: 10rem;
+}
+.styledLinkContainer--item-header-group-3{
+    padding-left: 7rem;
+}
+@media screen and (max-width: 550px){
+    .styledLinkContent--item-header-group,
+    .styledLinkContent--item-header-group-2{
+        font-weight: 500;
+    }
+}

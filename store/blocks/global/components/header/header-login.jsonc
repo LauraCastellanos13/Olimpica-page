@@ -1,6 +1,7 @@
-{
+{  
     "login": {
         "props": {
+            "hideIconLabel": false,
             "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "Ej.:ejemplo@mail.com",

@@ -18,3 +18,9 @@
     color: #fff;
     font-size: 10px
 }
+
+@media screen and (max-width: 550px){
+    .paragraph--categorias__text{
+        display: none
+    }
+}

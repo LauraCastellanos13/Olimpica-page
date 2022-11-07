@@ -20,14 +20,50 @@
     gap: 3rem
 }
 
-.flexRowContent--seccion__botones{
+.flexRowContent--seccion__botones {
     padding-top: 0.4rem;
 }
+
 /* Responsive Tablet*/
 
-@media screen and (max-width: 768px){
-    .flexRow--botones__home{
-        padding-top: .5rem
+@media screen and (max-width: 768px) {
+    .flexRow--botones__home {
+        padding-top: .5rem;
+        padding-bottom: 1rem
+    }
+
+    .flexRow--slider-imagen {
+        padding-bottom: 2rem;
+        padding-top: 2rem
+    }
+
+    .flexRow--homesliderdoubledouble {
+        padding-bottom: 1rem
+    }
+
+    .flexRowContent--homesliderdouble,
+    .flexRowContent--slidertwolayout,
+    .flexRowContent--homesliderdoubledouble,
+    .flexRowContent--homeslider-preciosbajos,
+    .flexRowContent--homeslider-preciosbajos-2 {
+        gap: 1rem !important
+    }
+
+    .flexRowContent--best__offers{
+        margin-bottom: 0
+        
+    }
+    .sliderLayoutContainer--home__slider{
+        margin-right: .5rem;
+        margin-left: .5rem
+    }
+
+    .flexRow--section__servicios{
+        width: 90%;
+        padding-left: 4rem
+    }
+
+    .flexRowContent--section__servicios{
+        margin-bottom: 3rem
     }
 }
-    

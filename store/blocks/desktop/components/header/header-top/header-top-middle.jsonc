@@ -11,7 +11,6 @@
             "flex-layout.row#lista__pedido",
             "flex-layout.row#mi__carrito",
             "login"
-            
         ],
         "props": {
             "blockClass": "header_top--desktop"
@@ -44,8 +43,8 @@
             "blockClass": "categorias__text"
         }
     },
-    "flex-layout.row#mi__carrito":{
-        "children":[
+    "flex-layout.row#mi__carrito": {
+        "children": [
             "flex-layout.col#mi__carrito"
         ]
     },
@@ -54,12 +53,13 @@
             "minicart.v2",
             "rich-text#minicart-text"
         ],
-        "props":{
+        "props": {
+            "blockClass": "carrito__container",
             "width": "25%",
             "horizontalAlign": "center",
-           "verticalAlign": "middle",
+            "verticalAlign": "middle",
             "preventVerticalStretch": true,
-            "colGap":1
+            "colGap": 1
         }
     },
     "rich-text#minicart-text": {
@@ -68,8 +68,8 @@
             "blockClass": "mi__carrito--text"
         }
     },
-    "flex-layout.row#lista__pedido":{
-        "children":[
+    "flex-layout.row#lista__pedido": {
+        "children": [
             "flex-layout.col#lista__pedido"
         ]
     },
@@ -78,21 +78,21 @@
             "icon#lista__pedido",
             "rich-text#lista__pedido"
         ],
-        "props":{
+        "props": {
             //"width": "25%",
             "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "colGap":1
+            "colGap": 1
         }
     },
     "icon#lista__pedido": {
         "props": {
-          "id": "sti-list-delivery",
-          "blockClass": "icon__lista--pedido",
-          "viewBox": "0 0 24 24",
-          "size": 20
+            "id": "sti-list-delivery",
+            "blockClass": "icon__lista--pedido",
+            "viewBox": "0 0 24 24",
+            "size": 20
         }
-      },
+    },
     "rich-text#lista__pedido": {
         "props": {
             "text": "Lista de pedido",
