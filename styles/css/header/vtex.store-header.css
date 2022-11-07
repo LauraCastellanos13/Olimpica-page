@@ -17,3 +17,10 @@
 .headerRowContainer--header__middle--mobile{
     background-color:#e2001a ;
 }
+
+@media screen and (max-width: 768px) {
+    .headerRowContainer--header__top{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

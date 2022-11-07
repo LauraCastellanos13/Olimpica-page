@@ -1,4 +1,9 @@
 {
+  "flex-layout.row#home__slider--children":{
+    "children":[
+      "slider-layout#home__slider--children"
+    ]
+  },
   "slider-layout#home__slider--children": {
     "props": {
       "itemsPerPage": {

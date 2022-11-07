@@ -47,3 +47,13 @@
 .sliderTrack--home__slider-one--phone-4 {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px){
+    .caretIcon--home__slider-two{
+        display: none;
+    }
+    .paginationDotsContainer--home__slider-two {
+        display:flex
+    }
+}
+

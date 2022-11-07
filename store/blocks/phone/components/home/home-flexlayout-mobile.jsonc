@@ -68,7 +68,8 @@
         ],
         "props": {
             "blockClass": "phone__image--one",
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "colGap":2
         }
     },
     "image#image__images--phone": {
@@ -92,7 +93,8 @@
         ],
         "props": {
             "blockClass": "phone__image--two",
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "colGap":2
         }
     },
     "image#image__images--phone-2": {

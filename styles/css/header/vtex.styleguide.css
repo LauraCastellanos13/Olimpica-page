@@ -1,5 +1,12 @@
-.input::placeholder{
+.input::placeholder {
     color: #e2001a;
     font-weight: bold;
     padding-left: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .input::placeholder {
+        font-size: 13px;
+        padding-left: 0
+    }
 }

@@ -33,13 +33,24 @@
     margin-bottom: 1rem;
 }
 
-.imageElement--seccion__bajo--div{
+.imageElement--seccion__bajo--div {
     height: 2rem;
     width: auto
 }
 
-.imageElement--seccion__bajo--div-2{
+.imageElement--seccion__bajo--div-2 {
     height: 1.5rem;
     padding-top: 0.7rem;
     gap: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .imageElement--home__banner-two {
+        margin-bottom: 2rem;
+    }
+
+    .imageElement--home__banner-three {
+        margin-top: 0;
+        max-width: 100%;
+    }
 }
