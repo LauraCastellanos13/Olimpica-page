@@ -1,0 +1,7 @@
+{
+    "responsive-layout.tablet":{
+        "children":[
+            "flex-layout.row#parte__dos__seccion--botones"
+        ]
+    }
+}

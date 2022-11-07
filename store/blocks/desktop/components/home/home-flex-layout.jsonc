@@ -318,7 +318,10 @@
       "image#electrodomesticos",
       "image#catalogos",
       "image#nuestras__tiendas"
-    ]
+    ], 
+    "props":{
+      "blockClass": "botones__home"
+    }
   },
   "image#supermercado":{
     "props":{

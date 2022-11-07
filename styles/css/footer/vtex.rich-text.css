@@ -61,25 +61,34 @@
     padding-right: 2.4rem;
 }
 
-.wrapper--footer__container-col-nuestra--empresa{
+.wrapper--footer__container-col-nuestra--empresa {
     padding-left: 0.4rem;
 }
 
-.wrapper--footer__container-col--infromacion-legal{
+.wrapper--footer__container-col--infromacion-legal {
     padding-right: 1.6rem;
 }
-.wrapper--footer__container-col-servicio--cliente{
+
+.wrapper--footer__container-col-servicio--cliente {
     padding-right: 1rem;
 }
 
-.wrapper--compra__segura-footer{
+.wrapper--compra__segura-footer {
     height: 2.8rem;
 }
 
-.container--copyright__footer{
+.container--copyright__footer {
     height: 1.5rem;
 }
 
-.container--direccion__footer{
+.container--direccion__footer {
     height: 1rem;
+}
+
+.paragraph--footer__container--title--mobile {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .9px;
+    color: #d9d9d9
 }
