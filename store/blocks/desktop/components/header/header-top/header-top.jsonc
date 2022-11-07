@@ -171,10 +171,10 @@
     },
     "menu#tarjeta__olimpica": {
         "children": [
-            "menu-item#tarjeta__olimpica"
+            "menu-item#tarjeta__olimpica--header"
         ]
     },
-    "menu-item#tarjeta__olimpica": {
+    "menu-item#tarjeta__olimpica--header": {
         "props": {
             "blockClass": "item-header-group-3",
             "id": "tarjeta__olimpica",
