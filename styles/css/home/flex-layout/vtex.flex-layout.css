@@ -23,3 +23,11 @@
 .flexRowContent--seccion__botones{
     padding-top: 0.4rem;
 }
+/* Responsive Tablet*/
+
+@media screen and (max-width: 768px){
+    .flexRow--botones__home{
+        padding-top: .5rem
+    }
+}
+    
