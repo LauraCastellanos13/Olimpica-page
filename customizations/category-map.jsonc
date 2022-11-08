@@ -1,0 +1,69 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electrodomesticos",
+        "href": "/electrodomesticos",
+        "children": [
+          {
+            "id": 3,
+            "name": "Hierro",
+            "href": "/electrodomesticos/hierro"
+          },
+          {
+            "id": 4,
+            "name": "Varillas",
+            "href": "/electrodomesticos/varillas"
+          },
+          {
+            "id": 5,
+            "name": "Ladrillos",
+            "href": "/electrodomesticos/ladrillos"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Madera",
+        "href": "/madera",
+        "children": [
+          {
+            "id": 9,
+            "name": "Madera Maciza",
+            "href": "/madera/madera-maciza"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Queso",
+        "href": "/queso",
+        "children": [
+          {
+            "id": 2,
+            "name": "Cemento",
+            "href": "/queso/cemento"
+          },
+          {
+            "id": 11,
+            "name": "Quesos Importados",
+            "href": "/queso/quesos-importados"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Mujer",
+        "href": "/mujer",
+        "children": [
+          {
+            "id": 13,
+            "name": "Zapatos",
+            "href": "/mujer/zapatos"
+          }
+        ]
+      }
+    ]
+  }
+}

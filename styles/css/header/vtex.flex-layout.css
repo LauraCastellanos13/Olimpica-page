@@ -13,7 +13,7 @@
     padding-left: 2rem;
 }
 
-.flexColChild--telefono__header :global(.vtex-menu){
+.flexColChild--telefono__header :global(.vtex-menu) {
     font-size: 20px !important
 }
 
@@ -22,30 +22,41 @@
         padding-left: 0;
         padding-right: .8rem;
     }
-    .flexColChild--telefono__header{
+
+    .flexColChild--telefono__header {
         padding-left: 2rem;
     }
-    .flexColChild--header__top--mobile--t{
+
+    .flexColChild--header__top--mobile--t {
         padding-left: 3rem;
-        
+
     }
 }
+
 @media screen and (max-width: 550px) {
+
     .flexColChild--header__top--mobile--t,
     .flexColChild--header__top--mobile--tt {
         display: none;
     }
-    .flexColChild--header__mobile--top--two{
+
+    .flexColChild--header__mobile--top--two {
         padding-left: 6rem;
     }
-    .flexRowContent--header_mobile_top{
+
+    .flexRowContent--header_mobile_top {
         padding-right: 2rem;
     }
 }
 
-.flexColChild--carrito__container{
+.flexColChild--carrito__container {
     padding-left: 2rem
 }
-.flexColChild--carrito__container:last-child{
-    transform: translate(4px, -20px);
+
+.flexColChild--carrito__container:last-child {
+    transform: translate(4px, -21px);
+}
+
+.flexColChild--mi__cuenta--col:last-child {
+    transform: translate(10px, -10px);
 }

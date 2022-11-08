@@ -1,7 +1,23 @@
-{  
+{
+    "flex-layout.row#row__login": {
+        "children": [
+            "flex-layout.col#col__login"
+        ],
+        "props": {
+            "blockClass": "container__login"
+        }
+    },
+    "flex-layout.col#col__login": {
+        "children": [
+            "login",
+            "rich-text#mi__cuenta--login"
+        ],
+        "props": {
+            "blockClass": "mi__cuenta--col"
+        }
+    },
     "login": {
         "props": {
-            "hideIconLabel": false,
             "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "Ej.:ejemplo@mail.com",
@@ -10,6 +26,12 @@
             "showIconProfile": true,
             "isInitialScreenOptionOnly": false,
             "defaultOption": 1
+        }
+    },
+    "rich-text#mi__cuenta--login": {
+        "props": {
+            "text": "Mi cuenta",
+            "blockClass": "mi__cuenta--login"
         }
     }
 }

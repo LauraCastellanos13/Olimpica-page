@@ -10,7 +10,7 @@
             "header-spacer",
             "flex-layout.row#lista__pedido",
             "flex-layout.row#mi__carrito",
-            "login"
+            "flex-layout.row#row__login"
         ],
         "props": {
             "blockClass": "header_top--desktop"

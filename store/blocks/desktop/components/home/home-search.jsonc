@@ -16,7 +16,7 @@
     },
     "search-result-layout.desktop#home__search--desktop": {
         "children": [
-           // "product-summary.shelf#home__product--shelf"
+            "flex-layout.row#home__results"
         ]
     },
     "search-result-layout.mobile#home__search--mobile": {
@@ -42,7 +42,7 @@
     },
     "gallery": {
         "blocks": [
-            "product-summary.shelf#home__product--shelf"
+            "product-summary.shelf#home__product--shelf--olimpica"
         ]
     },
     "rich-text#test": {
@@ -50,13 +50,13 @@
             "text": "holaaa"
         }
     },
-    "product-summary.shelf#home__product--shelf": {
+    "product-summary.shelf#home__product--shelf--olimpica": {
         "children": [
           "product-summary-image",
           "product-summary-space",
           "product-summary-name",
           "product-summary-price",
-          "product-summary-buy-button"
+          "add-to-cart-button"
         ]
       }
 }
