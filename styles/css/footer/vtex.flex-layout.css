@@ -101,7 +101,7 @@
     padding-bottom: 4rem
 }
 
-.flexCol--newsletter__mobile{
+.flexCol--newsletter__mobile {
     padding-top: 2rem;
 }
 
@@ -115,4 +115,11 @@
         display: contents;
         width: 100;
     }
+
+    .flexCol--footer__middle--mobile {
+        display: grid;
+        align-items: stretch;
+        justify-content: center;
+    }
+
 }

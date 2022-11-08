@@ -18,3 +18,12 @@
         font-weight: 500;
     }
 }
+
+@media screen and (max-width: 768px){
+    .styledLinkContainer--item-header-group-2{
+        padding-left: 0;
+     }
+     .styledLinkContainer--item-header-group-3{
+         padding-left: 0;
+     }
+}
