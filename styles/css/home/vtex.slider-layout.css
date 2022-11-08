@@ -56,4 +56,10 @@
         display:flex
     }
 }
+/************** Section:products slider *************/
 
+.slideChildrenContainer--slider__global--product :global(.vtex-product-summary-2-x-element){
+    border: 1px solid grey;
+    justify-content: space-between;
+    border-radius: 4px;
+}

@@ -67,3 +67,32 @@
         margin-bottom: 3rem
     }
 }
+
+/************Flex-layout slider styles****************/
+
+.flexRowContent--homeslider-preciosbajos,
+.flexRowContent--homeslider-preciosbajos-2 {
+    gap: 3rem;
+    padding-bottom: 0.6rem;
+}
+
+/************Flex-layout slider whit two imagesstyles****************/
+
+.flexRowContent--homesliderdouble,
+.flexRowContent--homesliderdoubledouble,
+.flexRow--slidertwolayout {
+    gap: 3rem;
+    padding-top: 1.5rem
+}
+
+.imageElement--home__image-slider {
+    margin-left: 2rem;
+}
+
+.flexRowContent--slider-imagen {
+    gap: 2rem
+}
+
+.flexCol--images__phone--big {
+    margin-top: 3rem;
+}
