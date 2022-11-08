@@ -13,6 +13,7 @@
     },
     "mega-menu#desktop": {
       "props": {
+        "title": "Categorías",
         "openOnly": "horizontal",
         "width":"25%"
       }

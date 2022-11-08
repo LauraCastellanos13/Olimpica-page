@@ -12,11 +12,12 @@
 
 .paragraph--mi__carrito--text{
     color: #fff;
-    font-size: 10px
+    font-size: 12px
 }
-.paragraph--lista__pedido{
+.paragraph--lista__pedido,
+.paragraph--mi__cuenta--login{
     color: #fff;
-    font-size: 10px
+    font-size: 12px
 }
 
 @media screen and (max-width: 550px){

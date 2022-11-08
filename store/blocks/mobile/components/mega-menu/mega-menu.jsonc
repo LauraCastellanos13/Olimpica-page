@@ -12,6 +12,7 @@
     },
     "mega-menu#mobile": {
       "props": {
+        "title": "Categorías",
         "defaultDepartmentActive": "...",
         "orientation": "vertical",
         "openOnly": "vertical"
