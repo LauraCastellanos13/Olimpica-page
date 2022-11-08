@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#products__summary": {
+        "children": [
+            "flex-layout.col#products__summary--image",
+            "flex-layout.col#products__summary--two"
+        ]
+    },
+    "flex-layout.col#products__summary--image": {
+        "children": [
+           // "image#image__slider--products"
+        ],
+        "props": {
+            "width": "30%"
+        }
+    },
+    "flex-layout.col#products__summary--two": {
+        "children": [],
+        "props": {
+            "width": "70%"
+        }
+    }
+}

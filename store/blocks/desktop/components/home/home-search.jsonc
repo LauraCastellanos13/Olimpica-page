@@ -4,8 +4,6 @@
             "querySchema": {
                 "skusFilter": "ALL",
                 "simulationBehavior": "skip"
-                // "maxItemsPerPage": 3,
-                //"infinite": true
             }
         },
         "blocks": [
@@ -58,5 +56,5 @@
           "product-summary-price",
           "add-to-cart-button"
         ]
-      }
+    }
 }

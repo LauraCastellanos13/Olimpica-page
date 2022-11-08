@@ -14,17 +14,16 @@
             "rich-text#global__home--bestoffers",
             "flex-layout.row#global__slider--best--offers",
             "flex-layout.row#home__section-dosuno",
-            "image#home__banner--three",
             "rich-text#global__home--homeoffers",
             "flex-layout.row#section__banner--promotions",
+            "slider-layout#home__slider--children",
             "rich-text#global__home--preciosbajos",
             "flex-layout.row#section__precios-bajos-one",
             "flex-layout.row#section__precios-bajos",
             "rich-text#global__home--lanzamientos",
-            "slider-layout#home__slider--children",
+            "flex-layout.row#global__product--list",
             "rich-text#global__home--mas--servicios",
-            "flex-layout.row#section___servicios",
-            "search-result-layout.customQuery#home__search"
+            "flex-layout.row#section___servicios"
         ]
     }
 }
