@@ -3,9 +3,9 @@
         "props": {
             "querySchema": {
                 "skusFilter": "ALL",
-                "simulationBehavior": "skip",
+                "simulationBehavior": "skip"
                 // "maxItemsPerPage": 3,
-                "infinite": true
+                //"infinite": true
             }
         },
         "blocks": [
@@ -16,7 +16,7 @@
     },
     "search-result-layout.desktop#home__search--desktop": {
         "children": [
-            "rich-text#test"
+           // "product-summary.shelf#home__product--shelf"
         ]
     },
     "search-result-layout.mobile#home__search--mobile": {
@@ -42,12 +42,21 @@
     },
     "gallery": {
         "blocks": [
-            "product-summary.shelf"
+            "product-summary.shelf#home__product--shelf"
         ]
     },
     "rich-text#test": {
         "props": {
             "text": "holaaa"
         }
-    }
+    },
+    "product-summary.shelf#home__product--shelf": {
+        "children": [
+          "product-summary-image",
+          "product-summary-space",
+          "product-summary-name",
+          "product-summary-price",
+          "product-summary-buy-button"
+        ]
+      }
 }

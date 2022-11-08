@@ -31,7 +31,8 @@
             "flex-layout.row#descargas__img--mobile"
         ],
         "props": {
-            "blockClass": "footer__middle--mobile"
+            "blockClass": "footer__middle--mobile",
+            "preserveLayoutOnMobile": true
         }
     },
     "image#image__olimpica--footer--mobile": {
