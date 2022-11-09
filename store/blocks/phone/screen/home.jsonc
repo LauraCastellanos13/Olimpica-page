@@ -14,9 +14,11 @@
             "slider-layout#home__slider--children-mobile-two",
             "rich-text#phone__home--precios--bajos",
             "flex-layout.row#section__four--images",
+            "rich-text#global__home--lanzamientos",
+            //"search-result-layout.customQuery#home__search",
+            "flex-layout.row#global__product--list",
             "rich-text#phone__home--mas--servicios",
-            "slider-layout#home__slider--children-mobile-servicios",
-            "search-result-layout.customQuery#home__search"
+            "slider-layout#home__slider--children-mobile-servicios"
         ]
     }
 }

@@ -124,6 +124,10 @@
         margin-top: 0;
         max-width: 100%;
     }
+ 
+    .imageElement--image__product--list{
+        padding-top: 1rem;
+    }
 }
 
 .button__comprar :global(.vtex-button__label){
