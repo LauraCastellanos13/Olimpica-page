@@ -15,6 +15,7 @@
             "flex-layout.row#global__slider--best--offers",
             "flex-layout.row#home__section-dosuno",
             "rich-text#global__home--homeoffers",
+            "flex-layout.row#global__product--list--image",
             "flex-layout.row#section__banner--promotions",
             "slider-layout#home__slider--children",
             "rich-text#global__home--preciosbajos",

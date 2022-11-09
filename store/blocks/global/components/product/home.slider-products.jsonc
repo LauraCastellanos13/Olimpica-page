@@ -1,11 +1,11 @@
 {
-    "flex-layout.row#global__product--list":{
-        "children":[
+    "flex-layout.row#global__product--list": {
+        "children": [
             "flex-layout.col#global__product--list"
         ]
     },
-    "flex-layout.col#global__product--list":{
-        "children":[
+    "flex-layout.col#global__product--list": {
+        "children": [
             "list-context.product-list#global__slider--home--products"
         ]
     },
@@ -30,8 +30,8 @@
             "add-to-cart-button"
         ]
     },
-    "add-to-cart-button":{
-        "props":{
+    "add-to-cart-button": {
+        "props": {
             "text": "COMPRAR",
             "blockClass": "comprar__button--global"
         }

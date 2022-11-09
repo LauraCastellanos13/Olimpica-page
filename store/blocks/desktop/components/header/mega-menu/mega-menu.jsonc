@@ -4,7 +4,7 @@
     },
     "flex-layout.row#mega__menu--desktop": {
       "children": [
-        "flex-layout.col#trigger-mega-menu"
+       "flex-layout.col#trigger-mega-menu"
       ]
     },
   

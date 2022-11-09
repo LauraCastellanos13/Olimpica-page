@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#global__product--list--image": {
+        "children": [
+            "flex-layout.col#global__product--list--slider",
+            "flex-layout.col#global__product--list--slider2"
+        ],
+        "props": {
+            "blockClass": "image__slider--product"
+        }
+    },
+    "flex-layout.col#global__product--list--slider": {
+        "children": [
+            "flex-layout.row#global__product--list--slider"
+        ],
+        "props": {
+            "width": "30%"
+        }
+    },
+    "flex-layout.col#global__product--list--slider2": {
+        "children": [
+            "flex-layout.row#global__product--list--slider2"
+        ],
+        "props": {
+            "width": "70%"
+        }
+    },
+    "flex-layout.row#global__product--list--slider": {
+        "children": [
+            "image#image__product--list--slider"
+        ]
+    },
+    "flex-layout.row#global__product--list--slider2": {
+        "children": [
+            "list-context.product-list#global__slider--image--products"
+        ]
+    },
+    "image#image__product--list--slider": {
+        "props": {
+            "blockClass": "image__product--list",
+            "src": "assets/img/img-hs.png"
+        }
+    },
+    "list-context.product-list#global__slider--image--products": {
+        "title": "Lista productos home con imagen",
+        "blocks": [
+            "product-summary.shelf#home__product--slider--image"
+        ],
+        "children": [
+            "slider-layout#global__product--slider--image"
+        ],
+        "props": {
+            "blockClass": "global__list--products--two"
+        }
+    },
+    "product-summary.shelf#home__product--slider--image": {
+        "children": [
+            "product-summary-image",
+            "product-summary-space",
+            "product-summary-name",
+            "product-summary-price",
+            "flex-layout.row#buy-button"
+        ]
+    },
+    "flex-layout.row#buy-button": {
+        "children": [
+            "add-to-cart-button"
+        ],
+        "props": {
+            "blockClass": "button__comprar"
+        }
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "COMPRAR",
+            "blockClass": "comprar__button--global"
+        }
+    },
+    "slider-layout#global__product--slider--image": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "slider__global--products--image",
+            "fullWidth": true
+        }
+    }
+}
