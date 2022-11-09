@@ -99,5 +99,9 @@
 
 .flexRow--image__slider--product{
     padding-top: 2rem;
-    padding-bottom: 2rem
+    padding-bottom: 1rem
+}
+.flexRowContent--button__comprar :global(.vtex-button){
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
 }

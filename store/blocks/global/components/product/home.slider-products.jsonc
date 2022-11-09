@@ -27,7 +27,7 @@
             "product-summary-space",
             "product-summary-name",
             "product-summary-price",
-            "add-to-cart-button"
+            "flex-layout.row#buy-button"
         ]
     },
     "add-to-cart-button": {
