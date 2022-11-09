@@ -96,3 +96,8 @@
 .flexCol--images__phone--big {
     margin-top: 3rem;
 }
+
+.flexRow--image__slider--product{
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}

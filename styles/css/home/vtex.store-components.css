@@ -125,3 +125,7 @@
         max-width: 100%;
     }
 }
+
+.button__comprar :global(.vtex-button__label){
+    background: aliceblue;
+}
