@@ -4,7 +4,8 @@
             "flex-layout.col#desktop__footer--section-three"
         ],
         "props": {
-            "blockClass": "bloque__down"
+            "blockClass": "bloque__down",
+            "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#desktop__footer--section-three": {
@@ -15,18 +16,21 @@
             "rich-text#telefono__footer",
             "flex-layout.row#powered__tech--footer"
         ],
-        "props":{
-            "preventVerticalStretch": true
+        "props": {
+            "blockClass": "footer__powered"
         }
     },
-    
     "flex-layout.row#powered__tech--footer": {
         "children": [
             "flex-layout.col#powered-tech--footer",
             "flex-layout.col#powered-tech--footer-two"
         ],
-        "props":{
-            "blockClass": "powered__tech-footer"
+        "props": {
+            "blockClass": "powered__tech-footer",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "colJustify": "around",
+            "horizontalAlign": "center"
         }
     },
     "flex-layout.col#powered-tech--footer": {
@@ -35,7 +39,8 @@
             "image#image__powered--footer"
         ],
         "props": {
-            "blockClass": "container__powered-footer"
+            "blockClass": "container__powered-footer",
+            "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#powered-tech--footer-two": {
@@ -44,7 +49,9 @@
             "image#image__tech--footer"
         ],
         "props": {
-            "blockClass": "container__powered-footer--two"
+            "blockClass": "container__powered-footer--two",
+            "preserveLayoutOnMobile": true
+
         }
     }
 }

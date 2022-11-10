@@ -26,7 +26,7 @@
 
 /* Responsive Tablet*/
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width:420){
     .flexRow--botones__home {
         padding-top: .5rem;
         padding-bottom: 1rem
@@ -49,21 +49,21 @@
         gap: 1rem !important
     }
 
-    .flexRowContent--best__offers{
+    .flexRowContent--best__offers {
         margin-bottom: 0
-        
     }
-    .sliderLayoutContainer--home__slider{
+
+    .sliderLayoutContainer--home__slider {
         margin-right: .5rem;
         margin-left: .5rem
     }
 
-    .flexRow--section__servicios{
+    .flexRow--section__servicios {
         width: 90%;
         padding-left: 4rem
     }
 
-    .flexRowContent--section__servicios{
+    .flexRowContent--section__servicios {
         margin-bottom: 3rem
     }
 }
@@ -97,11 +97,36 @@
     margin-top: 3rem;
 }
 
-.flexRow--image__slider--product{
+.flexRow--image__slider--product {
     padding-top: 2rem;
     padding-bottom: 1rem
 }
-.flexRowContent--button__comprar :global(.vtex-button){
+
+.flexRowContent--button__comprar :global(.vtex-button) {
     background-color: #f8f8f8;
     border-color: #f8f8f8;
+}
+
+.flexRow--minicart__inside {
+    margin-top: 1rem;
+}
+
+.flexRowContent--button__comprar :global(.vtex-button__label) {
+    color: #1967ae !important;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s
+}
+
+.flexRowContent--button__comprar:hover :global(.vtex-button__label) {
+    color: white !important;
+    background-color: #E2001A;
+}
+
+.flexCol--footer__middle--mobile {
+    display: flex;
+    align-items: center;
+
 }

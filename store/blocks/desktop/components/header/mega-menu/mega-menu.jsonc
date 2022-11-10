@@ -14,8 +14,7 @@
     "mega-menu#desktop": {
       "props": {
         "title": "Categorías",
-        "openOnly": "horizontal",
-        "width":"25%"
+        "openOnly": "horizontal"
       }
     },
     "flex-layout.col#trigger-mega-menu": {

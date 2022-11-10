@@ -129,7 +129,3 @@
         padding-top: 1rem;
     }
 }
-
-.button__comprar :global(.vtex-button__label){
-    background: aliceblue;
-}
