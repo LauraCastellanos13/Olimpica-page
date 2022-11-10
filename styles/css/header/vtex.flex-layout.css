@@ -60,3 +60,6 @@
 .flexColChild--mi__cuenta--col:last-child {
     transform: translate(10px, -10px);
 }
+.biggy-autocomplete {
+    border-radius: 25px;
+}

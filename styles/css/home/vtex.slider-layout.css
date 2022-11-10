@@ -95,9 +95,8 @@
     color: #707070;
 }
 
-
 .slideChildrenContainer--slider__global--products--image:global(.vtex-add-to-cart-button-0-x-buttonDataContainer),
-.slideChildrenContainer--slider__global--products:global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+.slideChildrenContainer--slider__global--products:global(.vtex-add-to-cart-button-0-x-buttonDataContainer){
     background-color: #f8f8f8;
     margin: 0;
     width: 100% !important;
@@ -105,7 +104,7 @@
     height: 100%;
     border: none;
     outline: 0;
-    color: #1967ae;
+    color: #1967ae !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,10 +112,13 @@
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
-    transition: all .2s;
-    background: #f8f8f8;
+    transition: all .2s
 }
 
 .vtex-button :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
-    background-color: #f8f8f8;
+    background-color: #f8f8f8
+}
+
+.buttonText--comprar__button--global :global(.vtex-add-to-cart-button){
+    color: #1967ae;
 }

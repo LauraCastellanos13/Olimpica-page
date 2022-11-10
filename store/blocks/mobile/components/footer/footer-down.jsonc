@@ -1,0 +1,227 @@
+{
+    "flex-layout.row#footer__down--mobile":{
+        "children":[
+            "flex-layout.col#footer__container_three-mobile",
+            "flex-layout.col#footer__container_four-mobile",
+            "flex-layout.col#footer__container_six-mobile"
+        ]
+    },
+
+    "flex-layout.col#footer__container_three-mobile": {
+        "children": [
+            "disclosure-layout-group#footer__group--mobile"
+        ],
+        "props": {
+            "blockClass": "footer__three-mobile"
+        }
+    },
+    "disclosure-layout-group#footer__group--mobile": {
+        "title": "Disclosure menú mobile",
+        "children": [
+            "disclosure-layout#categorias__mobile",
+            "disclosure-layout#contenido",
+            "disclosure-layout#servicio__al--cliente",
+            "disclosure-layout#nuestra__empresa--mobile",
+            "disclosure-layout#info__legal--mobile"
+        ],
+        "props": {
+            "blockClass": "footer__group--mobile"
+        }
+    },
+    /*Disclosure one*/
+    "disclosure-layout#categorias__mobile": {
+        "title": "Menú uno mobile",
+        "children": [
+            "disclosure-trigger#categorias__mobile",
+            "disclosure-content#categorias__mobile"
+        ],
+        "props": {
+            "blockClass": "disclosure__mobile"
+        }
+    },
+    "disclosure-trigger#categorias__mobile": {
+        "children": [
+            "rich-text#disclosure__categorias--mobile"
+           // "icon#down__nav"
+        ]
+    },
+    "rich-text#disclosure__categorias--mobile": {
+        "title": "Menú uno disclosure: title",
+        "props": {
+            "text": "CATEGORÍAS",
+            "blockClass": "footer__container--title--mobile"
+        }
+    },
+    "disclosure-content#categorias__mobile": {
+        "children": [
+            "menu#categories"
+        ]
+    },
+    /*Disclosure two*/
+    "disclosure-layout#contenido": {
+        "title": "Menú dos mobile",
+        "children": [
+            "disclosure-trigger#contenido__mobile",
+            "disclosure-content#contenido__mobile"
+        ],
+        "props": {
+            "blockClass": "disclosure__mobile"
+        }
+    },
+    "disclosure-trigger#contenido__mobile": {
+        "children": [
+            "rich-text#disclosure__contenido--mobile"
+            //"icon#down__nav"
+        ]
+    },
+    "rich-text#disclosure__contenido--mobile": {
+        "title": "Menú uno disclosure: title",
+        "props": {
+            "text": "CONTENIDO",
+            "blockClass": "footer__container--title--mobile"
+        }
+    },
+    "disclosure-content#contenido__mobile": {
+        "children": [
+            "menu#contenido"
+        ]
+    },
+    /*Disclosure three*/
+    "disclosure-layout#servicio__al--cliente": {
+        "title": "Menú uno mobile",
+        "children": [
+            "disclosure-trigger#servicio__cliente--mobile",
+            "disclosure-content#servicio__cliente--mobile"
+        ],
+        "props": {
+            "blockClass": "disclosure__mobile"
+        }
+    },
+    "disclosure-trigger#servicio__cliente--mobile": {
+        "children": [
+            "rich-text#disclosure__servicio--cliente--mobile"
+           // "icon#down__nav"
+        ]
+    },
+    "rich-text#disclosure__servicio--cliente--mobile": {
+        "title": "Menú uno disclosure: title",
+        "props": {
+            "text": "ATENCIÓN AL CLIENTE",
+            "blockClass": "footer__container--title--mobile"
+        }
+    },
+    "disclosure-content#servicio__cliente--mobile": {
+        "children": [
+            "menu#servicio__al--cliente"
+        ]
+    },
+    /*Disclosure four*/
+    "disclosure-layout#nuestra__empresa--mobile": {
+        "title": "Menú uno mobile",
+        "children": [
+            "disclosure-trigger#nuestra__empresa--mobile",
+            "disclosure-content#nuestra__empresa--mobile"
+        ],
+        "props": {
+            "blockClass": "disclosure__mobile"
+        }
+    },
+    "disclosure-trigger#nuestra__empresa--mobile": {
+        "children": [
+            "rich-text#disclosure__nuestra__empresa--mobile"
+            //"icon#down__nav"
+        ]
+    },
+    "rich-text#disclosure__nuestra__empresa--mobile": {
+        "title": "Menú uno disclosure: title",
+        "props": {
+            "text": "NUESTRA EMPRESA",
+            "blockClass": "footer__container--title--mobile"
+        }
+    },
+    "disclosure-content#nuestra__empresa--mobile": {
+        "children": [
+            "menu#nuestra__empresa"
+        ]
+    },
+    /*Disclosure five*/
+    "disclosure-layout#info__legal--mobile": {
+        "title": "Menú uno mobile",
+        "children": [
+            "disclosure-trigger#informacion--legal--mobile",
+            "disclosure-content#informacion--legal--mobile"
+        ],
+        "props": {
+            "blockClass": "disclosure__mobile",
+            "preventVerticalStretch": true
+        }
+    },
+    "disclosure-trigger#informacion--legal--mobile": {
+        "children": [
+            "rich-text#disclosure__informacion--legal--mobile"
+            //"icon#down__nav"
+        ]
+    },
+    "rich-text#disclosure__informacion--legal--mobile": {
+        "title": "Menú uno disclosure: title",
+        "props": {
+            "text": "INFORMACIÓN LEGAL",
+            "blockClass": "footer__container--title--mobile"
+        }
+    },
+    "icon#down__nav": {
+        "props": {
+            "id": "nav-caret--down",
+            "blockClass": "icon__nav--down",
+            "size": 10
+        }
+    },
+    "disclosure-content#informacion--legal--mobile": {
+        "children": [
+            "menu#informacion__legal"
+        ]
+    },
+    "flex-layout.col#footer__container_four-mobile": {
+        "children": [
+            "rich-text#compra__segura__footer",
+            "rich-text#copyright__footer",
+            "rich-text#direccion__footer",
+            "rich-text#telefono__footer"
+        ]
+    },
+    "flex-layout.col#footer__container_six-mobile": {
+        "children": [
+            "flex-layout.row#footer__container--last"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "powered__tech--mobile"
+        }
+    },
+    "flex-layout.row#footer__container--last":{
+        "children":[
+            "flex-layout.col#powered__tech--footer-mobile",
+            "flex-layout.col#powered__tech--footer-mobile--2"
+        ]
+    },
+    "flex-layout.col#powered__tech--footer-mobile": {
+        "children": [
+            "rich-text#powered__footer",
+            "image#image__powered--footer"
+        ],
+        "props": {
+            "blockClass": "container__powered-footer-m",
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#powered__tech--footer-mobile--2": {
+        "children": [
+            "rich-text#tech__footer",
+            "image#image__tech--footer"
+        ],
+        "props": {
+            "blockClass": "container__powered-footer-m",
+            "width": "50%"
+        }
+    }
+}
