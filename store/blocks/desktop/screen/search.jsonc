@@ -1,0 +1,11 @@
+{
+    "search-result-layout.desktop":{
+        "children":[
+            "flex-layout.row#desktop__search--breadcrumb",
+            "flex-layout.row#desktop-search__results"
+        ],
+        "props":{
+            "blockClass": "search__result--layout--desktop"
+        }
+    }
+}
