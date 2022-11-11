@@ -1,9 +1,0 @@
-{
-    "search-bar#mobile__searchbar": {
-      "props": {
-        "openAutoCompleteOnFocus": true,
-        "blockClass": "searchbar__mobile",
-        "placeholder": "¿Qué estás buscando hoy?"
-      }
-    }
-}

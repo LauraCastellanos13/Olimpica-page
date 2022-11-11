@@ -1,82 +1,193 @@
 {
     "header-row#header__top": {
         "children": [
-            "flex-layout.row#header__top--desktop"
+            "flex-layout.row#header__top"
         ],
         "props": {
-            "blockClass": "header__superior",
+            "blockClass":"header--top--container",
             "fullWidth": true
         }
     },
-    "flex-layout.row#header__top--desktop": {
+    "flex-layout.row#header__top": {
         "children": [
-            "flex-layout.col#top__header--desktop",
-            "flex-layout.row#top__header--desktop-two"
+            "flex-layout.col#header__top"
         ],
         "props": {
-            "blockClass": "container__header--top-desktop"
+            "colSizing": "auto",
+            "colJustify": "around",
+            "horizontalAlign": "center",
+            "colGap": 0,
+            "preventVerticalStretch": true
         }
     },
-    "flex-layout.col#top__header--desktop": {
-        "title": "Header top desktop",
+    "flex-layout.col#header__top": {
         "children": [
-            "flex-layout.row#header__section--contact"
+            "flex-layout.row#header__top--one"
         ],
-        "props": {
-            "blockClass": "container__sticky--header",
-            "width": "100%"
+        "props":{
+            "blockClass":"header__top--container"
         }
     },
-    "flex-layout.row#header__section--contact": {
-        "title": "Header top sección uno",
+    "flex-layout.row#header__top--one": {
         "children": [
-            "rich-text#container__section--contact-one",
-            "rich-text#header__section--contact-two",
-            "rich-text#header__section--contact-three"
+            "flex-layout.col#header__top--one",
+            "flex-layout.col#header__top--two",
+            "flex-layout.col#header__top--three",
+            "header-spacer",
+            "header-spacer",
+            "flex-layout.col#header__top-four",
+            "flex-layout.col#header__top-five"
         ],
-        "props": {
-            "orientation": "vertical",
-            "width": "77%"
+        "props":{
+            "colGap":5
+        }
+    },
+    "flex-layout.col#header__top--one": {
+        "children": [
+            "menu#venta__telefonica"
+        ],
+        "props":{
+            "blockClass": "telefono__header"     
           }
     },
-    "rich-text#container__section--contact-one": {
-        "props": {
-            "text": "Venta telefónica",
-            "blockClass": "header__section--top"
-        }
-    },
-    "rich-text#header__section--contact-two": {
-        "props": {
-            "text": "Atención al cliente",
-            "blockClass": "header__section--top"
-        }
-    },
-    "rich-text#header__section--contact-three": {
-        "props": {
-            "text": "WhatsApp 3213581717",
-            "blockClass": "header__section--top"
-        }
-    },
-    "flex-layout.row#top__header--desktop-two": {
+    "menu#venta__telefonica": {
         "children": [
-            "rich-text#header__section--viajar",
-            "rich-text#header__section--tarjeta"
-        ],
+            "menu-item#venta__tel"
+        ]
+    },
+    "menu-item#venta__tel": {
         "props": {
-            "blockClass": "header__container--others",
-            "width": "33%"
+            "blockClass": "item-header-group",
+            "id": "venta__tel",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "iconProps": {
+                "id": "sti-telefono",
+                "viewBox": "0 0 100 100",
+                "size": 20
+            },
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "venta__tel",
+                "text": "Venta telefónica",
+                "orientation": "horizontalAlign"
+            }
         }
     },
-    "rich-text#header__section--viajar": {
+    "flex-layout.col#header__top--two": {
+        "children": [
+            "menu#atencion__cliente"
+        ]
+    },
+    "menu#atencion__cliente": {
+        "children": [
+            "menu-item#cliente"
+        ]
+    },
+    "menu-item#cliente": {
         "props": {
-            "text": "Viajar Olímpica",
-            "blockClass": "header__section--top"
+            "blockClass": "item-header-group",
+            "id": "venta__tel",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "iconProps": {
+                "id": "sti-audi",
+               "viewBox":"0 0 100 100",
+                "size": 20
+            },
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "aten__cliente",
+                "text": "Atención al cliente",
+                "orientation": "horizontalAlign"
+            }
         }
     },
-    "rich-text#header__section--tarjeta": {
+    "flex-layout.col#header__top--three": {
+        "children": [
+            "menu#whatsapp__header"
+        ]
+    },
+    "menu#whatsapp__header": {
+        "children": [
+            "menu-item#whatsapp"
+        ]
+    },
+    "menu-item#whatsapp": {
         "props": {
-            "text": "Tarjeta Olímpica",
-            "blockClass": "header__section--top"
+            "blockClass": "item-header-group",
+            "id": "whatsapp",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "iconProps": {
+                "id": "nav-minus",
+                "viewBox":"0 0 16 16",
+                "size": 20
+            },
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "aten__cliente",
+                "text": "WhatsApp 3213581717",
+                "orientation": "horizontalAlign"
+            }
+        }
+    },
+    "flex-layout.col#header__top-four": {
+        "children": [
+            "menu#viajar__olimpica"
+        ]
+    },
+    "menu#viajar__olimpica": {
+        "children": [
+            "menu-item#viajar-olimpica"
+        ]
+    },
+    "menu-item#viajar-olimpica": {
+        "props": {
+            "blockClass": "item-header-group-2",
+            "id": "viajar__olimpica",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "viajar__olimpica",
+                "text": "Viajar Olimpica",
+                "orientation": "horizontalAlign"
+            }
+        }
+    },
+    "flex-layout.col#header__top-five": {
+        "children": [
+            "menu#tarjeta__olimpica"
+        ]
+    },
+    "menu#tarjeta__olimpica": {
+        "children": [
+            "menu-item#tarjeta__olimpica--header"
+        ]
+    },
+    "menu-item#tarjeta__olimpica--header": {
+        "props": {
+            "blockClass": "item-header-group-3",
+            "id": "tarjeta__olimpica",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "viajar__olimpica",
+                "text": "Tarjeta Olímpica",
+                "orientation": "horizontalAlign"
+            }
         }
     }
 }

@@ -1,0 +1,35 @@
+.styledLinkContent--item-header-group,
+.styledLinkContent--item-header-group-2,
+.styledLinkContent--item-header-group-3{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 3px;
+}
+
+.styledLinkContainer--item-header-group-2{
+   padding-left: 8rem;
+}
+.styledLinkContainer--item-header-group-3{
+    padding-left: 5rem;
+}
+@media screen and (max-width: 550px){
+    .styledLinkContent--item-header-group,
+    .styledLinkContent--item-header-group-2{
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width:550px){
+    .styledLinkContainer--item-header-group-2,
+    .styledLinkContainer--item-header-group-3{
+        padding-left:0;
+        font-size: 14px;
+     }
+}
+
+.styledLinkContent--item-header-group-3{
+    border-left: 1px solid #d9d9d9;
+    font-size: 14px;
+    font-weight: 700;
+}

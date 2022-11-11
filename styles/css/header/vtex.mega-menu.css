@@ -1,8 +1,7 @@
 .menuContainerNav{
     z-index:2; 
     padding-left:20px; 
-    top:10px;
-    height: 100%;
+    top:118px
 }
 .triggerContainer{
     padding-left: 0.5rem;
@@ -14,4 +13,8 @@
 }
 .styledLinkContent:hover{
     color: grey;
+}
+
+.goBackButtonText{
+    display: none
 }

@@ -1,0 +1,27 @@
+.biggy-autocomplete{
+    border-radius: 20px;
+    width: 110%;
+    margin-left:6rem;
+    margin-top: 2.2rem;
+}
+.itemListTitle {
+    display: none
+}
+
+@media screen and (max-width: 550px){
+    .biggy-autocomplete{
+        margin-left:0;
+        width: 160%;
+        transform: translate(-165px);
+        margin-top: 0
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width:550px){
+    .biggy-autocomplete{
+        width: 150%;
+        margin-left:0;
+        transform: translate(-330px);
+        margin-top: 0
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "header-row#header__top-mobile": {
+        "children": [
+            "flex-layout.row#header__top--mobile"
+        ],
+        "props": {
+            "blockClass": "header__superior-mobile",
+            "fullWidth": true,
+            "sticky": true
+        }
+    },
+    "flex-layout.row#header__top--mobile": {
+        "children": [
+            "flex-layout.col#header__top--one",
+            "flex-layout.col#header__top--three-mobile",
+            "flex-layout.col#header__top-four--mobile",
+            "flex-layout.col#header__top-five-mobile"
+        ],
+        "props": {
+            "blockClass": "header_mobile_top",
+            "preserveLayoutOnMobile": true,
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#header__top--mobile-one": {
+        "children": [
+            "flex-layout.col#header__top--one"
+        ],
+        "props": {
+            "blockClass": "header__mobile--top"
+        }
+    },
+    "flex-layout.col#header__top--three-mobile": {
+        "children": [
+            "menu#whatsapp__header--mobile"
+        ],
+        "props": {
+            "blockClass": "header__mobile--top--two"
+        }
+    },
+    "menu#whatsapp__header--mobile": {
+        "children": [
+            "menu-item#whatsapp__mobile"
+        ]
+    },
+    "menu-item#whatsapp__mobile": {
+        "props": {
+            "blockClass": "item-header-group",
+            "id": "whatsapp",
+            "orientation": "horizontalAlign",
+            "type": "custom",
+            "iconProps": {
+                "id": "nav-minus",
+                "viewBox": "0 0 16 16",
+                "size": 20
+            },
+            "itemProps": {
+                "type": "external",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "aten__cliente",
+                "text": "WhatsApp",
+                "orientation": "horizontalAlign"
+            }
+        }
+    },
+    "flex-layout.col#header__top-four--mobile":{
+        "children":[
+            "flex-layout.col#header__top-four"
+        ],
+        "props":{
+            "blockClass": "header__top--mobile--t"
+        }
+    },
+    "flex-layout.col#header__top-five-mobile":{
+        "children":[
+            "flex-layout.col#header__top-five"
+        ],
+        "props":{
+            "blockClass": "header__top--mobile--tt"
+        }
+    }
+}

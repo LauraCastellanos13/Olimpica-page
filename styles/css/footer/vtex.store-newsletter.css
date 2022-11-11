@@ -8,3 +8,15 @@
     display: flex;
     justify-content: space-around;
 }
+
+.confirmationCheckboxContainer--chebox__suscribe :global(.vtex-checkbox__label){
+    color: white;
+    font-size: 11px;
+    padding-bottom: 1rem
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group),
+.nameInputContainer :global(.vtex-input-prefix__group) 
+/*vtex-button__label */{
+    border-radius: 1.25rem
+}

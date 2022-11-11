@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#footer__top--mobile":{
+        "children":[
+            "flex-layout.col#footer__container_one-mobile-1"
+        ]
+    },
+    "flex-layout.col#footer__container_one-mobile-1": {
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "newsletter__mobile"
+        }
+    }
+}

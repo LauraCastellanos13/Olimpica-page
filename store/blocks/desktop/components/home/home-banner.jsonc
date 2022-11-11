@@ -33,6 +33,11 @@
             "blockClass": "home__banner-two"
         }
     },
+    "flex-layout.row#banner__linea--blanca":{
+        "children":[
+            "image#home__banner--three"
+        ]
+    },
     "image#home__banner--three": {
         "title": "Imagen promociones dos",
         "props": {

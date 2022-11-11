@@ -1,0 +1,58 @@
+{
+    "rich-text#compra__segura__footer": {
+        "props": {
+            "text": "COMPRA SEGURA",
+            "blockClass": "compra__segura-footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#copyright__footer": {
+        "props": {
+            "text": "Copyright o Actualización 2021 OLÍMPICA S.A.. Derechos reservados.",
+            "blockClass": "copyright__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#direccion__footer": {
+        "props": {
+            "text": "Supertiendas y Drogería Olímpica S.A. - Nit 890.107.487 - Dirección de notificación: Calle 53 No. 46-192 local 3-01",
+            "blockClass": "direccion__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#telefono__footer": {
+        "props": {
+            "text": "Teléfono: 31770100 - Correo: servicioalcliente@ olimpica.com.co",
+            "blockClass": "telefono__footer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#powered__footer": {
+        "props": {
+            "text": "Powered by:",
+            "blockClass": "text__p--t"
+        }
+    },
+    "image#image__powered--footer": {
+        "props": {
+            "src": "assets/img/logo_sonovista.png",
+            "blockClass": "img_pow--tech"
+        }
+    },
+    "rich-text#tech__footer": {
+        "props": {
+            "text": "Technology",
+            "blockClass": "text__p--t"
+        }
+    },
+    "image#image__tech--footer": {
+        "props": {
+            "src": "assets/img/logo_vtex.png",
+            "blockClass": "img_pow--tech"
+        }
+    }
+}

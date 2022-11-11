@@ -1,4 +1,73 @@
-.imageElement--image__section--one-mobile {
+.flexRow--home__section--one {
+    column-gap: 2rem;
+}
+
+.imageElement--home__banner-three {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 10%;
+}
+
+.flexColChild--section__two--image3 {
+    gap: 10px;
+}
+
+.flexRowContent--container-fourone {
+    gap: 1rem
+}
+
+.imageElement--home__banner-two {
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.imageElement--home__banner-principal {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 9%;
+    width: 82%;
+}
+
+.imageElement--image-mas-servicios {
+    border-radius: 10px;
+}
+
+.imageElement--section__two--phone-images {
+    width: 100%;
+}
+.flexRowContent--phone__image--two{
+    margin-top: 2rem;
+}
+
+.imageElement--img-slider-one-desktop{
+    border-radius: 10px;
+}
+
+.imageElement--img-slider-one-desktop{
+    gap:3rem
+}
+
+/****** Styles Banners*******/
+.imageElement--home__banner-two {
+    margin-top: 1rem;
+    border-radius: 15px
+}
+
+.imageElement--home__banner-principal {
+    margin-bottom: 1rem;
+    margin-left: 9%;
+    width: 82%
+}
+
+.imageElement--home__banner-three {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 10%
+}
+
+/***********Slider image styles************/
+
+.imageElement--home__banner-three {
     width: 100%;
     margin-top: 1rem
 }
@@ -33,13 +102,30 @@
     margin-bottom: 1rem;
 }
 
-.imageElement--seccion__bajo--div{
+.imageElement--seccion__bajo--div {
     height: 2rem;
     width: auto
 }
 
-.imageElement--seccion__bajo--div-2{
+.imageElement--seccion__bajo--div-2 {
     height: 1.5rem;
     padding-top: 0.7rem;
     gap: 1;
+}
+
+/**********Responsive banner images style**********/
+
+@media screen and (max-width: 768px) {
+    .imageElement--home__banner-two {
+        margin-bottom: 2rem;
+    }
+
+    .imageElement--home__banner-three {
+        margin-top: 0;
+        max-width: 100%;
+    }
+ 
+    .imageElement--image__product--list{
+        padding-top: 1rem;
+    }
 }

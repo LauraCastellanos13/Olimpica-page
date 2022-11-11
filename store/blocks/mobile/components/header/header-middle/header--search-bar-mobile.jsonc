@@ -1,0 +1,10 @@
+{
+    "search-bar#mobile__searchbar": {
+      "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        "openAutoCompleteOnFocus": true,
+        "blockClass": "searchbar__mobile",
+        "placeholder": "¿Qué estás buscando hoy?"
+      }
+    }
+}

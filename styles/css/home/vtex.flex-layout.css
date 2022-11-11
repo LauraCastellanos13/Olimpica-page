@@ -1,0 +1,132 @@
+.flexRowContent--section__servicios {
+    margin-bottom: 5rem;
+}
+
+.flexRow--home__section--one,
+.flexRowContent--best__offers {
+    gap: 3rem
+}
+
+.flexRowContent--best__offers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.flexRow--slider__image--block {
+    margin-top: 1rem;
+}
+
+.flexRowContent--slider__image--block {
+    gap: 3rem
+}
+
+.flexRowContent--seccion__botones {
+    padding-top: 0.4rem;
+}
+
+/* Responsive Tablet*/
+
+@media (max-width: 821px) and (min-width:420px){
+    .flexRow--botones__home {
+        padding-top: .5rem;
+        padding-bottom: 1rem
+    }
+
+    .flexRow--slider-imagen {
+        padding-bottom: 2rem;
+        padding-top: 2rem
+    }
+
+    .flexRow--homesliderdoubledouble {
+        padding-bottom: 1rem
+    }
+
+    .flexRowContent--homesliderdouble,
+    .flexRowContent--slidertwolayout,
+    .flexRowContent--homesliderdoubledouble,
+    .flexRowContent--homeslider-preciosbajos,
+    .flexRowContent--homeslider-preciosbajos-2 {
+        gap: 1rem !important
+    }
+
+    .flexRowContent--best__offers {
+        margin-bottom: 0
+    }
+
+    .sliderLayoutContainer--home__slider {
+        margin-right: .5rem;
+        margin-left: .5rem
+    }
+
+    .flexRow--section__servicios {
+        width: 90%;
+        padding-left: 4rem
+    }
+
+    .flexRowContent--section__servicios {
+        margin-bottom: 3rem
+    }
+}
+
+/************Flex-layout slider styles****************/
+
+.flexRowContent--homeslider-preciosbajos,
+.flexRowContent--homeslider-preciosbajos-2 {
+    gap: 3rem;
+    padding-bottom: 0.6rem;
+}
+
+/************Flex-layout slider whit two imagesstyles****************/
+
+.flexRowContent--homesliderdouble,
+.flexRowContent--homesliderdoubledouble,
+.flexRow--slidertwolayout {
+    gap: 3rem;
+    padding-top: 1.5rem
+}
+
+.imageElement--home__image-slider {
+    margin-left: 2rem;
+}
+
+.flexRowContent--slider-imagen {
+    gap: 2rem
+}
+
+.flexCol--images__phone--big {
+    margin-top: 3rem;
+}
+
+.flexRow--image__slider--product {
+    padding-top: 2rem;
+    padding-bottom: 1rem
+}
+
+.flexRowContent--button__comprar :global(.vtex-button) {
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+
+.flexRow--minicart__inside {
+    margin-top: 1rem;
+}
+
+.flexRowContent--button__comprar :global(.vtex-button__label) {
+    color: #1967ae !important;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s
+}
+
+.flexRowContent--button__comprar:hover :global(.vtex-button__label) {
+    color: white !important;
+    background-color: #E2001A;
+}
+
+.flexCol--footer__middle--mobile {
+    display: flex;
+    align-items: center;
+
+}
