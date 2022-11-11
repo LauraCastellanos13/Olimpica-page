@@ -1,0 +1,19 @@
+.galleryTitle--layout{
+    font-size: 25px;
+    color: #38464f;
+    letter-spacing: -.13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+.gallery--general-grid{
+    margin-top: 1rem
+}
+.galleryItem--general-grid{
+    border: 1px solid #CFCFCF;
+    margin: 1rem;
+    width: 17rem;
+    border-radius: 10px;
+    margin-bottom: 2rem
+}
