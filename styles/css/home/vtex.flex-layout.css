@@ -26,7 +26,7 @@
 
 /* Responsive Tablet*/
 
-@media (max-width: 768px) and (min-width:420){
+@media (max-width: 821px) and (min-width:420px){
     .flexRow--botones__home {
         padding-top: .5rem;
         padding-bottom: 1rem
