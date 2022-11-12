@@ -63,3 +63,8 @@
 .biggy-autocomplete {
     border-radius: 25px;
 }
+
+.flexRow--botones__home{
+    padding-top: 0.4rem;
+    margin-right: 10rem
+}
