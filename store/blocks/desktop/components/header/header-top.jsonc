@@ -68,7 +68,7 @@
             },
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "https://www.olimpica.com/domicilios/",
                 "noFollow": true,
                 "tagTitle": "venta__tel",
                 "text": "Venta telefónica",
@@ -99,7 +99,7 @@
             },
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "https://mi.olimpica.com.co/#/contact_us_redirect",
                 "noFollow": true,
                 "tagTitle": "aten__cliente",
                 "text": "Atención al cliente",
@@ -130,7 +130,7 @@
             },
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "https://api.whatsapp.com/send/?phone=573213581717",
                 "noFollow": true,
                 "tagTitle": "aten__cliente",
                 "text": "WhatsApp 3213581717",
@@ -156,7 +156,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "https://www.viajarolimpica.com/",
                 "noFollow": true,
                 "tagTitle": "viajar__olimpica",
                 "text": "Viajar Olimpica",
@@ -182,7 +182,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "external",
-                "href": "#",
+                "href": "https://tarjetaolimpica.bancoserfinanza.com/?clientCode=BANCO-SERFINANZA&productCode=SERF-TARJETA-DE-CREDITO",
                 "noFollow": true,
                 "tagTitle": "viajar__olimpica",
                 "text": "Tarjeta Olímpica",

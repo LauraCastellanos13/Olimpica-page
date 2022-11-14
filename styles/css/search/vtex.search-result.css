@@ -1,3 +1,13 @@
+.galleryTitle--layout {
+    font-size: 25px;
+    color: #38464f;
+    letter-spacing: -.13px;
+    padding-top: 5px;
+}
+
+.gallery--general-grid {
+    margin-top: 1rem
+}
 .galleryTitle--layout{
     font-size: 25px;
     color: #38464f;
@@ -16,4 +26,42 @@
     width: 17rem;
     border-radius: 10px;
     margin-bottom: 2rem
+}
+
+.orderByButton::before {
+    content: "Ordenar por";
+    background: #fff;
+    text-transform: capitalize;
+    padding-right: 10px;
+    color: #36474f;
+}
+
+.filterPopupTitle {
+    flex-direction: row !important;
+    text-align: center;
+    background: #e2001b;
+    color: #fff;
+    font-size: 14px !important;
+    font-family: Montserrat;
+    font-weight: 400;
+    opacity: 1;
+    height: 65px;
+    align-items: center;
+    letter-spacing: .15px;
+    text-transform: lowercase;
+    padding-left: 10px;
+    width: 150px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderByText {
+    display: none
+}
+
+.orderByButton {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end
 }

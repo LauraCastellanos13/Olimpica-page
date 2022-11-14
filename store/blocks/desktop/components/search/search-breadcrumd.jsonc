@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#desktop__search--breadcrumb": {
+      "title": "Breadcrumb in search pages",
+      "children": ["breadcrumb.search"],
+      "props": {
+        "blockClass": "desktop__search--breadcrumb"
+      }
+    }, 
+    "breadcrumb.search": {
+      "props": {
+        "showOnMobile": true
+      }
+    }
+  }

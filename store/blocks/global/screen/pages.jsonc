@@ -1,0 +1,12 @@
+{
+    "store.custom#gana-fanaticos": {
+      "blocks": [
+        "flex-layout.row#gana-fanaticos"
+      ]
+    },
+    "store.custom#noticias": {
+      "blocks": [
+        "flex-layout.row#page__noticias"
+      ]
+    }
+   }
