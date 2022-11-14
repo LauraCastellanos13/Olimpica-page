@@ -1,0 +1,114 @@
+{
+    "product-summary.shelf#home__product--shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-space",
+            "product-summary-name",
+            "product-summary-price",
+            "flex-layout.row#quantity-add"
+        ],
+        "props": {
+            "blockClass": "product__shelf--grid"
+        }
+    },
+    "product-summary.shelf#home__product--shelf-three": {
+        "children": [
+            "responsive-layout.desktop#search__product-shelf-view-one",
+            "responsive-layout.mobile#search__product-shelf-view-one"
+        ],
+        "props": {
+            "blockClass": "product__summary--search"
+        }
+    },
+    "responsive-layout.desktop#search__product-shelf-view-one": {
+        "children": [
+            "flex-layout.row#search__product-shelf-view-one"
+        ],
+        "props": {
+            "blockClass": "product__container--shelf--one"
+        }
+    },
+    "flex-layout.row#search__product-shelf-view-one": {
+        "children": [
+            "flex-layout.col#search__product--one--image",
+            "flex-layout.col#search__product--one--title",
+            "flex-layout.col#search__product--one--price",
+            "flex-layout.col#search__product--one--quantity--addCart"
+        ],
+        "props": {
+            "blockClass": "search__product--one--container",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#search__product--one--image": {
+        "children": [
+            "product-summary-image"
+        ],
+        "props": {
+            "verticalAlign": "top",
+            "preventVerticalStretch": true,
+            "showBadge": true,
+            "height": 220
+        }
+    },
+    "flex-layout.col#search__product--one--title": {
+        "children": [
+            "product-summary-name"
+        ]
+    },
+    "flex-layout.col#search__product--one--price": {
+        "children": [
+            "product-summary-price"
+        ]
+    },
+    "flex-layout.col#search__product--one--quantity--addCart": {
+        "children": [
+            "flex-layout.row#quantity-add"
+        ]
+    },
+    "responsive-layout.mobile#search__product-shelf-view-one": {},
+    "product-summary.shelf#home__product--shelf--two": {
+        "children": [
+            "product-summary-image",
+            "product-summary-space",
+            "product-summary-name",
+            "product-summary-price",
+            "flex-layout.row#quantity-add"
+        ],
+        "props": {
+            "blockClass": "product__shelf--two"
+        }
+    },
+    "flex-layout.row#quantity-add": {
+        "children": [
+            "flex-layout.col#search__product-quantity",
+            "flex-layout.col#search__product-add-to-cart"
+        ],
+        "props": {
+            "blockClass": "quantity__add--button"
+        }
+    },
+    "flex-layout.col#search__product-quantity":{
+        "children":[
+            "product-quantity"
+        ],
+        "props":{
+            "blockClass": "btn__quantity"
+        }
+    },
+    "flex-layout.col#search__product-add-to-cart":{
+        "children":[
+            "add-to-cart-button"
+        ],
+        "props":{
+            "blockClass": "btn__add--cart--btn"
+        }
+    },
+    "product-quantity": {
+        "props": {
+            "showUnit": true,
+            "size": "small"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.inlineGridIcon,
+.gridIcon{
+    color:#E2001A ;
+}
+
+.inlineGridIcon:hover,
+.gridIcon:hover {
+    color: grey;
+}

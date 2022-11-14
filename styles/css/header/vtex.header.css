@@ -9,3 +9,7 @@
 .flexRow--container__header--top-desktop {
     width: 100%
 }
+.headerRowContainer--header--down-two--container{
+    padding-top: 0.4rem;
+    margin-right: 10rem
+}

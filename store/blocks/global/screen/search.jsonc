@@ -8,7 +8,6 @@
           }
         }
       },
-    
       "store.search#brand": {
         "blocks": ["search-result-layout"],
         "props": {
@@ -21,7 +20,6 @@
           }
         }
       },
-    
       "store.search#department": {
         "blocks": ["search-result-layout"],
         "props": {
@@ -31,7 +29,6 @@
           }
         }
       },
-    
       "store.search#category": {
         "blocks": ["search-result-layout"],
         "props": {
@@ -41,7 +38,6 @@
           }
         }
       },
-    
       "store.search#subcategory": {
         "blocks": ["search-result-layout"],
         "props": {
@@ -51,7 +47,6 @@
           }
         }
       },
-    
       "search-result-layout": {
         "blocks": [
           "search-result-layout.desktop",

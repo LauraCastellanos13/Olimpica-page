@@ -130,3 +130,8 @@
     align-items: center;
 
 }
+
+.flexRow--botones__home{
+    padding-top: 0.4rem;
+    margin-right: 10rem
+}
