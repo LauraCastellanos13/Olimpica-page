@@ -1,7 +1,6 @@
 {
     "responsive-layout.desktop": {
         "children": [
-            "flex-layout.row#seccion__botones--home",
             "image#home__banner--principal",
             "flex-layout.row#home__section--four",
             "flex-layout.row#home__section--one",
