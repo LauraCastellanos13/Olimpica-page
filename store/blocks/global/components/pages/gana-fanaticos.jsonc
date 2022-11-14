@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#gana-fanaticos": {
+      "children": [
+        "flex-layout.col#text-gana-fanaticos"
+      ]
+    },
+    "flex-layout.col#text-gana-fanaticos": {
+      "children": [
+        "rich-text#about-title",
+        "rich-text#about-content",
+        "rich-text#about-content-two",
+        "rich-text#about-content-three",
+        "rich-text#about-content-four",
+        "rich-text#about-content-five",
+        "rich-text#about-content-six",
+        "rich-text#about-content-seven",
+        "rich-text#about-content-eight",
+        "rich-text#about-content-nine",
+        "rich-text#about-content-ten"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass":"container__text-campain"
+      }
+    },
+    "rich-text#about-title": {
+      "props": {
+        "text": "# Gana Fanáticos Millonarios, la campaña con la que el consumidor gana mientras compra",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content": {
+      "props": {
+        "text": "• Llega la edición de Gana Fanáticos Millonarios, la campaña que busca premiar a los clientes de Olímpica, quienes tendrán la oportunidad de acceder a ofertas especiales de sus productos, así como a la posibilidad de acumular boletas para participar en el sorteo de una de las 42 tarjetas monedero cargadas para uso en cualquier canal o puntos de venta de Olímpica.",
+        "blockClass":"text__page--win",
+        "textPosition": "CENTER"
+      }
+    },
+    "rich-text#about-content-two": {
+      "props": {
+        "text": "• Del 15 de octubre al 15 de noviembre 2022, todas las compras de mercado realizadas desde cualquier canal en Olímpica garantizan la generación de boletas electrónicas para participar en el sorteo de 10 tarjetas monedero de $50.000.000, 12 tarjetas monedero de $25.000.000, y 20 tarjetas monedero de $10.000.000.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-three": {
+      "props": {
+        "text": "• De esta manera, los clientes ganadores tendrán un alivio en sus gastos y podrán aprovechar este dinero para sus compras habituales u otras necesidades que tengan dentro de su hogar",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-four": {
+      "props": {
+        "text": "Barranquilla, octubre 2022. Llega la edición de Gana Fanáticos Millonarios, la campaña que busca premiar a los clientes de Olímpica por sus compras. Del 15 de Octubre al 15 de Noviembre las compras de supermercados generan boletas electrónicas para el sorteo de una de las 42 tarjetas monedero. En total se entregarán más $1.000 millones de pesos en premios.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-five": {
+      "props": {
+        "text": "En medio de la situación inflacionaria que enfrenta el país y el alza en el gasto de los hogares, Olímpica decidió lanzar esta campaña para que los ganadores puedan decidir con total libertad qué comprar, las tarjetas monedero se podrán utilizar desde cualquier canal o puntos de venta Olímpica del país.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-six": {
+      "props": {
+        "text": "En este sentido, durante la vigencia de la campaña, todas las compras realizadas desde cualquier canal en la categoría de supermercado garantizan la entrega de boletas electrónicas después de cumplir con la meta de compra para participar en el sorteo de uno de los premios, que serán distribuidos de la siguiente manera: 10 tarjetas monedero de $50.000.000, 12 tarjetas monedero de $25.000.000, 20 tarjetas monedero de $10.000.000 para un total de 42 ganadores.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-seven": {
+      "props": {
+        "text": "“Buscamos entregar una experiencia integral de compra a través de Gana Fanáticos Millonarios. Mantenemos vigente la organización de este tipo de campañas cada año para que nuestros clientes, para que además de acceder a precios bajos y ofertas especiales puedan participar por premios. En esta ocasión decidimos premiar a los consumidores con tarjetas monedero, para que los ganadores tengan un alivio en sus gastos y aprovechen este dinero para sus compras habituales u otras necesidades que tengan dentro de su hogar”, comenta Linda Char, Vicepresidente de mercadeo en Supertiendas y Droguerías Olímpica.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-eight": {
+      "props": {
+        "text": "De esta manera, los colombianos podrán aprovechar los beneficios dispuestos por Olímpica a través de un portafolio diverso de productos a los mejores precios, que, en esta ocasión, también le apuestan a premiar la fidelidad de compra y consumo a través de una serie de sorteos.",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-nine": {
+      "props": {
+        "text": "Sobre Olímpica",
+        "blockClass":"text__page--win"
+      }
+    },
+    "rich-text#about-content-ten": {
+      "props": {
+        "text": "Olímpica es una empresa con capital 100% colombiano y una de las empleadoras más importantes a nivel nacional. Esta compañía con origen en el caribe actualmente cuenta con 400 puntos de venta distribuidos en 117 municipios y 21 departamentos, que le han permitido posicionarse como el tercer supermercado del sector retail más grande del país.",
+        "blockClass":"text__page--win"
+      }
+    }
+  }

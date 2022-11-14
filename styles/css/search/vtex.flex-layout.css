@@ -1,0 +1,27 @@
+.flexColChild--filter__search{
+    border-top: 1px solid #ccc;
+    padding-top: 55px;
+}
+.flexRow--content__search--info{
+    background: #fff;
+    opacity: 1;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-evenly
+}
+
+.flexCol--search__results--content{
+    padding-top: 4.2rem
+}
+
+.flexColChild--info__gallery--result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    overflow: hidden;
+    margin-inline-end: auto;
+}
+.flexRowContent--content__search--info{
+    height: 65px;
+}
