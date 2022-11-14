@@ -8,8 +8,19 @@
 .gallery--general-grid {
     margin-top: 1rem
 }
+.galleryTitle--layout{
+    font-size: 25px;
+    color: #38464f;
+    letter-spacing: -.13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
 
-.galleryItem--general-grid {
+.gallery--general-grid{
+    margin-top: 1rem
+}
+.galleryItem--general-grid{
     border: 1px solid #CFCFCF;
     margin: 1rem;
     width: 17rem;
@@ -52,5 +63,5 @@
 .orderByButton {
     height: 60px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end
 }
