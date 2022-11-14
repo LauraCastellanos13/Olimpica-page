@@ -1,0 +1,68 @@
+{
+    "header-row#header__down-two": {
+        "children": [
+            "flex-layout.row#parte__uno__seccion--botones",
+            "header-spacer",
+            "flex-layout.row#parte__dos__seccion--botones"
+        ],
+        "props": {
+            "blockClass": "header--down-two--container",
+            "fullWidth": true,
+            "colSizing": "auto",
+            "colJustify": "around",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#parte__uno__seccion--botones": {
+        "children":[
+            "flex-layout.col#parte__uno__seccion--botones"
+        ], 
+        "props":{
+            "width":"50%"
+        }
+    },
+    "flex-layout.col#parte__uno__seccion--botones":{},
+    "flex-layout.row#parte__dos__seccion--botones": {
+        "children": [
+            "image#supermercado",
+            "image#drogueria",
+            "image#electrodomesticos",
+            "image#catalogos",
+            "image#nuestras__tiendas"
+        ],
+        "props": {
+            "blockClass": "botones__home",
+            "width": "50%"
+        }
+    },
+    "image#supermercado": {
+        "props": {
+            "src": "assets/img/Btn_supermercadp.png",
+            "blockClass": "seccion__bajo--div"
+        }
+    },
+    "image#drogueria": {
+        "props": {
+            "src": "assets/img/tbn_drogueria.png",
+            "blockClass": "seccion__bajo--div"
+        }
+    },
+    "image#electrodomesticos": {
+        "props": {
+            "src": "assets/img/electro.png",
+            "blockClass": "seccion__bajo--div"
+        }
+    },
+    "image#catalogos": {
+        "props": {
+            "src": "assets/img/header_icon_catalogo.png",
+            "blockClass": "seccion__bajo--div-2"
+        }
+    },
+    "image#nuestras__tiendas": {
+        "props": {
+            "src": "assets/img/header_icon_tiendas.png",
+            "blockClass": "seccion__bajo--div-2"
+        }
+    }
+}
