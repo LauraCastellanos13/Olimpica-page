@@ -1,0 +1,150 @@
+{
+    "flex-layout.row#page__noticias": {
+        "children": [
+            "flex-layout.col#page__noticias"
+        ],
+        "props":{
+            "blockClass":"container__page--noticias"
+        }
+    },
+    "flex-layout.col#page__noticias": {
+        "children": [
+            "flex-layout.col#page__noticias-title",
+            "flex-layout.col#page__noticias-columns"
+        ],
+        "props":{
+        "blockClass":"content__page--noticias"
+        }
+    },
+    "flex-layout.col#page__noticias-title": {
+        "children": [
+            "rich-text#title-page__noticias"
+        ]
+    },
+    "flex-layout.col#page__noticias-columns": {
+        "children": [
+            "flex-layout.row#page__noticias--column",
+            "flex-layout.row#page__noticias--column--two",
+            "flex-layout.row#page__noticias--column",
+            "flex-layout.row#page__noticias--column--two",
+            "flex-layout.row#page__noticias--column",
+            "flex-layout.row#page__noticias--column--two"
+        ],
+        "props": {
+            "blockClass": "",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#title-page__noticias": {
+        "props": {
+            "text": " ## Noticias",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "title__noticias"
+        }
+    },
+    "flex-layout.row#page__noticias--column": {
+        "children": [
+            "flex-layout.col#page__noticias-column-one",
+            "flex-layout.col#page__noticias-column-two",
+            "flex-layout.col#page__noticias-column-three"
+        ]
+    },
+    "flex-layout.col#page__noticias-column-one": {
+        "children": [
+            "info-card#noticias--one"
+        ]
+    },
+    "info-card#noticias--one": {
+        "props": {
+            "headline": "Gana Fanáticos Millonarios, la campaña con la que el consumidor gana mientras compra",
+            "subhead": "Llega la edición de Gana Fanáticos Millonarios, la campaña que busca premiar a los clientes de Olímpica, quienes tendrán la oportunidad de acceder a ofertas...",
+            "callToActionMode": "button",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.col#page__noticias-column-two": {
+        "children": [
+            "info-card#noticias--two"
+        ]
+    },
+    "info-card#noticias--two": {
+        "props": {
+            "headline": "Olímpica y ABACO: una alianza que ha entregado más 17 millones de raciones de comida durante 2021 y 2022",
+            "subhead": "En el marco del mes de la lucha contra el hambre en Colombia, que se celebra en octubre cada año, Olímpica y la Asociación de Bancos de Alimentos de Colombia (ABACO) ...",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.col#page__noticias-column-three": {
+        "children": [
+            "info-card#noticias--three"
+        ]
+    },
+    "info-card#noticias--three": {
+        "props": {
+            "headline": "Después de dos años regresa Expodrinks, la feria de licores más importante de la costa.",
+            "subhead": "La feria de licores favorita de los barranquilleros vuelve de manera presencial a Puerta de Oro, Centro de eventos del Caribe del 29 de septiembre al 2 de octubre, organizada por Olímpica...",
+            "callToActionMode": "button",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.row#page__noticias--column--two": {
+        "children": [
+            "flex-layout.col#page__noticias-column-four",
+            "flex-layout.col#page__noticias-column-five",
+            "flex-layout.col#page__noticias-column-six"
+        ]
+    },
+    "flex-layout.col#page__noticias-column-four": {
+        "children": [
+            "info-card#noticias--four"
+        ]
+    },
+    "info-card#noticias--four": {
+        "props": {
+            "headline": "Precios Rojos: la iniciativa de Olímpica que le permite a los colombianos hacer el mercado más barato",
+            "subhead": "Ante la actual situación inflacionaria en alimentos, Olímpica despliega “Precios Rojos”, una iniciativa con la cual cientos de productos marcados con el sello garantizan el precio más bajo de la categoría...",
+            "callToActionMode": "button",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.col#page__noticias-column-five": {
+        "children": [
+            "info-card#noticias--five"
+        ]
+    },
+    "info-card#noticias--five": {
+        "props": {
+            "headline": "Olímpica alcanza los 26 puntos de venta en Cali",
+            "subhead": "Supertiendas y Droguerías Olímpica abre su punto de venta número 26 en Cali, ubicada en el barrio Prados del Norte Av 3N #36N- 70. La nueva tienda cuenta un área de 773m2...",
+            "callToActionMode": "button",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    },
+    "flex-layout.col#page__noticias-column-six": {
+        "children": [
+            "info-card#noticias--six"
+        ]
+    },
+    "info-card#noticias--six": {
+        "props": {
+            "headline": "Se fortalece la alianza entre Olímpica y UNICEF para beneficiar a 22.000 niños, niñas y adolescentes en el país",
+            "subhead": "Llega la edición de Gana Fanáticos Millonarios, la campaña que busca premiar a los clientes de Olímpica, quienes tendrán la oportunidad de acceder a ofertas...",
+            "callToActionMode": "button",
+            "callToActionText": "LEER",
+            "callToActionUrl": "/gana-fanaticos",
+            "textAlignment": "left"
+        }
+    }
+}

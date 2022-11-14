@@ -1,0 +1,42 @@
+.infoCardImageContainer{
+    display: none
+}
+.infoCardImage{
+    display: none
+}
+.infoCardTextContainer{
+    width: 100%!important;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+}
+.infoCardHeadline{
+    color: #000!important;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+.infoCardSubhead{
+    margin: 0!important;
+    color: #747373!important;
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 0;
+}
+.infoCardCallActionContainer{
+    margin: 10px 0 0;
+}
+.infoCardContainer{
+    width: 96%!important;
+    background: #fff;
+    border: 4px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 2% 2% 20px;
+    padding: 30px 2% 20px;
+    min-height: 400px;
+}

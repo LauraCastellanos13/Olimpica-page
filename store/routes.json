@@ -1,5 +1,8 @@
 {
-    "store.custom#about-us":{
+    "store.custom#gana-fanaticos":{
+        "path": "/gana-fanaticos"
+    },
+    "store.custom#noticias":{
         "path": "/noticias"
     }
 }

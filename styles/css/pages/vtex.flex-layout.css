@@ -1,0 +1,13 @@
+.flexCol--container__text-campain{
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 4rem
+}
+.flexRowContent--container__page--noticias{
+    background-color: #F1F1EB;
+    padding-bottom: 2rem
+}
+.flexRow--container__page--noticias{
+    padding-top: 2rem
+}   

@@ -35,16 +35,17 @@
 .imageElement--section__two--phone-images {
     width: 100%;
 }
-.flexRowContent--phone__image--two{
+
+.flexRowContent--phone__image--two {
     margin-top: 2rem;
 }
 
-.imageElement--img-slider-one-desktop{
+.imageElement--img-slider-one-desktop {
     border-radius: 10px;
 }
 
-.imageElement--img-slider-one-desktop{
-    gap:3rem
+.imageElement--img-slider-one-desktop {
+    gap: 3rem
 }
 
 /****** Styles Banners*******/
@@ -117,15 +118,30 @@
 
 @media screen and (max-width: 768px) {
     .imageElement--home__banner-two {
-        margin-bottom: 2rem;
+        margin-bottom: 2rem
     }
 
     .imageElement--home__banner-three {
         margin-top: 0;
-        max-width: 100%;
+        max-width: 100%
     }
- 
-    .imageElement--image__product--list{
-        padding-top: 1rem;
+
+    .imageElement--image__product--list {
+        padding-top: 1rem
     }
+}
+
+
+/**********Back to top button*****************/
+
+.backToTopButtonActive :global(.vtex-button) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #E2001A
 }
