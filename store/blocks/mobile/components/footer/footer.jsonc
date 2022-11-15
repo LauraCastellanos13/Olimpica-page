@@ -6,7 +6,8 @@
             "flex-layout.row#footer__down--mobile"
         ],
         "props": {
-            "blockClass": "footer__mobile"
+            "blockClass": "footer__mobile",
+            "colSizing": "auto"
         }
     }
 }
