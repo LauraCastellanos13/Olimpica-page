@@ -71,6 +71,7 @@
 .flexRow--footer__mobile {
     margin-top: 2rem;
     background-color: #30393e;
+    padding-bottom: 4rem
 }
 
 .flexCol--footer__middle--mobile {
@@ -119,14 +120,11 @@
 
     .flexColChild--newsletter__mobile {
         height: 100%;
-        display: contents;
-        width: 100;
+        width: 100
     }
 
     .flexCol--footer__middle--mobile {
-        display: grid;
         align-items: stretch;
-        justify-content: center;
+        justify-content: center
     }
-
 }
