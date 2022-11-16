@@ -1,6 +1,10 @@
-.element--product__shelf--grid{
-    border: 1px solid #CFCFCF;
-    margin: 1rem;
-    max-width: 20em;
-    border-radius: 10px;
+.containerNormal {
+        border: 1px solid #ccc;
+        margin: 1rem;
+        border-radius: 10px;
+        padding-bottom: 0
+}
+
+.container {
+        max-width: none !important
 }

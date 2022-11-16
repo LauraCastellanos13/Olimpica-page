@@ -66,15 +66,6 @@
 }
 
 /************** Section:products slider *************/
-
-.slide--slider__global--products,
-.slide--slider__global--products--image {
-    border: 1px solid #CFCFCF;
-    margin: 1rem;
-    width: 17rem;
-    border-radius: 10px
-}
-
 .sliderRightArrow--slider__global--products--image,
 .sliderLeftArrow--slider__global--products--image {
     width: 35px;
@@ -104,7 +95,6 @@
     height: 100%;
     border: none;
     outline: 0;
-    color: #1967ae !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +109,7 @@
     background-color: #f8f8f8
 }
 
-.buttonText--comprar__button--global :global(.vtex-add-to-cart-button){
+.buttonText--comprar__button--global :global(.vtex-add-to-cart-button),
+.buttonText--comprar__button--global--list :global(.vtex-add-to-cart-button){
     color: #1967ae
 }

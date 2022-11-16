@@ -1,23 +1,30 @@
 {
-    "product-summary.shelf#home__product--shelf": {
+    "product-summary.shelf#product--shelf": {
         "children": [
             "product-summary-image",
             "product-summary-space",
             "product-summary-name",
             "product-summary-price",
-            "flex-layout.row#quantity-add"
-        ],
+            "flex-layout.row#buy-button"
+        ]
+    },
+    "add-to-cart-button": {
         "props": {
-            "blockClass": "product__shelf--grid"
+            "text": "COMPRAR",
+            "blockClass": "comprar__button--global"
         }
     },
+    //Second product summary shelf
     "product-summary.shelf#home__product--shelf-three": {
         "children": [
             "responsive-layout.desktop#search__product-shelf-view-one",
             "responsive-layout.mobile#search__product-shelf-view-one"
         ],
         "props": {
-            "blockClass": "product__summary--search"
+            "blockClass": "product__summary--search",
+            "width": "100%",
+            "fullWidth":true,
+            "preventHorizontalStretch": true
         }
     },
     "responsive-layout.desktop#search__product-shelf-view-one": {
@@ -33,11 +40,12 @@
             "flex-layout.col#search__product--one--image",
             "flex-layout.col#search__product--one--title",
             "flex-layout.col#search__product--one--price",
-            "flex-layout.col#search__product--one--quantity--addCart"
+            "flex-layout.row#buy-button--list"
         ],
         "props": {
             "blockClass": "search__product--one--container",
             "colSizing": "auto",
+            "width": "grow",
             "preserveLayoutOnMobile": true
         }
     },
@@ -46,69 +54,42 @@
             "product-summary-image"
         ],
         "props": {
+            "width": "20%",
             "verticalAlign": "top",
             "preventVerticalStretch": true,
-            "showBadge": true,
-            "height": 220
+            "blockClass": "image__list"
         }
     },
     "flex-layout.col#search__product--one--title": {
         "children": [
             "product-summary-name"
-        ]
+        ],
+        "props": {
+            "blockClass": "name__list"
+        }
     },
     "flex-layout.col#search__product--one--price": {
         "children": [
             "product-summary-price"
-        ]
-    },
-    "flex-layout.col#search__product--one--quantity--addCart": {
-        "children": [
-            "flex-layout.row#quantity-add"
-        ]
-    },
-    "responsive-layout.mobile#search__product-shelf-view-one": {},
-    "product-summary.shelf#home__product--shelf--two": {
-        "children": [
-            "product-summary-image",
-            "product-summary-space",
-            "product-summary-name",
-            "product-summary-price",
-            "flex-layout.row#quantity-add"
         ],
         "props": {
-            "blockClass": "product__shelf--two"
+            "blockClass": "price__list"
         }
     },
-    "flex-layout.row#quantity-add": {
+    "flex-layout.row#buy-button--list": {
         "children": [
-            "flex-layout.col#search__product-quantity",
-            "flex-layout.col#search__product-add-to-cart"
+            "add-to-cart-button#list"
         ],
         "props": {
-            "blockClass": "quantity__add--button"
+            "width": "30%",
+            "preventVerticalStretch": true,
+            "blockClass": "add--cart__list"
         }
     },
-    "flex-layout.col#search__product-quantity":{
-        "children":[
-            "product-quantity"
-        ],
-        "props":{
-            "blockClass": "btn__quantity"
-        }
-    },
-    "flex-layout.col#search__product-add-to-cart":{
-        "children":[
-            "add-to-cart-button"
-        ],
-        "props":{
-            "blockClass": "btn__add--cart--btn"
-        }
-    },
-    "product-quantity": {
+    "add-to-cart-button#list": {
         "props": {
-            "showUnit": true,
-            "size": "small"
+            "text": "COMPRAR",
+            "blockClass": "comprar__button--global--list"
         }
     }
 }

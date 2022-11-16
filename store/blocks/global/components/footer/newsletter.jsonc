@@ -37,7 +37,6 @@
     "newsletter-submit": {
         "props": {
             "submitButtonLabel": "SUSCRIBIR"
-            //"blockClass": "btn__suscribe"
         }
     }
 }
