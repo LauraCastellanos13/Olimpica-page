@@ -102,34 +102,5 @@
             "gallery#search__products--gallery",
             "not-found"
         ]
-    },
-    "gallery#search__products--gallery": {
-        "props": {
-            "layouts": [
-                {
-                    "name": "general-grid",
-                    "component": "GeneralGrid",
-                    "itemsPerRow": {
-                        "(min-width:1300px)": 4,
-                        "desktop": 3,
-                        "tablet": 3,
-                        "phone": 2
-                    }
-                }
-            ],
-            "GeneralGrid": "product-summary.shelf#home__product--shelf"
-        }
-    },
-    "product-summary.shelf#home__product--shelf": {
-        "children": [
-            "product-summary-image",
-            "product-summary-space",
-            "product-summary-name",
-            "product-summary-price",
-            "add-to-cart-button"
-        ],
-        "props": {
-            "blockClass": "product__summary--search"
-        }
     }
 }

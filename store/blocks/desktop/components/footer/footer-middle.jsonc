@@ -410,7 +410,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/noticias",
                 "tagTitle": "Noticias",
                 "text": "Noticias"
             }
