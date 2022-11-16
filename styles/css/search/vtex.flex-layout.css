@@ -25,3 +25,6 @@
 .flexRowContent--content__search--info{
     height: 65px;
 }
+.flexRow--quantity-add{
+    max-width: 40px;
+}
