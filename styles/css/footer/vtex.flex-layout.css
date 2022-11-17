@@ -113,7 +113,7 @@
     padding-top: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .flexRowContent--footer__mobile {
         display: grid;
         justify-items: center
