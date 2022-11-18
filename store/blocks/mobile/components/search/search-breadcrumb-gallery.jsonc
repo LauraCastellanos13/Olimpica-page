@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#mobile__breadcrumb&gallery": {
+        "children": [
+            "flex-layout.col#mobile__breadcrumb",
+            "flex-layout.col#mobile__gallery"
+        ],
+        "props":{
+            "blockClass": "row__mobile--bread--gallery",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile__breadcrumb":{
+        "children":[
+            "flex-layout.row#global__search--breadcrumb"
+        ],
+        "props":{
+            "blockClass": "breadcrumb__mobile",
+            "width": "80%"
+        }
+    },
+    "flex-layout.col#mobile__gallery":{
+        "children":[
+            "flex-layout.row#mobile__gallery"
+        ],
+        "props":{
+            "blockClass": "gallery__mobile",
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.row#mobile__gallery":{
+        "children":[
+            "flex-layout.col#mobile__content--search--gallery"
+        ]
+    },
+    "flex-layout.col#mobile__content--search--gallery":{
+        "children":[
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "blockClass": "mobile__info--gallery--result",
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true
+        }
+    }
+}

@@ -49,6 +49,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .filterPopupTitle::after {
     content: url(assets/img/arrow-down-svgrepo-com.svg);
     height: 5px;
@@ -75,20 +76,41 @@
     margin-top: 1rem
 }
 
-.totalProducts--layout{
-    font-size: 14px!important;
+.totalProducts--layout {
+    font-size: 14px !important;
     letter-spacing: 0;
-    color: #000!important;
-    opacity: 1!important;
+    color: #000 !important;
+    opacity: 1 !important;
     font-weight: 400;
 }
-.galleryItem--normal{
+
+.galleryItem--normal {
     max-width: 100%
 }
 
-.filter__search{
+.filter__search {
     background-color: #1270e6 !important
 }
-.gallery--list{
+
+.gallery--list {
     padding-bottom: 3rem
+}
+
+/********* Mobile ************/
+
+.filterPopupArrowIcon {
+    display: none
+}
+
+.filtersWrapper {
+    padding: 30px;
+    width: auto
+}
+
+
+@media screen and (max-width:640px) {
+    .filtersWrapper {
+        padding: 0;
+        max-width: max-content
+    }
 }

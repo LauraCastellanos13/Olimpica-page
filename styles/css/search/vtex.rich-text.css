@@ -1,0 +1,11 @@
+.paragraph--mobile--filter {
+    color: white;
+    font-weight: bold;
+    transform: translate(-114px, 1px)
+}
+
+@media screen and (min-width:640px) {
+    .paragraph--mobile--filter {
+        transform: translate(-280px, 0px);
+    }
+}
