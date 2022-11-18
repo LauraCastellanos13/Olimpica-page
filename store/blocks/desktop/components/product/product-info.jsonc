@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#desktop__product--page--info": {
+    "title": "Product info, product page",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "dekstop__product--page--info",
+      "colSizing": "auto"
+    }
+  }
+}

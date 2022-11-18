@@ -1,5 +1,10 @@
 {
     "search-result-layout.mobile": {
-        "children": []
+        "children": [
+            "flex-layout.row#mobile__banner--search",
+            "flex-layout.row#mobile__breadcrumb&gallery",
+            "flex-layout.row#mobile__modal--filter",
+            "flex-layout.row#mobile__results--content--products"
+        ]
     }
 }

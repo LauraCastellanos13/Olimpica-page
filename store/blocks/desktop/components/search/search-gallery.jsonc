@@ -18,7 +18,7 @@
                     "itemsPerRow": {
                         "(min-width:1300px)": 3,
                         "desktop": 3,
-                        "tablet": 3,
+                        "tablet": 2,
                         "phone": 2
                     }
                 },

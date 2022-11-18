@@ -1,0 +1,72 @@
+{
+    "flex-layout.col#product__info--data": {
+        "children": [
+            "flex-layout.row#product__data--brand--name",
+            "flex-layout.row#product__data--identifier--price",
+            "flex-layout.row#product__data--sku",
+            "flex-layout.row#product__data--quantity",
+            "flex-layout.row#product__data--buy--button"
+        ],
+        "props": {
+            "blockClass": "product__info--data--container",
+            "width": "50%"
+        }
+    },
+    "flex-layout.row#product__data--brand--name": {
+        "children": [
+            "vtex.product-list:product-brand",
+            "vtex.product-list@0.x:product-name"
+        ],
+        "props": {
+            "blockClass": "data__brand"
+        }
+    },
+    "flex-layout.row#product__data--identifier--price": {
+        "children": [
+            "product-identifier.product"
+        ],
+        "props": {
+            "blockClass": "data__price"
+        }
+    },
+    "flex-layout.row#product__data--sku": {
+        "children": [
+            "sku-selector",
+            "product-separator"
+        ],
+        "props": {
+            "blockClass": "data__sku"
+        }
+    },
+    "flex-layout.row#product__data--quantity": {
+        "children": [
+            "product-quantity"
+        ],
+        "props": {
+            "blockClass": "data__quantity"
+        }
+    },
+    "flex-layout.row#product__data--buy--button": {
+        "children": [
+            "flex-layout.row#buy-button"
+        ],
+        "props": {
+            "blockClass": "data__but--btn"
+        }
+    },
+    "flex-layout.row#buy-button": {
+        "children": [
+            "add-to-cart-button#product__buy-button"
+        ],
+        "props": {
+            "blockClass": "product__add-to-cart"
+        }
+    },
+    "add-to-cart-button#product__buy-button": {
+        "title": "Buy button from product page",
+        "props": {
+            "text": "COMPRAR",
+            "blockClass": "product__buy-button"
+        }
+    }
+}

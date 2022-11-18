@@ -1,0 +1,10 @@
+.paperScrollContent {
+    width: 550px;
+    border-radius: 10px
+}
+
+@media screen and (max-width:640px) {
+    .paperScrollContent {
+        border-radius: 10px
+    }
+}
