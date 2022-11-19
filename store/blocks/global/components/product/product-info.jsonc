@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#desktop__product--page--info": {
+    "title": "Product info, product page",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "desktop__product--page--info",
+      "colGap": 9,
+      "rowGap": 9,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "marginRight": 4
+    }
+  }
+}

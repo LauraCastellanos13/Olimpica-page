@@ -91,21 +91,21 @@
     },
     "flex-layout.col#footer__app--store": {
         "children": [
-            "image#app__store"
+            "image#app__store-mobile"
         ]
     },
     "flex-layout.col#footer__play--store": {
         "children": [
-            "image#play__store"
+            "image#play__store-mobile"
         ]
     },
-    "image#app__store": {
+    "image#app__store-mobile": {
         "props": {
             "src": "assets/img/btn_apple.png",
             "blockClass": "img__descargas"
         }
     },
-    "image#play__store": {
+    "image#play__store-mobile": {
         "props": {
             "src": "assets/img/btn_playstpre.png",
             "blockClass": "img__descargas"

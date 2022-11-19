@@ -1,9 +1,9 @@
 {
-    "flex-layout.row#desktop__search--breadcrumb": {
+    "flex-layout.row#global__search--breadcrumb": {
       "title": "Breadcrumb in search pages",
       "children": ["breadcrumb.search"],
       "props": {
-        "blockClass": "desktop__search--breadcrumb"
+        "blockClass": "global__search--breadcrumb"
       }
     }, 
     "breadcrumb.search": {

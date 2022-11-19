@@ -18,7 +18,7 @@
                     "itemsPerRow": {
                         "(min-width:1300px)": 3,
                         "desktop": 3,
-                        "tablet": 3,
+                        "tablet": 2,
                         "phone": 2
                     }
                 },
@@ -28,8 +28,8 @@
                     "itemsPerRow": 1
                 }
             ],
-            "GridSummary": "product-summary.shelf#home__product--shelf",
-            "GridSummaryTwo": "product-summary.shelf#home__product--shelf--two",
+            "GridSummary":  "product-summary.shelf#product--shelf",
+            "GridSummaryTwo":  "product-summary.shelf#product--shelf",
             "ListSummary": "product-summary.shelf#home__product--shelf-three"
         }
     },

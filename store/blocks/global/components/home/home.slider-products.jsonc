@@ -12,28 +12,13 @@
     "list-context.product-list#global__slider--home--products": {
         "title": "Lista productos home",
         "blocks": [
-            "product-summary.shelf#home__product--shelf--lanzamientos"
+            "product-summary.shelf#product--shelf"
         ],
         "children": [
             "slider-layout#global__products--lanzamientos"
         ],
         "props": {
             "blockClass": "global__list--products"
-        }
-    },
-    "product-summary.shelf#home__product--shelf--lanzamientos": {
-        "children": [
-            "product-summary-image",
-            "product-summary-space",
-            "product-summary-name",
-            "product-summary-price",
-            "flex-layout.row#buy-button"
-        ]
-    },
-    "add-to-cart-button": {
-        "props": {
-            "text": "COMPRAR",
-            "blockClass": "comprar__button--global"
         }
     },
     "slider-layout#global__products--lanzamientos": {

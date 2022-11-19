@@ -1,0 +1,29 @@
+.flexColChild--product__info--data--container {
+    min-height: 50px;
+    cursor: pointer;
+    transition: all .2s;
+    width: 15rem;
+    border-radius: 25px
+}
+
+.flexRow--disclosure__product {
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    transition: 10s;
+    margin-left: 60px;
+    margin-right: 350px;
+    padding-bottom: 2rem
+}
+
+.flexRow--disclosure__product :global(.vtex-disclosure-layout-1-x-trigger) {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid hsla(0, 0%, 43.9%, .26);
+}
+
+@media screen and (max-width:650px) {
+    .flexCol--product__info--data--container {
+        margin-left: 3rem;
+    }
+
+}

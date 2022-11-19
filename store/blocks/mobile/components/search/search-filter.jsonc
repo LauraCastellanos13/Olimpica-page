@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#mobile__modal--filter":{
+        "children":[
+            "modal-trigger#mobile__modal--filter"
+        ],
+        "props":{
+            "blockClass": "modal__filter--mobile"
+        }
+    },
+    "modal-trigger#mobile__modal--filter":{
+        "children": [
+            "rich-text#mobile__modal--filter",
+            "modal-layout#mobile__modal--filter"
+          ],
+          "props":{
+            "blockClass": "modal__filter--mobile-text"
+        }
+    },
+    "rich-text#mobile__modal--filter":{
+        "props":{
+            "blockClass": "mobile--filter",
+            "text": "Filtrar"
+        }
+    },
+    "modal-layout#mobile__modal--filter":{
+        "children":[
+            "filter-navigator.v3"
+        ]
+    },
+    "filter-navigator.v3":{
+        "props":{
+            "layout": "desktop",
+            "closeOnOutsideClick": true,
+            "fullWidthOnMobile": true
+        }
+    }
+}

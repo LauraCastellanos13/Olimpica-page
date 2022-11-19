@@ -102,17 +102,20 @@
     padding-bottom: 1rem
 }
 
-.flexRowContent--button__comprar :global(.vtex-button) {
+.flexRowContent--button__comprar :global(.vtex-button),
+.flexRowContent--add--cart__list :global(.vtex-button)  {
     background-color: #f8f8f8;
     border-color: #f8f8f8;
+    border-radius: 10px
 }
 
 .flexRow--minicart__inside {
     margin-top: 1rem;
 }
 
-.flexRowContent--button__comprar :global(.vtex-button__label) {
-    color: #1967ae !important;
+.flexRowContent--button__comprar :global(.vtex-button__label),
+.flexRowContent--add--cart__list :global(.vtex-button__label) {
+    color: #1967ae;
     font-weight: bold;
     font-size: 14px;
     font-weight: 700;
@@ -120,9 +123,11 @@
     transition: all .2s
 }
 
-.flexRowContent--button__comprar:hover :global(.vtex-button__label) {
+.flexRowContent--button__comprar:hover :global(.vtex-button__label),
+.flexRowContent--add--cart__list:hover :global(.vtex-button__label) {
     color: white !important;
     background-color: #E2001A;
+    border-radius: 5px
 }
 
 .flexCol--footer__middle--mobile {

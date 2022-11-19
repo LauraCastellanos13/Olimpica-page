@@ -35,8 +35,7 @@
             "flex-layout.col#header__top--three",
             "header-spacer",
             "header-spacer",
-            "flex-layout.col#header__top-four",
-            "flex-layout.col#header__top-five"
+            "flex-layout.row#header__top--two-sections"
         ],
         "props":{
             "colGap":5
@@ -107,6 +106,18 @@
             }
         }
     },
+    "flex-layout.row#header__top--two-sections":{
+        "children":[
+            "flex-layout.col#header__top-four",
+            "header-spacer",
+            "header-spacer",
+            "flex-layout.col#header__top-five"
+        ],
+        "props":{
+            "blockClass": "header__viajar--tarjeta",
+            "colGap":5
+        }
+    },
     "flex-layout.col#header__top--three": {
         "children": [
             "menu#whatsapp__header"
@@ -146,7 +157,10 @@
     "menu#viajar__olimpica": {
         "children": [
             "menu-item#viajar-olimpica"
-        ]
+        ],
+        "props":{
+        "blockClass": "header__tarjeta--olimpica"
+        }
     },
     "menu-item#viajar-olimpica": {
         "props": {

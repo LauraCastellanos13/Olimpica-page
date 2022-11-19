@@ -1,4 +1,15 @@
-.buttonText--comprar__button--global{
+.buttonText--comprar__button--global,
+.buttonText--comprar__button--global--list{
     color: #1967ae;
     font-weight: bold
+}
+
+.buttonText--comprar__button--global:hover,
+.buttonText--comprar__button--global--list:hover {
+    color: white;
+    font-weight: bold
+}
+
+.tooltipLabelText {
+    background-color: #f8f8f8;
 }

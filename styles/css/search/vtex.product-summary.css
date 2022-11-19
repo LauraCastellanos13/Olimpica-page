@@ -1,6 +1,17 @@
-.element--product__shelf--grid{
-    border: 1px solid #CFCFCF;
+.containerNormal {
+    border: 1px solid #ccc;
     margin: 1rem;
-    width: 15em;
     border-radius: 10px;
+    padding-bottom: 0
+}
+
+.container {
+    max-width: none !important
+}
+
+@media screen and (max-width:850px){
+    .containerNormal{
+        margin: 0;
+        padding-top: 2rem;
+    }
 }

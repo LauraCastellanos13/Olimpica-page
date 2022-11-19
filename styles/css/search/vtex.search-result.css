@@ -8,7 +8,8 @@
 .gallery--general-grid {
     margin-top: 1rem
 }
-.galleryTitle--layout{
+
+.galleryTitle--layout {
     font-size: 25px;
     color: #38464f;
     letter-spacing: -.13px;
@@ -17,15 +18,8 @@
     padding-top: 5px;
 }
 
-.gallery--general-grid{
+.gallery--general-grid {
     margin-top: 1rem
-}
-.galleryItem--general-grid{
-    border: 1px solid #CFCFCF;
-    margin: 1rem;
-    width: 17rem;
-    border-radius: 10px;
-    margin-bottom: 2rem
 }
 
 .orderByButton::before {
@@ -56,6 +50,17 @@
     justify-content: center;
 }
 
+.filterPopupTitle::after {
+    content: url(assets/img/arrow-down-svgrepo-com.svg);
+    height: 5px;
+    width: 9px;
+    opacity: 1;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    padding-right: 5px;
+    color: #fff !important;
+}
+
 .orderByText {
     display: none
 }
@@ -64,4 +69,48 @@
     height: 60px;
     display: flex;
     justify-content: flex-end
+}
+
+.gallery--grid,
+.gallery--grid-two {
+    margin-top: 1rem
+}
+
+.totalProducts--layout {
+    font-size: 14px !important;
+    letter-spacing: 0;
+    color: #000 !important;
+    opacity: 1 !important;
+    font-weight: 400;
+}
+
+.galleryItem--normal {
+    max-width: 100%
+}
+
+.filter__search {
+    background-color: #1270e6 !important
+}
+
+.gallery--list {
+    padding-bottom: 3rem
+}
+
+/********* Mobile ************/
+
+.filterPopupArrowIcon {
+    display: none
+}
+
+.filtersWrapper {
+    padding: 30px;
+    width: auto
+}
+
+
+@media screen and (max-width:640px) {
+    .filtersWrapper {
+        padding: 0;
+        max-width: max-content
+    }
 }

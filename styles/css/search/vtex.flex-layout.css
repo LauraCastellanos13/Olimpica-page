@@ -1,8 +1,9 @@
-.flexColChild--filter__search{
+.flexColChild--filter__search {
     border-top: 1px solid #ccc;
     padding-top: 55px;
 }
-.flexRow--content__search--info{
+
+.flexRow--content__search--info {
     background: #fff;
     opacity: 1;
     border-top: 1px solid #ccc;
@@ -10,11 +11,11 @@
     justify-content: space-evenly
 }
 
-.flexCol--search__results--content{
+.flexCol--search__results--content {
     padding-top: 4.2rem
 }
 
-.flexColChild--info__gallery--result{
+.flexColChild--info__gallery--result {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +23,83 @@
     overflow: hidden;
     margin-inline-end: auto;
 }
-.flexRowContent--content__search--info{
+
+.flexRowContent--content__search--info {
     height: 65px;
+}
+
+.flexRow--quantity-add {
+    max-width: 40px;
+}
+
+.flexCol--search__results--filter {
+    margin-left: 2rem;
+}
+
+.flexCol--search__results--content {
+    margin-right: 2rem;
+}
+
+.flexColChild--info__gallery--result::before {
+    content: "Vistas";
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0;
+    opacity: 1;
+    margin-right: 10px;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+
+.flexColChild--search__results--content {
+    padding-bottom: 2rem
+}
+
+.flexRowContent--search__product--one--container {
+    max-width: 100% !important
+}
+
+.flexColChild--image__list {
+    width: 150px;
+    padding: 1rem;
+}
+
+.flexRow--add--cart__list {
+    padding-top: 3rem;
+    padding-right: .5rem
+}
+
+.flexColChild--name__list,
+.flexColChild--price__list {
+    text-align: left !important;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2e2e2e;
+    text-transform: capitalize
+}
+
+/***********Mobile************/
+
+.flexColChild--gallery__mobile {
+    display: flex;
+    align-items: center
+}
+
+.flexRow--modal__filter--mobile {
+    background: #e2001b;
+    width: 90%;
+    height: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    min-height: 35px;
+    cursor: pointer;
+    transition: all .2s
+}
+
+.flexRowContent--info__products--search {
+    margin-top: 2rem;
 }

@@ -1,0 +1,11 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product__page--breadcrumb",
+      "flex-layout.row#desktop__product--page--info",
+      //"flex-layout.row#product-page__disclosure",
+      "flex-layout.row#product_tabs",
+      "flex-layout.row#global__slider--product"
+    ]
+  }
+}

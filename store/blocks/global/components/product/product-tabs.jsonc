@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#product_tabs": {
+        "title": "Especificaciones",
+        "children": [
+            "tab-layout#product_tabs"
+        ],
+        "props":{
+            "blockClass": "tabs__product",
+            "marginTop": 3,
+            "paddingBottom": 7
+        }
+    },
+    "tab-layout#product_tabs": {
+        "children": [
+            "tab-list#product_tabs--list",
+            "tab-content#product_tabs--content"
+        ]
+    },
+    "tab-list#product_tabs--list": {
+        "children": [
+            "tab-list.item#tabs_list--product-specification",
+            "tab-list.item#tabs_list--reviews-and-ratings"
+        ]
+    },
+    "tab-list.item#tabs_list--product-specification": {
+        "props": {
+            "tabId": "product-specifications",
+            "label": "Especificaciones de producto",
+            "defaultActiveTab": false
+        }
+    },
+    "tab-list.item#tabs_list--reviews-and-ratings": {
+        "props": {
+            "tabId": "reviews-and-ratings",
+            "label": "Revisiones y calificaciones",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-content#product_tabs--content": {
+        "children": [
+            "tab-content.item#tabs_content--product-specification",
+            "tab-content.item#tabs_content--reviews-and-ratings"
+        ]
+    },
+    "tab-content.item#tabs_content--product-specification": {
+        "children": [
+            "flex-layout.row#product-specifications__content"
+        ],
+        "props": {
+            "tabId": "product-specifications",
+            "label": "Especificaciones",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-content.item#tabs_content--reviews-and-ratings":{
+        "props":{
+          "tabId":"reviews-and-ratings"
+        },
+        "children":[
+          "product-reviews"
+        ]
+      },
+    "product-specifications": {
+        "props": {
+            "shoudCollapseOnTabChange": true,
+            "collapsible": "desktopOnly"
+        }
+    },
+    "flex-layout.row#product-specifications__content": {
+        "children": [
+            "flex-layout.col#product-specifications__content--info"
+        ]
+    },
+    "flex-layout.col#product-specifications__content--info": {
+        "children": [
+            "product-specifications"
+        ]
+    }
+}
