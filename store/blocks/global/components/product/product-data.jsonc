@@ -1,0 +1,33 @@
+{
+    "flex-layout.col#product__info--data": {
+        "children": [
+            "vtex.store-components:product-name",
+            "product-identifier.product",
+            "product-price",
+            "product-quantity",
+            "flex-layout.row#buy-button--product"
+        ],
+        "props": {
+            "blockClass": "product__info--data--container",
+            "preventVerticalStretch": true,
+            "rowGap": 5
+        }
+    },
+    "product-price":{
+        "props": {
+          "showInstallments": true,
+          "showSavings": true
+        }
+      },
+      "flex-layout.row#buy-button--product":{
+        "children":[
+            "add-to-cart-button#product"
+        ]
+      },
+      "add-to-cart-button#product": {
+        "props": {
+            "text": "COMPRAR",
+            "blockClass": "comprar__button--product"
+        }
+    }
+}

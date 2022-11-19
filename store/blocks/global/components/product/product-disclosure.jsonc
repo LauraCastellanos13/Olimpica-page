@@ -5,7 +5,7 @@
             "disclosure-layout#product__specifications"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "disclosure__product"
         }
     },
     "disclosure-layout#product__specifications": {
@@ -22,7 +22,7 @@
             "rich-text#product__specifications--title"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "trigger__specifications"
         }
     },
     "disclosure-content#product__specifications": {
@@ -30,7 +30,7 @@
             "product-specifications"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "product__disclosure--specifications"
         }
     },
     "rich-text#product__specifications--title":{
@@ -38,6 +38,5 @@
             "text": "Especificaciones",
             "blockClass": "text__product__specifications"
         }
-    },
-    "product-specifications#product":{}
+    }
 }

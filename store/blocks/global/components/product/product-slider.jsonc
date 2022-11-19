@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#global__slider--product": {
+        "children": [
+            "flex-layout.col#global__slider--product"
+        ],
+        "props":{
+            "marginTop": 5,
+            "paddingBottom": 8
+        }
+    },
+    "flex-layout.col#global__slider--product":{
+        "children":[
+            "flex-layout.row#global__slider--product--text",
+            "flex-layout.row#global__slider--product--slider"
+        ]
+    },
+    "flex-layout.row#global__slider--product--text":{
+        "children":[
+            "rich-text#global__text--product"
+        ]
+    },
+    "flex-layout.row#global__slider--product--slider":{
+        "children":[
+            "flex-layout.row#global__product--list"
+        ]
+    },
+    "rich-text#global__text--product":{
+        "props":{
+            "text": "### Descubre más productos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text__product--slider"
+        }
+    }
+}

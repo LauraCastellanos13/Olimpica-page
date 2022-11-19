@@ -1,21 +1,21 @@
 {
     "flex-layout.col#product__info--image": {
         "children": [
-            "product-images#desktop__product--page__images"
+            "product-images"
         ],
         "props": {
             "blockClass": "image__product--info",
             "horizontalAlign": "center",
-            "preventVerticalStretch": true,
-            "width": "50%"
+            "preventVerticalStretch": true
+       
         }
     },
-    "product-images#desktop__product--page__images": {
+    "product-images": {
         "title": "Image product from product page",
         "props": {
             "displayThumbnailsArrows": true,
-            "max-height": 450,
-            "zoomMode": "in-place-hover",
+            "max-height": 350,
+            "zoomMode": "in-place-click",
             "showNavigationArrows": true
         }
     }

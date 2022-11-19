@@ -99,3 +99,7 @@
     cursor: pointer;
     transition: all .2s
 }
+
+.flexRowContent--info__products--search {
+    margin-top: 2rem;
+}
