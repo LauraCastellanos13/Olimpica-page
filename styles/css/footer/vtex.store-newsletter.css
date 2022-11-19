@@ -16,7 +16,6 @@
 }
 
 .emailInputContainer :global(.vtex-input-prefix__group),
-.nameInputContainer :global(.vtex-input-prefix__group) 
-/*vtex-button__label */{
+.nameInputContainer :global(.vtex-input-prefix__group) {
     border-radius: 1.25rem
 }

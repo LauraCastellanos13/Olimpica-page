@@ -3,11 +3,13 @@
     color: #1967ae;
     font-weight: bold
 }
+
 .buttonText--comprar__button--global:hover,
-.buttonText--comprar__button--global--list:hover{
+.buttonText--comprar__button--global--list:hover {
     color: white;
     font-weight: bold
 }
-.tooltipLabelText{
+
+.tooltipLabelText {
     background-color: #f8f8f8;
 }

@@ -1,0 +1,11 @@
+.paragraph--text__product__specifications {
+    color: #484848;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+@media screen and (max-width:650px){
+    .paragraph--text__product--slider{
+        font-size: 25px;
+    }
+}

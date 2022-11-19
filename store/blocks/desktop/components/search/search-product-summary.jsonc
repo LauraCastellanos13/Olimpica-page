@@ -18,7 +18,7 @@
     "product-summary.shelf#home__product--shelf-three": {
         "children": [
             "responsive-layout.desktop#search__product-shelf-view-one",
-            "responsive-layout.mobile#search__product-shelf-view-one"
+            "responsive-layout.mobile#search__product-shelf-view-list"
         ],
         "props": {
             "blockClass": "product__summary--search",
@@ -45,7 +45,7 @@
         "props": {
             "blockClass": "search__product--one--container",
             "colSizing": "auto",
-            "width": "grow",
+            //"width": "grow",
             "preserveLayoutOnMobile": true
         }
     },
