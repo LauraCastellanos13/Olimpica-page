@@ -4,7 +4,8 @@
       "responsive-layout.desktop",
       "responsive-layout.phone",
       "responsive-layout.tablet",
-      "back-to-top-button"
+      "back-to-top-button",
+      "whatsapp-button"
     ]
   }
 }

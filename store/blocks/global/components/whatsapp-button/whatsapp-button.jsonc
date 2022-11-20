@@ -1,0 +1,9 @@
+{
+    "whatsapp-button": {
+      "props": {
+        "logo": "assets/img/Whatsapp.png",
+        "phone": "573213581717",
+        "message": "hola"
+      }
+    }
+  }
