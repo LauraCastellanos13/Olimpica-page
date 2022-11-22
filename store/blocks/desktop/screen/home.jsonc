@@ -13,6 +13,7 @@
             "rich-text#global__home--bestoffers",
             "flex-layout.row#global__slider--best--offers",
             "flex-layout.row#home__section-dosuno",
+            "flex-layout.row#global__bullet--diagramation",
             "rich-text#global__home--homeoffers",
             "flex-layout.row#global__product--list--image",
             "flex-layout.row#section__banner--promotions",

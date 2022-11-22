@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#global__bullet--diagramation": {
+    "title": "Row bullet diagramation",
+    "children": [
+      "flex-layout.col#global__bullet--diagramation"
+    ],
+    "props": {
+      "blockClass": "global__bullet--diagramation"
+    }
+  },
+  "flex-layout.col#global__bullet--diagramation": {
+    "children": [
+      "flex-layout.row#global__bullet--diagramation--title",
+      "flex-layout.row#global__bullet--diagramation-slider"
+    ],
+    "props":{
+      "rowGap": 6
+    }
+  },
+  "flex-layout.row#global__bullet--diagramation--title": {
+    "children": [
+      "rich-text#global__bullet--diagramation--title"
+    ]
+  },
+  "flex-layout.row#global__bullet--diagramation-slider": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "rich-text#global__bullet--diagramation--title": {
+    "props": {
+      "text": "Algunas marcas de nuestra tienda",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"global__bullet--diagramation--title"
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "List context Bullet",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet__levis.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet__leonisa.png",
+          "link": {
+            "url": "/queso"
+          }
+        },
+        {
+          "image": "assets/img/bullet__mp.png",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet__velez.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet__lugano.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet__leo.png",
+          "link": {
+            "url": "/queso"
+          }
+        },
+        {
+          "image": "assets/img/bullet__atypical.png",
+          "link": {
+            "url": "/madera"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "inifinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "global__bullet--diagramation"
+    }
+  }
+}
