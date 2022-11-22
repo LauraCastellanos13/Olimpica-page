@@ -2,8 +2,8 @@
     "responsive-layout.phone": {
         "children": [
             "flex-layout.row#section__one--phone",
-            "flex-layout.row#global__bullet--diagramation",
             "slider-layout#home__slider--children-mobile",
+            "flex-layout.row#global__bullet--diagramation",
             "rich-text#phone__home--mas-servicios--2",
             "slider-layout#home__slider--children-phone-2",
             "slider-layout#home__slider--children-phone-3",
@@ -16,7 +16,6 @@
             "rich-text#phone__home--precios--bajos",
             "flex-layout.row#section__four--images",
             "rich-text#global__home--lanzamientos",
-            //"search-result-layout.customQuery#home__search",
             "flex-layout.row#global__product--list",
             "rich-text#phone__home--mas--servicios",
             "slider-layout#home__slider--children-mobile-servicios"

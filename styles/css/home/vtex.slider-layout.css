@@ -66,8 +66,11 @@
 }
 
 /************** Section:products slider *************/
+.sliderLeftArrow--global__bullet--diagramation,
+.sliderRightArrow--global__bullet--diagramation,
 .sliderRightArrow--slider__global--products--image,
-.sliderLeftArrow--slider__global--products--image {
+.sliderLeftArrow--slider__global--products--image
+ {
     width: 35px;
     height: 35px;
     border-radius: 100%;
