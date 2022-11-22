@@ -22,13 +22,13 @@
     "flex-layout.col#section__one--image-two-tablet": {
         "title": "Imagen flex-layout con imagen",
         "children": [
-            "image#home_image-slidertwo"
+            "image#home_image-slidertwo-tablet"
         ],
         "props": {
             "width": "30%"
         }
     },
-    "image#home_image-slidertwo": {
+    "image#home_image-slidertwo-tablet": {
         "title": "Imagen de sección slider con imagen",
         "props": {
             "src": "assets/img/precios-rojos.jpg",

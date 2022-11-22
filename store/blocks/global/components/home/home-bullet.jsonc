@@ -1,0 +1,108 @@
+{
+  "flex-layout.row#global__bullet--diagramation": {
+    "title": "Row bullet diagramation",
+    "children": [
+      "flex-layout.col#global__bullet--diagramation"
+    ],
+    "props": {
+      "blockClass": "global__bullet--diagramation"
+    }
+  },
+  "flex-layout.col#global__bullet--diagramation": {
+    "children": [
+      "flex-layout.row#global__bullet--diagramation--title",
+      "flex-layout.row#global__bullet--diagramation-slider"
+    ]
+  },
+  "flex-layout.row#global__bullet--diagramation--title": {
+    "children": [
+      "rich-text#global__bullet--diagramation--title"
+    ]
+  },
+  "flex-layout.row#global__bullet--diagramation-slider": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "rich-text#global__bullet--diagramation--title": {
+    "props": {
+      "text": "#### Algunas marcas de nuestra tienda",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "List context Bullet",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet__levis.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet__leonisa.png",
+          "link": {
+            "url": "/queso"
+          }
+        },
+        {
+          "image": "assets/img/bullet__arkitect.png",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet__tennis.png",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet__levis.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet_nike.png",
+          "link": {
+            "url": "/queso"
+          }
+        },
+        {
+          "image": "assets/img/bullet__velez.png",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet__totto.png",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet__velez.png",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "inifinite": true
+    }
+  }
+}
