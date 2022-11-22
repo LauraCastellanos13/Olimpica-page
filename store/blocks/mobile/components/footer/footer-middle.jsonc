@@ -11,7 +11,7 @@
             "rich-text#barranquilla__phone--mobile",
             "rich-text#pais__phone--mobile",
             "rich-text#siguenos__footer--mobile",
-            "social-networks",
+            "social-networks#mobile",
             "rich-text#descarga__app--footer--mobile",
             "flex-layout.row#descargas__img--mobile"
         ],
@@ -50,7 +50,7 @@
             "blockClass": "text__footer"
         }
     },
-    "social-networks": {
+    "social-networks#mobile": {
         "title": "Redes sociales Mobile",
         "props": {
             "socialNetworks": [

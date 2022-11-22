@@ -69,12 +69,6 @@
             "blockClass": "button__comprar"
         }
     },
-    "add-to-cart-button": {
-        "props": {
-            "text": "COMPRAR",
-            "blockClass": "comprar__button--global"
-        }
-    },
     "slider-layout#global__product--slider--image": {
         "props": {
             "itemsPerPage": {

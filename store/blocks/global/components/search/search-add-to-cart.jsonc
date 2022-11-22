@@ -1,0 +1,8 @@
+{
+  "add-to-cart-button": {
+    "props": {
+      "text": "COMPRAR",
+      "blockClass": "comprar__button--global"
+    }
+  }
+}

@@ -2,6 +2,7 @@
     "responsive-layout.phone": {
         "children": [
             "flex-layout.row#section__one--phone",
+            "flex-layout.row#global__bullet--diagramation",
             "slider-layout#home__slider--children-mobile",
             "rich-text#phone__home--mas-servicios--2",
             "slider-layout#home__slider--children-phone-2",
