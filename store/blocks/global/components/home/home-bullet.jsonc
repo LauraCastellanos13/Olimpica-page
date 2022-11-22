@@ -12,7 +12,10 @@
     "children": [
       "flex-layout.row#global__bullet--diagramation--title",
       "flex-layout.row#global__bullet--diagramation-slider"
-    ]
+    ],
+    "props":{
+      "rowGap": 6
+    }
   },
   "flex-layout.row#global__bullet--diagramation--title": {
     "children": [
@@ -26,9 +29,10 @@
   },
   "rich-text#global__bullet--diagramation--title": {
     "props": {
-      "text": "#### Algunas marcas de nuestra tienda",
+      "text": "Algunas marcas de nuestra tienda",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass":"global__bullet--diagramation--title"
     }
   },
   "list-context.bullet-group": {
@@ -51,45 +55,33 @@
           }
         },
         {
-          "image": "assets/img/bullet__arkitect.png",
+          "image": "assets/img/bullet__mp.png",
           "link": {
             "url": "/madera"
           }
         },
         {
-          "image": "assets/img/bullet__tennis.png",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet__levis.png",
+          "image": "assets/img/bullet__velez.png",
           "link": {
             "url": "/electrodomesticos"
           }
         },
         {
-          "image": "assets/img/bullet_nike.png",
+          "image": "assets/img/bullet__lugano.png",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/bullet__leo.png",
           "link": {
             "url": "/queso"
           }
         },
         {
-          "image": "assets/img/bullet__velez.png",
+          "image": "assets/img/bullet__atypical.png",
           "link": {
             "url": "/madera"
-          }
-        },
-        {
-          "image": "assets/img/bullet__totto.png",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/bullet__velez.png",
-          "link": {
-            "url": "/"
           }
         }
       ]
@@ -102,7 +94,9 @@
         "tablet": 5,
         "mobile": 5
       },
-      "inifinite": true
+      "inifinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "global__bullet--diagramation"
     }
   }
 }

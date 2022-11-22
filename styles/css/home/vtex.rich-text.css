@@ -36,3 +36,14 @@
     margin-top: 3rem;
     font-weight: bold
 }
+
+.paragraph--global__bullet--diagramation--title{
+  font-size: 30px;
+  font-weight: bold
+}
+
+@media screen and (max-width: 768px){
+  .paragraph--global__bullet--diagramation--title{
+    font-size: 20px
+  }
+}
