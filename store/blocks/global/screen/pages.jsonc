@@ -8,5 +8,10 @@
       "blocks": [
         "flex-layout.row#page__noticias"
       ]
+    },
+    "store.custom#pdf-reader": {
+      "blocks": [
+        "flex-layout.row#page__pdf--reader"
+      ]
     }
    }
