@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#global__department--search":{
+    "children":[
+      "department-search"
+    ],
+    "props":{
+      "blockClass": "global__department"
+    }
+  }
+}
