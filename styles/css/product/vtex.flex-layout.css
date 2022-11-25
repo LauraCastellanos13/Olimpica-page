@@ -25,5 +25,8 @@
     .flexCol--product__info--data--container {
         margin-left: 3rem;
     }
+}
 
+.flexRow--global__department{
+  display: flex;
 }
