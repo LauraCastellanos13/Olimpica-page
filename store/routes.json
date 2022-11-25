@@ -4,5 +4,8 @@
     },
     "store.custom#noticias":{
         "path": "/noticias"
-    }
+    },
+    "store.custom#pdf-reader":{
+      "path": "/pdf-reader"
+  }
 }

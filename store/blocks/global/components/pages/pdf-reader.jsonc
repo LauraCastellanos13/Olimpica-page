@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#page__pdf--reader": {
+    "children": [
+      "flex-layout.col#page__pdf--reader"
+    ],
+    "props": {
+      "blockClass": "page__pdf"
+    }
+  },
+  "flex-layout.col#page__pdf--reader": {
+    "children": [
+      "flex-layout.row#page__pdf--reader--title",
+      "flex-layout.row#page__pdf--reader--custom"
+    ]
+  },
+  "flex-layout.row#page__pdf--reader--title": {
+    "children": [
+      "rich-text#page__pdf--reader--title"
+    ]
+  },
+  "flex-layout.row#page__pdf--reader--custom": {
+    "children": [
+      "pdf-reader"
+    ]
+  },
+  "rich-text#page__pdf--reader--title": {
+    "props": {
+      "text": "## Documentos:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/docs/Manual-Corre_Linux_Corre.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}
