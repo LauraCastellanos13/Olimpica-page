@@ -2,7 +2,8 @@
     "search-result-layout.desktop":{
         "children":[
             "flex-layout.row#global__search--breadcrumb",
-            "flex-layout.row#desktop-search__results"
+            "flex-layout.row#desktop-search__results",
+            "flex-layout.row#global__quick--order"
         ],
         "props":{
             "blockClass": "search__result--layout--desktop"
