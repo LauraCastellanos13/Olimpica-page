@@ -10,4 +10,14 @@
 }
 .flexRow--container__page--noticias{
     padding-top: 2rem
-}   
+}
+
+.flexRowContent--page__pdf {
+  padding-bottom: 2rem
+}
+
+@media screen and (max-width: 610px){
+  .flexRowContent--page__pdf{
+    display: none
+  }
+}

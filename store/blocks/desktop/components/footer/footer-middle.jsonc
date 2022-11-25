@@ -262,7 +262,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/pdf-reader",
                 "tagTitle": "Catálogos",
                 "text": "Catálogos"
             }
@@ -275,7 +275,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/",
                 "tagTitle": "Tarjeta Olímpica",
                 "text": "Tarjeta Olímpica"
             }
