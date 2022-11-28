@@ -22,6 +22,7 @@
             "flex-layout.row#section__precios-bajos",
             "slider-layout#home__slider--children",
             "rich-text#global__home--lanzamientos",
+            "flex-layout.row#global__custom-grid",
             "flex-layout.row#global__product--list",
             "rich-text#global__home--mas--servicios",
             "flex-layout.row#section___servicios"
