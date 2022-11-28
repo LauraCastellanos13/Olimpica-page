@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#global__custom-grid": {
+    "title": "Grilla de imagenes",
+    "children": [
+      "custom-grid"
+    ],
+    "props": {
+      "blockClass": "global__custom-grid"
+    }
+  },
+  "custom-grid": {
+    "children": [
+      "flex-layout.row#custom__grid--rowOne",
+      "flex-layout.row#custom__grid--rowTwo",
+      "flex-layout.row#custom__grid--rowThree",
+      "flex-layout.row#custom__grid--rowFour",
+      "flex-layout.row#custom__grid--rowFive"
+    ]
+  },
+  "flex-layout.row#custom__grid--rowOne": {
+    "title": "Grilla de imagenes: parte uno",
+    "children": [
+      "image#custom__grid--rowOne"
+    ]
+  },
+  "flex-layout.row#custom__grid--rowTwo": {
+    "title": "Grilla de imagenes: parte dos",
+    "children": [
+      "image#custom__grid--rowTwo"
+    ]
+  },
+  "flex-layout.row#custom__grid--rowThree": {
+    "title": "Grilla de imagenes: parte tres",
+    "children": [
+      "image#custom__grid--rowThree"
+    ]
+  },
+  "flex-layout.row#custom__grid--rowFour": {
+    "title": "Grilla de imagenes: parte cuatro",
+    "children": [
+      "image#custom__grid--rowFour"
+    ]
+  },
+  "flex-layout.row#custom__grid--rowFive": {
+    "title": "Grilla de imagenes: parte cinco",
+    "children": [
+      "image#custom__grid--rowFive"
+    ]
+  },
+  "image#custom__grid--rowOne": {
+    "props": {
+      "src": "assets/img/image-custom-grid1.png",
+      "blockClass": "image-custom__grid--rowOne"
+    }
+  },
+  "image#custom__grid--rowTwo": {
+    "props": {
+      "src": "assets/img/image-custom-grid2.png",
+      "blockClass": "image-custom__grid--two"
+    }
+  },
+  "image#custom__grid--rowThree": {
+    "props": {
+      "src": "assets/img/image-custom-grid3.png",
+      "blockClass": "image-custom__grid--two"
+    }
+  },
+  "image#custom__grid--rowFour": {
+    "props": {
+      "src": "assets/img/image-custom-grid4.png",
+      "blockClass": "image-custom__grid--two"
+    }
+  },
+  "image#custom__grid--rowFive": {
+    "props": {
+      "src": "assets/img/image-custom-grid5.png",
+      "blockClass": "image-custom__grid--two"
+    }
+  }
+}
