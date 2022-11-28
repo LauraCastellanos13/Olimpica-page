@@ -147,3 +147,15 @@
     margin-bottom: 4rem;
     margin-right: 5px
 }
+
+/*****************Custom grid component*******************/
+
+.imageElement--image-custom__grid--two {
+  padding-top: 1rem
+}
+
+.imageElement--image-custom__grid--rowOne{
+  min-height: 650px;
+  border-radius: 25px;
+  padding-top: 1rem
+}
