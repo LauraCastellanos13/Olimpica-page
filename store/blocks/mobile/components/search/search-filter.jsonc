@@ -1,37 +1,41 @@
 {
-    "flex-layout.row#mobile__modal--filter":{
-        "children":[
-            "modal-trigger#mobile__modal--filter"
-        ],
-        "props":{
-            "blockClass": "modal__filter--mobile"
-        }
-    },
-    "modal-trigger#mobile__modal--filter":{
-        "children": [
-            "rich-text#mobile__modal--filter",
-            "modal-layout#mobile__modal--filter"
-          ],
-          "props":{
-            "blockClass": "modal__filter--mobile-text"
-        }
-    },
-    "rich-text#mobile__modal--filter":{
-        "props":{
-            "blockClass": "mobile--filter",
-            "text": "Filtrar"
-        }
-    },
-    "modal-layout#mobile__modal--filter":{
-        "children":[
-            "filter-navigator.v3"
-        ]
-    },
-    "filter-navigator.v3":{
-        "props":{
-            "layout": "desktop",
-            "closeOnOutsideClick": true,
-            "fullWidthOnMobile": true
-        }
+  "flex-layout.row#mobile__modal--filter": {
+    "title": "Mobile row filter search product",
+    "children": [
+      "modal-trigger#mobile__modal--filter"
+    ],
+    "props": {
+      "blockClass": "modal__filter--mobile"
     }
+  },
+  "modal-trigger#mobile__modal--filter": {
+    "title": "Mobile modal trigger filter search product",
+    "children": [
+      "rich-text#mobile__modal--filter",
+      "modal-layout#mobile__modal--filter"
+    ],
+    "props": {
+      "blockClass": "modal__filter--mobile-text"
+    }
+  },
+  "rich-text#mobile__modal--filter": {
+    "props": {
+      "blockClass": "mobile--filter",
+      "text": "Filtrar"
+    }
+  },
+  "modal-layout#mobile__modal--filter": {
+    "title": "Mobile modal layoutfilter search product",
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "filter-navigator.v3": {
+    "title": "Filtro de navegación",
+    "props": {
+      "layout": "desktop",
+      "closeOnOutsideClick": true,
+      "fullWidthOnMobile": true
+    }
+  }
 }
