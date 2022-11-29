@@ -4,6 +4,34 @@ VTEX-Store-Theme-Olimpica fue realizado la tecnología vtex io
 
 www.olimpica.com fue la tienda elegida para realizar el clon de este proyecto, teniendo en cuenta las distintas dimensiones de las pantallas, tanto en mobile y como en desktop
 
+## Galería de imágenes 
+
+### Versión Desktop
+
+![Preview](../assets/img/image-readme-desktop.png)
+![Preview](../assets/img/image-readme-desktop2.png)
+![Preview](../assets/img/image-readme-desktop3.png)
+![Preview](../assets/img/image-readme-desktop4.png)
+
+#### Page List Product
+
+![Preview](../assets/img/image-readme-plp.png)
+![Preview](../assets/img/image-readme-plp2.png)
+
+#### Page Detail Product
+
+![Preview](../assets/img/image-readme-plp4.png)
+![Preview](../assets/img/image-readme-pdp-mob.png)
+
+#### Custom Pages
+
+![Preview](../assets/img/image-readme-pc1.png)
+![Preview](../assets/img/image-readme-pc2.png)
+### Versión Mobile
+
+![Preview](../assets/img/image-readme-mobile1.png)
+![Preview](../assets/img/image-readme-mobile2.png)
+
 ## Configuración
 ### Paso 1 - Configuración básica
 
@@ -13,11 +41,11 @@ Al final de la configuración, debe tener instalada la interfaz de línea de com
 
 ### Paso 2 - Clonación del repositorio
 
-[Clonar](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) este repositorio en sus archivos locales para poder comenzar a trabajar en él de manera efectiva.
+[Clonar](https://github.com/LauraCastellanos13/VTEX-Store-Theme-Olimpica) este repositorio en sus archivos locales para poder comenzar a trabajar en él de manera efectiva.
 
 Luego, acceda al directorio del repositorio usando su terminal.
 
-### Paso 3 - Editar el Manifest.json
+### Paso 3 - Editar Manifest.json
 
 Una vez en el directorio del repositorio, es hora de editar el archivo `manifest.json` de la plantilla mínima.
 
@@ -25,18 +53,16 @@ Una vez que esté en el archivo, debe reemplazar los valores `vendor` y `account
 
 ```json
 {
-  "vendor": "itgloberspartnercl",
-  "name": "minimumtheme",
+   "vendor": "itgloberspartnercl",
+   "name": "store-theme"
 }
 ```
 
-### Paso 4 - Instalar apps necesarias
+### Paso 4 - Instalar apps 
 
-Para usar Store Framework y trabajar en el tema de su tienda, es necesario tener instalados `vtex.store-sitemap` y `vtex.store`.
+Para usar el Store Framework y trabajar en el tema de su tienda determinada, es necesario tener instalados `vtex.store-sitemap` y `vtex.store`.
 
-Ejecute `vtex list` y verifique si esas aplicaciones ya están instaladas.
-
-Si no lo están, ejecute el siguiente comando para instalarlos: `vtex install vtex.store-sitemap vtex.store -f`
+Podrá ejecutar el comando `vtex list` y verificar si esas aplicaciones ya están instaladas, en su defecto, si no lo están, ejecute el comando: `vtex install vtex.store-sitemap vtex.store -f` para instarlos respectivamente.
 
 ### Paso 5 - Desinstalar el store-theme predeterminado
 
@@ -50,78 +76,101 @@ Por lo tanto, si lo encuentra en la lista de aplicaciones, copie su nombre y uti
 vtex uninstall vtex.store-theme
 ```
 
-### Paso 6 - Ejecute un preview de la tienda
+### Paso 6 - Revisar las dependencias y builders necesarios
 
-Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
+Una vez modificada esa sección del `manifest.json`, se debe rectificar que el repositorio contenga las siguientes dependencias y los builders necesarios:
+### Builders 
 
-Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `Aplicación vinculada con éxito`. Luego, ejecute el comando `vtex browser` para abrir una ventana del navegador que tenga su tienda vinculada.
+```
+{
+    "styles": "2.x",
+    "store": "0.x",
+    "docs": "0.x",
+    "assets": "0.x"
+}
+```
 
-Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
+###  Dependencies
 
-## Dependencies
-1. minimun-theme
-2. Store GraphQl
+```
+{
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.search": "1.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.store-newsletter": "1.x",
+    "vtex.product-list": "0.x",
+    "vtex.product-price": "1.x"
+    }
+```
+### PeerDependencies
 
-## peerDependencies
-1. "vtex.mega-menu"
-2. "vtex.wish-list"
+```
+{
+  "vtex.mega-menu": "2.x",
+  "vtex.wish-list": "1.x"
+}
+```
 
-## Store Components
-1. "vtex.store"
-2. "vtex.store-header"
-3. "vtex.product-summary"
-4. "vtex.store-footer"
-5. "vtex.store-components"
-6. "vtex.styleguide"
-7. "vtex.slider"
-8. "vtex.carousel"
-9. "vtex.shelf"
-10. "vtex.menu"
-11. "vtex.minicart"
-12. "vtex.product-details"
-13. "vtex.product-kit"
-14. "vtex.search-result"
-15. "vtex.login"
-16. "vtex.my-account"
-17. "vtex.flex-layout"
-18. "vtex.rich-text"
-19. "vtex.store-drawer"
-20. "vtex.locale-switcher"
-21. "vtex.product-quantity"
-22. "vtex.product-identifier"
-23. "vtex.product-specification-badges"
-24. "vtex.product-review-interfaces"
-25. "vtex.telemarketing"
-26. "vtex.order-placed"
-27. "vtex.stack-layout"
-28. "vtex.tab-layout"
-29. "vtex.responsive-layout"
-30. "vtex.slider-layout"
-31. "vtex.iframe"
-32. "vtex.breadcrumb"
-33. "vtex.sticky-layout"
-34. "vtex.add-to-cart-button"
-35. "vtex.modal-layout"
-36. "vtex.store-image"
-37. "vtex.store-icons"
-38. "vtex.product-list"
-39. "vtex.checkout-summary"
-40. "vtex.category-menu"
-41. "vtex.disclosure-layout"
-42. "vtex.store-form"
-43. "vtex.store-newsletter"
-44. "vtex.product-price"
-45. "vtex.product-specifications"
-46. "vtex.product-highlights"
+### Custom Apps
 
-## Custom Apps (Componentes custom que deben instalarse con la tienda)
-1. "itgloberspartnercl.whatsapp-button"
-2. "itgloberspartnercl.bullets-diagramation"
-3. "itgloberspartnercl.add-to-cart-info"
-4. "itgloberspartnercl.custom-department-search"
-5. "itgloberspartnercl.pdf-reader"
-6. "itgloberspartnercl.quick-order"
-7. "itgloberspartnercl.special-diagramation"
+```
+{
+   "itgloberspartnercl.whatsapp-button": "0.x",
+   "itgloberspartnercl.bullets-diagramation": "0.x",
+   "itgloberspartnercl.add-to-cart-info": "0.x",
+   "itgloberspartnercl.custom-department-search": "0.x",
+   "itgloberspartnercl.pdf-reader": "0.x",
+   "itgloberspartnercl.quick-order": "0.x",
+   "itgloberspartnercl.special-diagramation": "0.x"
+}
+```
+
+
+### Paso 7 - Ejecute un preview de la tienda
+
+Para cargar los archivos locales a la plataforma, use el comando `vtex link`.
+
+Si el proceso se ejecuta sin ningún error, se mostrará el mensaje: `Aplicación vinculada con éxito`. Luego, se tednrá que ejecutar el comando `vtex browser` para abrir una ventana del navegador.
+
+Esto permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
 ## Contributors
 1. Laura Castellanos Montealegre
