@@ -1,10 +1,12 @@
 {
     "flex-layout.row#footer__top--mobile":{
+      "title": "Contenedor Row footer top mobile",
         "children":[
             "flex-layout.col#footer__container_one-mobile-1"
         ]
     },
     "flex-layout.col#footer__container_one-mobile-1": {
+      "title": "Contenedor Col footer Top mobile",
         "children": [
             "newsletter-form"
         ],

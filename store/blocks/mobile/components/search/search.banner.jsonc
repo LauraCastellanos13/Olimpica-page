@@ -1,19 +1,20 @@
 {
-    "flex-layout.row#mobile__banner--search":{
-        "children":[
-            "image#mobile__banner--search"
-        ],
-        "props":{
-            "blockClass": "banner__mobile--image",
-            "marginTop": 3,
-            "marginBottom": 3
-        }
-    },
-    "image#mobile__banner--search":{
-        "title": "Banner image, search",
-        "props":{
-            "blockClass": "image__banner--search",
-            "src": "assets/img/img--banner-search.png"
-        }
+  "flex-layout.row#mobile__banner--search": {
+    "title": "Mobile banner search",
+    "children": [
+      "image#mobile__banner--search"
+    ],
+    "props": {
+      "blockClass": "banner__mobile--image",
+      "marginTop": 3,
+      "marginBottom": 3
     }
+  },
+  "image#mobile__banner--search": {
+    "title": "Banner image, search",
+    "props": {
+      "blockClass": "image__banner--search",
+      "src": "assets/img/img--banner-search.png"
+    }
+  }
 }

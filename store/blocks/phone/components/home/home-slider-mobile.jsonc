@@ -1,5 +1,6 @@
 {
   "slider-layout#home__slider--children-mobile": {
+    "title": "Slider home children mobile",
     "props": {
       "itemsPerPage": {
         "tablet": 2,
@@ -20,24 +21,28 @@
     ]
   },
   "image#home__slider--one-mobile": {
+    "title": "Slider home image uno children mobile",
     "props": {
       "src": "assets/img/sli-mob1.jpg",
       "blockClass": "img-slider-one-m"
     }
   },
   "image#home__slider--two-mobile": {
+    "title": "Slider home image dos children mobile",
     "props": {
       "src": "assets/img/sli-mob2.jpg",
       "blockClass": "img-slider-one-m"
     }
   },
   "image#home__slider--three-mobile": {
+    "title": "Slider home image tres children mobile",
     "props": {
       "src": "assets/img/sli-mob3.jpg",
       "blockClass": "img-slider-one-m"
     }
   },
   "image#home__slider--four-mobile": {
+    "title": "Slider home image cuatro children mobile",
     "props": {
       "src": "assets/img/sli-mob4.jpg",
       "blockClass": "img-slider-one-m"
@@ -45,6 +50,7 @@
   },
   /*Second slider phone*/
   "slider-layout#home__slider--children-mobile-two": {
+    "title": "Slider home dos children mobile",
     "props": {
       "itemsPerPage": {
         "mobile": 1

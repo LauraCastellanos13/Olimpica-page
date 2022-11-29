@@ -15,11 +15,13 @@
         }
     },
     "modal-trigger#header__top--login": {
+      "title": "Modal trigger header top",
         "children": [
             "modal-layout#header__top--login"
         ]
     },
     "modal-layout#header__top--login": {
+      "title": "Modal layout header top",
         "children": [
             "login-content"
         ]
