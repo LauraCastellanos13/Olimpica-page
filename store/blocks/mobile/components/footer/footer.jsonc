@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer__container_one-mobile": {
+      "title": "Contenedor Row footer mobile",
         "children": [
             "flex-layout.row#footer__top--mobile",
             "flex-layout.row#footer__middle--mobile",

@@ -1,10 +1,12 @@
 {
     "flex-layout.row#footer__middle--mobile":{
+        "title": "Contenedor Row footer middle mobile",
         "children":[
             "flex-layout.col#footer__container_two-mobile"
         ]
     },
     "flex-layout.col#footer__container_two-mobile": {
+      "title": "Contenedor  Col footer middle mobile",
         "children": [
             "image#image__olimpica--footer",
             "rich-text#necesitas__ayuda--mobile",
@@ -21,6 +23,7 @@
         }
     },
     "image#image__olimpica--footer--mobile": {
+      "title": "Logo imagen footer middle mobile",
         "props": {
             "src": "assets/img/logo-footer.png",
             "blockClass": "logo__footer--olimpica"
@@ -80,6 +83,7 @@
         }
     },
     "flex-layout.row#descargas__img--mobile": {
+      "title": "Contenedor Row descargas app y play store footer middle mobile",
         "children": [
             "flex-layout.col#footer__app--store",
             "flex-layout.col#footer__play--store"
