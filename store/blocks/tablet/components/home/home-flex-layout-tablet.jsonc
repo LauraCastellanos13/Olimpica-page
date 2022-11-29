@@ -1,15 +1,16 @@
 {
-    "flex-layout.row#section__banner--tablet": {
-        "children": [
-            "image#home__banner--one--tablet"
-        ]
-    },
-    "image#home__banner--one--tablet": {
-        "title": "Banner principal",
-        "props": {
-            "title": "Banner principal tablet",
-            "src": "assets/img/img-banner-t.png",
-            "blockClass": "home__banner-principal--tablet"
-        }
+  "flex-layout.row#section__banner--tablet": {
+    "title": "Banner tablet",
+    "children": [
+      "image#home__banner--one--tablet"
+    ]
+  },
+  "image#home__banner--one--tablet": {
+    "title": "Banner principal",
+    "props": {
+      "title": "Banner principal tablet",
+      "src": "assets/img/img-banner-t.png",
+      "blockClass": "home__banner-principal--tablet"
     }
+  }
 }

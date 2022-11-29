@@ -8,34 +8,42 @@
     }
   },
   "flex-layout.row#mobile__search__product-shelf-view-list": {
+    "title": "Mobile row search product",
     "children": [
       "flex-layout.col#mobile__search__product-shelf-view-list"
     ]
   },
   "flex-layout.col#mobile__search__product-shelf-view-list": {
+    "title": "Mobile col search product",
     "children": [
       "flex-layout.row#mobile__search__product--data",
       "flex-layout.row#mobile__search__product--button"
     ]
   },
   "flex-layout.row#mobile__search__product--data": {
+    "title": "Mobile row data search product",
     "children": [
       "flex-layout.col#mobile__search__product--data--image",
       "flex-layout.col#mobile__search__product--data"
     ],
-    "props":{"preserveLayoutOnMobile": true}
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#mobile__search__product--button": {
+    "title": "Mobile row button search product",
     "children": [
       "flex-layout.row#buy-button"
     ]
   },
   "flex-layout.col#mobile__search__product--data--image": {
+    "title": "Mobile col image search product",
     "children": [
       "product-summary-image"
     ]
   },
   "flex-layout.col#mobile__search__product--data": {
+    "title": "Mobile col data search product",
     "children": [
       "product-summary-name",
       "product-summary-price"

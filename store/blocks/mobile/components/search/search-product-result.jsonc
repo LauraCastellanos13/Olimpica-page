@@ -1,17 +1,11 @@
 {
-    "flex-layout.row#mobile__results--content--products": {
-        "children": [
-            // "search-content#mobile"
-            "search-content"
-        ],
-        "props": {
-            "blockClass": "info__products--search"
-        }
+  "flex-layout.row#mobile__results--content--products": {
+    "title": "Mobile resultados search product",
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "info__products--search"
     }
-    // "search-content#mobile": {
-    //     "blocks": [
-    //         "gallery#search__products--gallery",
-    //         "not-found"
-    //     ]
-    // }
+  }
 }

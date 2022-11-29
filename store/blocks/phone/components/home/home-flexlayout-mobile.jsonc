@@ -1,159 +1,168 @@
 {
-    "flex-layout.row#section__one--phone": {
-        "children": [
-            "flex-layout.col#section__one--image-mobile"
-        ]
-    },
-    "flex-layout.col#section__one--image-mobile": {
-        "children": [
-            "image#image__section--one-mobile"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "image#image__section--one-mobile": {
-        "title": "Segunda imagen mobile",
-        "props": {
-            "src": "assets/img/gif-1.gif",
-            "fullWidth": true,
-            "blockClass": "image__section--two-mobile"
-        }
-    },
-    /*Second banner phone*/
-    "flex-layout.row#section__two--mobile": {
-        "children": [
-            "flex-layout.col#section__two--image-mobile"
-        ]
-    },
-    "flex-layout.col#section__two--image-mobile": {
-        "children": [
-            "image#image__section--one-mobile"
-        ],
-        "props": {
-            "fullWidth": true
-        }
-    },
-    "image#image__section--two-mobile": {
-        "title": "Primera imagen mobile",
-        "props": {
-            "src": "assets/img/img-mob1.jpg",
-            "fullWidth": true,
-            "blockClass": "image__section--one-mobile"
-        }
-    },
-    /*Third banner-phone*/
-    "flex-layout.row#section__promotion-phone": {
-        "children": [
-            "flex-layout.col#section__promotion-phone"
-        ]
-    },
-    "flex-layout.col#section__promotion-phone": {
-        "children": [
-            "image#image__section--promotion"
-        ]
-    },
-    "image#image__section--promotion": {
-        "title": "Imagen banner",
-        "props": {
-            "src": "assets/img/bann-1.jpg",
-            "blockClass": "img__promotion"
-        }
-    },
-    /* Flex-layout with two images*/
-    "flex-layout.row#section__two--images-phone": {
-        "children": [
-            "image#image__images--phone",
-            "image#image__images--phone-two"
-        ],
-        "props": {
-            "blockClass": "phone__image--one",
-            "preserveLayoutOnMobile": true,
-            "colGap":2
-        }
-    },
-    "image#image__images--phone": {
-        "title": "Imagen uno flex-layout",
-        "props": {
-            "src": "assets/img/img-fl3.jpg",
-            "blockClass": "section__two--phone-images"
-        }
-    },
-    "image#image__images--phone-two": {
-        "title": "Imagen uno flex-layout",
-        "props": {
-            "src": "assets/img/img-fl4.jpg",
-            "blockClass": "section__two--phone-images"
-        }
-    },
-    "flex-layout.row#phone__image--two": {
-        "children": [
-            "image#image__images--phone-2",
-            "image#image__images--phone-two-2"
-        ],
-        "props": {
-            "blockClass": "phone__image--two",
-            "preserveLayoutOnMobile": true,
-            "colGap":2
-        }
-    },
-    "image#image__images--phone-2": {
-        "title": "Imagen uno flex-layout",
-        "props": {
-            "src": "assets/img/img-fl1.jpg",
-            "blockClass": "section__two--phone-images"
-        }
-    },
-    "image#image__images--phone-two-2": {
-        "title": "Imagen uno flex-layout",
-        "props": {
-            "src": "assets/img/img-fl2.jpg",
-            "blockClass": "section__two--phone-images"
-        }
-    },
-    /*Flex-layout four images*/
-    "flex-layout.row#section__four--images": {
-        "children": [
-            "flex-layout.col#phone__image--two"
-        ]
-    },
-    "flex-layout.col#phone__image--two": {
-        "children": [
-            "image#phone__images-four1",
-            "image#phone__images-four2",
-            "image#phone__images-four3",
-            "image#phone__images-four4"
-        ],
-        "props": {
-            "blockClass": "images__phone--big"
-        }
-    },
-    "image#phone__images-four1": {
-        "title": "Imagen uno flex-layout phone",
-        "props": {
-            "src": "assets/img/img-cdc3.jpg",
-            "blockClass": "section__four--images"
-        }
-    },
-    "image#phone__images-four2": {
-        "title": "Imagen dos flex-layout phone",
-        "props": {
-            "src": "assets/img/img-cdc2.jpg",
-            "blockClass": "section__four--images"
-        }
-    },
-    "image#phone__images-four3": {
-        "title": "Imagen tres flex-layout phone",
-        "props": {
-            "src": "assets/img/img-cdc1.jpg",
-            "blockClass": "section__four--images"
-        }
-    },
-    "image#phone__images-four4": {
-        "title": "Imagen cuatro flex-layout phone",
-        "props": {
-            "src": "assets/img/img-cdc4.jpg",
-            "blockClass": "section__four--images"
-        }
+  "flex-layout.row#section__one--phone": {
+    "title": "Contenedor row banner uno phone",
+    "children": [
+      "flex-layout.col#section__one--image-mobile"
+    ]
+  },
+  "flex-layout.col#section__one--image-mobile": {
+    "title": "Contenedor col banner uno phone",
+    "children": [
+      "image#image__section--one-mobile"
+    ],
+    "props": {
+      "fullWidth": true
     }
+  },
+  "image#image__section--one-mobile": {
+    "title": "Segunda imagen mobile",
+    "props": {
+      "src": "assets/img/gif-1.gif",
+      "fullWidth": true,
+      "blockClass": "image__section--two-mobile"
+    }
+  },
+  /*Second banner phone*/
+  "flex-layout.row#section__two--mobile": {
+    "title": "Contenedor row banner dos phone",
+    "children": [
+      "flex-layout.col#section__two--image-mobile"
+    ]
+  },
+  "flex-layout.col#section__two--image-mobile": {
+    "title": "Contenedor col banner dos phone",
+    "children": [
+      "image#image__section--one-mobile"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "image#image__section--two-mobile": {
+    "title": "Primera imagen mobile",
+    "props": {
+      "src": "assets/img/img-mob1.jpg",
+      "fullWidth": true,
+      "blockClass": "image__section--one-mobile"
+    }
+  },
+  /*Third banner-phone*/
+  "flex-layout.row#section__promotion-phone": {
+    "title": "Contenedor row banner tres phone",
+    "children": [
+      "flex-layout.col#section__promotion-phone"
+    ]
+  },
+  "flex-layout.col#section__promotion-phone": {
+    "title": "Contenedor col banner tres phone",
+    "children": [
+      "image#image__section--promotion"
+    ]
+  },
+  "image#image__section--promotion": {
+    "title": "Imagen banner",
+    "props": {
+      "src": "assets/img/bann-1.jpg",
+      "blockClass": "img__promotion"
+    }
+  },
+  /* Flex-layout with two images*/
+  "flex-layout.row#section__two--images-phone": {
+    "title": "Contenedor row componente dos imagenes",
+    "children": [
+      "image#image__images--phone",
+      "image#image__images--phone-two"
+    ],
+    "props": {
+      "blockClass": "phone__image--one",
+      "preserveLayoutOnMobile": true,
+      "colGap": 2
+    }
+  },
+  "image#image__images--phone": {
+    "title": "Imagen uno flex-layout",
+    "props": {
+      "src": "assets/img/img-fl3.jpg",
+      "blockClass": "section__two--phone-images"
+    }
+  },
+  "image#image__images--phone-two": {
+    "title": "Imagen uno flex-layout",
+    "props": {
+      "src": "assets/img/img-fl4.jpg",
+      "blockClass": "section__two--phone-images"
+    }
+  },
+  "flex-layout.row#phone__image--two": {
+    "children": [
+      "image#image__images--phone-2",
+      "image#image__images--phone-two-2"
+    ],
+    "props": {
+      "blockClass": "phone__image--two",
+      "preserveLayoutOnMobile": true,
+      "colGap": 2
+    }
+  },
+  "image#image__images--phone-2": {
+    "title": "Imagen uno flex-layout",
+    "props": {
+      "src": "assets/img/img-fl1.jpg",
+      "blockClass": "section__two--phone-images"
+    }
+  },
+  "image#image__images--phone-two-2": {
+    "title": "Imagen uno flex-layout",
+    "props": {
+      "src": "assets/img/img-fl2.jpg",
+      "blockClass": "section__two--phone-images"
+    }
+  },
+  /*Flex-layout four images*/
+  "flex-layout.row#section__four--images": {
+    "title": "Contenedor row cuatro imágenes",
+    "children": [
+      "flex-layout.col#phone__image--two"
+    ]
+  },
+  "flex-layout.col#phone__image--two": {
+    "title": "Contenedor col cuatro imágenes",
+    "children": [
+      "image#phone__images-four1",
+      "image#phone__images-four2",
+      "image#phone__images-four3",
+      "image#phone__images-four4"
+    ],
+    "props": {
+      "blockClass": "images__phone--big"
+    }
+  },
+  "image#phone__images-four1": {
+    "title": "Imagen uno flex-layout phone",
+    "props": {
+      "src": "assets/img/img-cdc3.jpg",
+      "blockClass": "section__four--images"
+    }
+  },
+  "image#phone__images-four2": {
+    "title": "Imagen dos flex-layout phone",
+    "props": {
+      "src": "assets/img/img-cdc2.jpg",
+      "blockClass": "section__four--images"
+    }
+  },
+  "image#phone__images-four3": {
+    "title": "Imagen tres flex-layout phone",
+    "props": {
+      "src": "assets/img/img-cdc1.jpg",
+      "blockClass": "section__four--images"
+    }
+  },
+  "image#phone__images-four4": {
+    "title": "Imagen cuatro flex-layout phone",
+    "props": {
+      "src": "assets/img/img-cdc4.jpg",
+      "blockClass": "section__four--images"
+    }
+  }
 }
